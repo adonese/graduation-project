@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2016.8.28)  2 SEP 2016 00:45
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2016.9.10)  14 OCT 2016 10:05
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -583,16 +583,16 @@ LaTeX Info: Redefining \nameref on input line 16.
 ------------------------------------------------------------------------------
  Declaration of Authorship
 ------------------------------------------------------------------------------
-LaTeX Font Info:    Try loading font information for U+msa on input line 71.
+LaTeX Font Info:    Try loading font information for U+msa on input line 68.
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 71.
+LaTeX Font Info:    Try loading font information for U+msb on input line 68.
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-Underfull \hbox (badness 10000) in paragraph at lines 71--71
+Underfull \hbox (badness 10000) in paragraph at lines 68--68
 
  []
 
@@ -604,6 +604,14 @@ Underfull \hbox (badness 10000) in paragraph at lines 71--71
 ------------------------------------------------------------------------------
  Abstract Page
 ------------------------------------------------------------------------------
+
+Package natbib Warning: Citation `gauss' on page iii undefined on input line 91
+.
+
+
+Package natbib Warning: Citation `molodonskey' on page iii undefined on input l
+ine 91.
+
 [3
 
 ]
@@ -680,11 +688,18 @@ Chapter 1.
 ------------------------------------------------------------------------------
  1 Introduction
 ------------------------------------------------------------------------------
-[1
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 4.
+(/usr/share/texlive/texmf-dist/tex/latex/base/omscmr.fd
+File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
+)
+LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10.95> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 4.
+ [1
 
 
 
-]) (./Appendices/AppendixA.tex [2]
+])
+(./Appendices/AppendixA.tex [2]
 Appendix A.
 ------------------------------------------------------------------------------
  A An Appendix
@@ -696,20 +711,23 @@ Appendix A.
  Bibliography
 ------------------------------------------------------------------------------
 No file Thesis.bbl.
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 216.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 216.
+
+Package natbib Warning: There were undefined citations.
+
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 212.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 212.
 (./Thesis.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 216.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 216.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 212.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 212.
 Package rerunfilecheck Info: File `Thesis.out' has not changed.
-(rerunfilecheck)             Checksum: B9539B05B8669BC08A570F5791EBA46A;1601.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 216.
+(rerunfilecheck)             Checksum: 4750ECD8D57DFF159B1C52417760E641;1657.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 212.
  ) 
 Here is how much of TeX's memory you used:
- 12919 strings out of 493029
- 182134 string characters out of 6136234
- 253730 words of memory out of 5000000
- 16239 multiletter control sequences out of 15000+600000
+ 12938 strings out of 493029
+ 182449 string characters out of 6136234
+ 253713 words of memory out of 5000000
+ 16255 multiletter control sequences out of 15000+600000
  13007 words of font info for 48 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  49i,11n,45p,916b,394s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -726,10 +744,10 @@ s/cm/cmsy8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cm
 ti10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.p
 fb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/symbols/msam7.pfb
 >
-Output written on Thesis.pdf (16 pages, 160954 bytes).
+Output written on Thesis.pdf (16 pages, 165029 bytes).
 PDF statistics:
- 221 PDF objects out of 1000 (max. 8388607)
- 188 compressed objects within 2 object streams
+ 219 PDF objects out of 1000 (max. 8388607)
+ 186 compressed objects within 2 object streams
  39 named destinations out of 1000 (max. 500000)
  105 words of extra memory for PDF output out of 10000 (max. 10000000)
 

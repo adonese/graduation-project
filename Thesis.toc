@@ -11,8 +11,8 @@
 \contentsline {chapter}{Symbols}{x}{dummy.15}
 \vspace {2em}
 \contentsline {chapter}{\numberline {1}Introduction}{1}{chapter.18}
-\contentsline {section}{\numberline {1.1}A Section}{1}{section.19}
-\contentsline {subsection}{\numberline {1.1.1}A Subsection}{1}{subsection.20}
+\contentsline {section}{\numberline {1.1}Figure of the Earth}{1}{section.19}
+\contentsline {subsection}{\numberline {1.1.1}A Subsection}{2}{subsection.20}
 \contentsline {section}{\numberline {1.2}Another Section}{2}{section.21}
 \vspace {2em}
 \contentsline {chapter}{\numberline {A}An Appendix}{3}{appendix.22}

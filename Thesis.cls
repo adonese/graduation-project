@@ -167,13 +167,13 @@
 \GROUP       {\texorpdfstring{\href{Research Group Web Site URL Here (include http://)}
                 {RESEARCH GROUP NAME (IN BLOCK CAPITALS)}}
                 {RESEARCH GROUP NAME (IN BLOCK CAPITALS)}}
-\faculty     {\texorpdfstring{\href{Faculty Web Site URL Here (include http://)}
+\faculty     {\texorpdfstring{\href{http://eng.uofk.edu/}
                 {Faculty of Engineering}}
                 {Faculty Name}}
 \FACULTY     {\texorpdfstring{\href{Faculty Web Site URL Here (include http://)}
                 {FACULTY OF ENGINEERING}}
                 {FACULTY NAME (IN BLOCK CAPITALS)}}
-\addresses   {mmbusif@gmail.com, wadjaafar@gmail.com}
+\addresses   {\href{\left{mmbusif,wadjaafar\right}@student.uofk.edu}}
 \subject     {anything}
 \keywords    {GeoidApp, Android, Efficiency}
 \renewcommand\maketitle{
