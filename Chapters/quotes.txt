@@ -1,0 +1,63 @@
+Current knowledge of the Earth's gravity field and its geoid, as derived from various observing techniques and sources, is incomplete. Within a reasonable time, substantial improvements can only come by exploiting new approaches based on satellite gravity observation methods.
+
+On land and ice sheets, the difference between ellipsoidal heights (as measured by the Global
+Positioning System (GPS)) and the geoid obtained from GOCE gives ‘pseudo- levelled’ or
+orthometric heights. This differentiation opens the prospect of an extremely efficient and
+accurate method of height determination for science, mapping and engineering. In addition, all
+existing height systems could be transferred to one global reference level. This, as well as the
+additional benefits of a global, accurate and detailed knowledge of the Earth’s gravity field, e.g.
+for orbit determination and inertial navigation
+
+
+Neither of the above three data sources nor their combination can meet the
+requirements from solid-Earth physics, oceanography and geodesy, not even to a limited extent.
+This is why one can say with good reason that “... the gravity field over land areas on Earth is
+less well known than is that of Venus” (McKenzie, 1994). The solution must therefore come
+from dedicated gravity field mapping by satellite.
+
+
+As explained above, the traditional techniques of gravity field determination have reached their
+intrinsic limits. Any advances must rely on space techniques because only they provide global,
+regular and dense data sets of high and homogeneous quality. It may seem almost paradoxical to
+obtain the measurements from several hundreds of kilometres up in space, away from the
+attracting mass anomalies, which one would like to identify and discriminate
+
+
+The traditional, very cumbersome and slow, technique of height determination
+is by means of geodetic levelling in combination with gravimetry. All developed countries have
+an ongoing programme of maintenance of large and dense systems of benchmarks with height
+values produced in this manner for scientific and applied users. Geodetic levelling attains
+mm-precision over smaller distances, but is subject to systematic distortions on continental
+scales. It is this latter weakness that severely limits the comparison and connection of height
+systems used in neighbouring countries or, for example, of tide gauges located on distant coasts.
+Separation of land areas by sea inevitably leads to large discontinuities between height systems.
+
+A global geoid of 1 cm accuracy at about 100 km spatial resolution and a gravity field model
+with 1-2 mgal precision accuracy and the same spatial resolution would serve four major
+objectives in geodesy:
+– control or replacement of traditional levelling by ‘levelling with GPS’ – unification of height
+systems worldwide so as to refer to one height datum which will allow, for example, comparison
+of sea-level and sea-level changes in the North Sea with those in the Mediterranean
+– separation of gravity acceleration from vehicle acceleration in inertial
+navigation – elimination of gravitational uncertainty from satellite orbit trajectories.
+
+
+Levelling by GPS: In a similar way as ocean altimetry combined with the geoid determines
+dynamic ocean topography, the combination of GPS and geoid determines land topography and
+topographic heights (Schwarz and Sideris, 1987 or Rummel, 1992). In other words, with the aid
+of geoid heights above an adopted ellipsoid, geometric heights above this ellipsoid, as
+determined by GPS or any follow-on system, are convertible to heights above sea-level. The
+latter are denoted ‘orthometric Unification of height systems: There are still a large number of unconnected height systems
+around the World. Each system refers to a reference point, usually a benchmark close to the sea
+and connected by levelling to mean sea-level obtained by tide gauge. The discontinuity in height systems is of no importance as long as there is no requirement to compare height values from the various systems. In the past, discontinuities had to be accepted whenever different geographical areas (with their individual height system) are separated by sea. With the geoid precision to be achieved by GOCE, it will be possible to connect all height systems with cm-precision, provided at least one benchmark in each height
+system is equipped with precision space positioning such as GPS 
+
+
+Therefore,
+GOCE will, for example, (1) bring all sea-level recordings into one system, (2) eliminate height
+discontinuities between adjacent islands, and (3) allow the removal of existing biases in
+terrestrial-gravity-anomaly data sets.
+
+
+
+~goce_sp1233_1.pdf

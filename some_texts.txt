@@ -1,0 +1,50 @@
+However, it is precisely the contribution of Physical Geodesy to
+Geophysics in general, to show how one can determine V from the Laplace equation
+(1.40), from observations performed on S or in ˝ (e.g., satellite observations) and
+maybe from some knowledge of  in the uppermost layer of the earth, namely the
+crust. In other words we aim at determining V without a detailed knowledge of ,
+so that the outcome of physical geodesy puts constraints on the theory of the earth
+constitution and its dynamics, rather than viceversa.
+
+Completely different in nature is the definition of the so-called orthometric
+height; this is in fact the length of the plumb-line arc between the point P and
+its projection P0 on G, counted positively upward (see Fig. 1.11).
+
+
+As intuitive as it is, yet the orthometric height is a quantity that cannot be easily
+related analytically to observables, in particular considering that since G is always
+chosen so as to be close to the mean surface of the oceans, then it is most of the
+times buried in the masses, in correspondence to continental areas. As we shall see
+later on, H can be approximately determined only if we assume to know as well
+the density of mass above G. We warn the reader however that several nations have
+switched from using orthometric heights to other height systems that don’t require,
+according to Molodensky’s theory, any knowledge of mass density.
+
+
+Indeed if we knew exactly the mass density, .Q/, we would have a little need
+of physical geodesy, in fact physical geodesy is precisely the science of how to deal
+with the gravity field without knowing .
+
+Generally speaking a global model of the gravity field anomalous potential T .P /,
+or global geopotential model, is a finite linear combination of functions Hm.P / that
+are regular harmonic on S and in the whole outer space ˝
+
+- Geoid Determination have a good resource about the resolution in page 167
+
+
+Summarizing the results of Chap. 3, we could say that up to now we have learnt how
+to produce an approximate anomalous potential in the form of a truncated series of
+spherical or ellipsoidal harmonics, namely a global potential model.
+Now we focus on the other side of the spectrum of T , namely the very highfrequency components. The purposes of the Chapter are: (1) to clarify that if
+we want to determine the gravity field and the geoid with an appropriate spatial
+resolution, for instance on a 1 km by 1 km grid on the earth surface, we need then
+a detailed model of the geometry of the surface, i.e. a digital terrain model (DTM)
+with say a 100 m horizontal resolution. This because we will never be able to reach
+this resolution with ground gravity measurements covering the whole earth surface,
+while a proper DTM can be and has been derived by satellite observations, (2)
+to clarify that most of the high-frequency part of the potential T comes exactly
+from the shape of the masses modelled by the topographic surface, because highfrequency signals from internal density variations (e.g. those due to the topography
+of core-mantle boundary) are naturally strongly smoothed by the harmonic upward
+continuation, (3) to find the proper analytical computable expression of the potential
+due to topographic masses (on such matters one can consult Forsberg 1988, 2008,
+2010).
