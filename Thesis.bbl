@@ -1,14 +1,58 @@
-\begin{thebibliography}{1}
-\providecommand{\natexlab}[1]{#1}
-\providecommand{\url}[1]{\texttt{#1}}
-\expandafter\ifx\csname urlstyle\endcsname\relax
-  \providecommand{\doi}[1]{doi: #1}\else
-  \providecommand{\doi}{doi: \begingroup \urlstyle{rm}\Url}\fi
+\begin{thebibliography}{xx}
 
-\bibitem[Fashir(1991)]{fashir}
-H.~H. Fashir.
-\newblock The gravimetric geoid of sudan.
-\newblock \emph{Journal of Geodynamics}, 14:\penalty0 19--36, 1991.
-\newblock \doi{10.1016/0264-3707(91)90005-Y}.
+\harvarditem{Abdalla}{2009}{ahmed_msc}
+Abdalla, A.  \harvardyearleft 2009\harvardyearright , `Determination of a
+  gravimetric geoid model of sudan using the kth method'.
+
+\harvarditem[Abdalla et~al.]{Abdalla, Fashir, Ali \harvardand\
+  Fairhead}{2012}{ahmed_similar}
+Abdalla, A., Fashir, H., Ali, A. \harvardand\ Fairhead, D.  \harvardyearleft
+  2012\harvardyearright , `Validation of recent goce/grace geopotential models
+  over khartoum state-sudan', {\em Journal of Geodetic Science} {\bf
+  2}(2),~88--97.
+
+\harvarditem{Adam}{1967}{osman}
+Adam, M.~O.  \harvardyearleft 1967\harvardyearright , `Datum for sudan'.
+
+\harvarditem{Amos \harvardand\ Featherstone}{2003}{amos}
+Amos, M.~J. \harvardand\ Featherstone, W.  \harvardyearleft
+  2003\harvardyearright , `Comparisons of recent global geopotential models
+  with terrestrial gravity field observations over new zealand and australia',
+  {\em Geomatics Research Australasia} .
+
+\harvarditem{Fashir}{1991}{fashir}
+Fashir, H.~H.  \harvardyearleft 1991\harvardyearright , `The gravimetric geoid
+  of sudan', {\em Journal of Geodynamics} {\bf 14},~19--36.
+
+\harvarditem{Heck}{1990}{heck}
+Heck, B.  \harvardyearleft 1990\harvardyearright , `An evaluation of some
+  systematic error sources affecting terrestrial gravity anomalies', {\em
+  Bulletin G{\'e}od{\'e}sique} {\bf 64}(1),~88--108.
+\newline\harvardurl{http://dx.doi.org/10.1007/BF02530617}
+
+\harvarditem{Holmes \harvardand\ Featherstone}{2002}{holmes}
+Holmes, S.~A. \harvardand\ Featherstone, W.~E.  \harvardyearleft
+  2002\harvardyearright , `A unified approach to the clenshaw summation and the
+  recursive computation of very high degree and order normalised associated
+  legendre functions', {\em Journal of Geodesy} {\bf 76}(5),~279--299.
+\newline\harvardurl{http://dx.doi.org/10.1007/s00190-002-0216-2}
+
+\harvarditem{Kiamehr \harvardand\ Eshagh}{2008}{egmlab}
+Kiamehr, R. \harvardand\ Eshagh, M.  \harvardyearleft 2008\harvardyearright ,
+  `Egmlab, a scientific software for determining the gravity and gradient
+  components from global geopotential models', {\em Earth Science Informatics}
+  {\bf 1}(2),~93--103.
+\newline\harvardurl{http://dx.doi.org/10.1007/s12145-008-0013-4}
+
+\harvarditem[REIGBER et~al.]{REIGBER, SCHWINTZER \harvardand\
+  LÜHR}{1999}{luhr}
+REIGBER, C., SCHWINTZER, P. \harvardand\ LÜHR, H.  \harvardyearleft
+  1999\harvardyearright , `The champ geopotential mission', {\em Bulletin
+  G{\'e}od{\'e}siqueBOLLETTINO DI GEOFISICA TEORICA ED APPLICATA0} {\bf
+  40}(3-4),~285--289.
+
+\harvarditem{Vaníček}{1975}{vanicek}
+Vaníček, P.  \harvardyearleft 1975\harvardyearright , `Report on geocentric
+  and geodetic datums'.
 
 \end{thebibliography}
