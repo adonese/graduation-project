@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2016.9.10)  26 NOV 2016 02:12
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2016.9.10)  26 NOV 2016 02:36
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -868,10 +868,10 @@ LaTeX Warning: Label `table:ggm_models' multiply defined.
 LaTeX Warning: Label `table:ggm_models' multiply defined.
 
 
-LaTeX Warning: Label `table:ggm_models' multiply defined.
-
-
 LaTeX Warning: Label `eigen_6c4_figure' multiply defined.
+
+
+LaTeX Warning: Label `table:ggm_models' multiply defined.
 
 
 LaTeX Warning: Label `sudan_data' multiply defined.
@@ -1533,11 +1533,11 @@ Overfull \hbox (16.14587pt too wide) in paragraph at lines 137--139
  [][] 
  []
 
-[27]
 
 LaTeX Warning: No positions in optional float specifier.
                Default added (so using `tbp') on input line 144.
 
+[27] [28 <./Figures/egm08_figure.png>]
 
 LaTeX Warning: No positions in optional float specifier.
                Default added (so using `tbp') on input line 161.
@@ -1550,7 +1550,7 @@ LaTeX Warning: No positions in optional float specifier.
 LaTeX Warning: No positions in optional float specifier.
                Default added (so using `tbp') on input line 213.
 
-<Figures/classic_style.png, id=705, 433.62pt x 289.08pt>
+<Figures/classic_style.png, id=710, 433.62pt x 289.08pt>
 File: Figures/classic_style.png Graphic file (type png)
 
 <use Figures/classic_style.png>
@@ -1561,7 +1561,7 @@ Overfull \hbox (16.14587pt too wide) in paragraph at lines 234--236
  [][] 
  []
 
-<Figures/egm2008_gps_figure.png, id=706, 433.62pt x 289.08pt>
+<Figures/egm2008_gps_figure.png, id=711, 433.62pt x 289.08pt>
 File: Figures/egm2008_gps_figure.png Graphic file (type png)
 
 <use Figures/egm2008_gps_figure.png>
@@ -1573,7 +1573,7 @@ Overfull \hbox (16.14587pt too wide) in paragraph at lines 242--244
  [][] 
  []
 
-<Figures/ITU-GRACE16_gps_figure.png, id=707, 433.62pt x 289.08pt>
+<Figures/ITU-GRACE16_gps_figure.png, id=712, 433.62pt x 289.08pt>
 File: Figures/ITU-GRACE16_gps_figure.png Graphic file (type png)
 
 <use Figures/ITU-GRACE16_gps_figure.png>
@@ -1585,7 +1585,7 @@ Overfull \hbox (16.14587pt too wide) in paragraph at lines 250--252
  [][] 
  []
 
-<Figures/ITU_GGC16_gps_figure.png, id=708, 433.62pt x 289.08pt>
+<Figures/ITU_GGC16_gps_figure.png, id=713, 433.62pt x 289.08pt>
 File: Figures/ITU_GGC16_gps_figure.png Graphic file (type png)
 
 <use Figures/ITU_GGC16_gps_figure.png>
@@ -1597,7 +1597,7 @@ Overfull \hbox (16.14587pt too wide) in paragraph at lines 258--260
  [][] 
  []
 
-<Figures/geco_gps_figure.png, id=709, 433.62pt x 289.08pt>
+<Figures/geco_gps_figure.png, id=714, 433.62pt x 289.08pt>
 File: Figures/geco_gps_figure.png Graphic file (type png)
 
 <use Figures/geco_gps_figure.png>
@@ -1608,7 +1608,7 @@ Overfull \hbox (16.14587pt too wide) in paragraph at lines 266--268
  [][] 
  []
 
-<Figures/eigen-6c4_gps_figure.png, id=710, 433.62pt x 289.08pt>
+<Figures/eigen-6c4_gps_figure.png, id=715, 433.62pt x 289.08pt>
 File: Figures/eigen-6c4_gps_figure.png Graphic file (type png)
 
 <use Figures/eigen-6c4_gps_figure.png>
@@ -1620,12 +1620,12 @@ Overfull \hbox (16.14587pt too wide) in paragraph at lines 273--275
  [][] 
  []
 
-) (./Appendices/AppendixA.tex [28 <./Figures/egm08_figure.png>] [29] [30 <./Fig
-ures/ITU_GRACE16_figure.png> <./Figures/ITU_GGC16_figure.png>] [31 <./Figures/g
-eco_figure.png> <./Figures/eigen-6c4_figure.png>] [32 <./Figures/grayscale_styl
-e.png> <./Figures/classic_style.png>] [33 <./Figures/egm2008_gps_figure.png> <.
-/Figures/ITU-GRACE16_gps_figure.png>] [34 <./Figures/ITU_GGC16_gps_figure.png> 
-<./Figures/geco_gps_figure.png>] [35 <./Figures/eigen-6c4_gps_figure.png>]
+) (./Appendices/AppendixA.tex [29 <./Figures/ITU_GRACE16_figure.png>] [30 <./Fi
+gures/ITU_GGC16_figure.png>] [31 <./Figures/geco_figure.png> <./Figures/eigen-6
+c4_figure.png>] [32 <./Figures/grayscale_style.png>] [33 <./Figures/classic_sty
+le.png> <./Figures/egm2008_gps_figure.png>] [34 <./Figures/ITU-GRACE16_gps_figu
+re.png> <./Figures/ITU_GGC16_gps_figure.png>] [35 <./Figures/geco_gps_figure.pn
+g> <./Figures/eigen-6c4_gps_figure.png>]
 Appendix A.
 ------------------------------------------------------------------------------
  A An Appendix
@@ -1697,7 +1697,7 @@ e/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/share/texlive/texm
 f-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/share/texlive/texmf-dist
 /fonts/type1/public/amsfonts/cm/cmtt10.pfb></usr/share/texlive/texmf-dist/fonts
 /type1/public/amsfonts/symbols/msam7.pfb>
-Output written on Thesis.pdf (52 pages, 7501215 bytes).
+Output written on Thesis.pdf (52 pages, 7503122 bytes).
 PDF statistics:
  881 PDF objects out of 1000 (max. 8388607)
  766 compressed objects within 8 object streams
