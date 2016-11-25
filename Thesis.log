@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2016.9.10)  25 NOV 2016 23:31
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2016.9.10)  26 NOV 2016 02:12
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -852,6 +852,45 @@ LaTeX Warning: Label `table:ggm_models' multiply defined.
 
 LaTeX Warning: Label `table:ggm_models' multiply defined.
 
+
+LaTeX Warning: Label `table:ggm_models' multiply defined.
+
+
+LaTeX Warning: Label `table:ggm_models' multiply defined.
+
+
+LaTeX Warning: Label `table:ggm_models' multiply defined.
+
+
+LaTeX Warning: Label `table:ggm_models' multiply defined.
+
+
+LaTeX Warning: Label `table:ggm_models' multiply defined.
+
+
+LaTeX Warning: Label `table:ggm_models' multiply defined.
+
+
+LaTeX Warning: Label `eigen_6c4_figure' multiply defined.
+
+
+LaTeX Warning: Label `sudan_data' multiply defined.
+
+
+LaTeX Warning: Label `sudan_data' multiply defined.
+
+
+LaTeX Warning: Label `sudan_data' multiply defined.
+
+
+LaTeX Warning: Label `sudan_data' multiply defined.
+
+
+LaTeX Warning: Label `sudan_data' multiply defined.
+
+
+LaTeX Warning: Label `sudan_data' multiply defined.
+
 )
 \openout1 = `Thesis.aux'.
 
@@ -1089,7 +1128,7 @@ Package epstopdf Info: Source file: <Figures/points_dist.eps>
 nverted-to.pdf Figures/points_dist.eps>
 (epstopdf)             \includegraphics on input line 37.
 Package epstopdf Info: Output file is already uptodate.
-<Figures/points_dist-eps-converted-to.pdf, id=411, 340.27126pt x 385.44pt>
+<Figures/points_dist-eps-converted-to.pdf, id=440, 340.27126pt x 385.44pt>
 File: Figures/points_dist-eps-converted-to.pdf Graphic file (type pdf)
 
 <use Figures/points_dist-eps-converted-to.pdf>
@@ -1120,7 +1159,7 @@ s-converted-to.pdf Figures/points_dist_krt.eps>
 (epstopdf)             \includegraphics on input line 57.
 Package epstopdf Info: Output file is already uptodate.
 
-<Figures/points_dist_krt-eps-converted-to.pdf, id=420, 340.27126pt x 193.72375p
+<Figures/points_dist_krt-eps-converted-to.pdf, id=449, 340.27126pt x 193.72375p
 t>
 File: Figures/points_dist_krt-eps-converted-to.pdf Graphic file (type pdf)
  <use Figures/points_dist_krt-eps-converted-to.pdf>
@@ -1399,93 +1438,201 @@ Package natbib Warning: Citation `adam' on page 26 undefined on input line 2.
 Package natbib Warning: Citation `adam' on page 26 undefined on input line 6.
 
 
-LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `tbp') on input line 9.
+Package natbib Warning: Citation `adam' on page 26 undefined on input line 6.
 
 
-LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `tbp') on input line 25.
+Package natbib Warning: Citation `adam' on page 26 undefined on input line 6.
 
+[26
 
-LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `tbp') on input line 41.
-
+]
 
 LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `tbp') on input line 59.
+               Default added (so using `tbp') on input line 10.
 
 
 LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `tbp') on input line 76.
+               Default added (so using `tbp') on input line 26.
 
-<Figures/egm08_figure.png, id=661, 433.62pt x 289.08pt>
+
+LaTeX Warning: No positions in optional float specifier.
+               Default added (so using `tbp') on input line 42.
+
+
+LaTeX Warning: No positions in optional float specifier.
+               Default added (so using `tbp') on input line 60.
+
+
+LaTeX Warning: No positions in optional float specifier.
+               Default added (so using `tbp') on input line 78.
+
+<Figures/egm08_figure.png, id=694, 433.62pt x 289.08pt>
 File: Figures/egm08_figure.png Graphic file (type png)
 
 <use Figures/egm08_figure.png>
-Package pdftex.def Info: Figures/egm08_figure.png used on input line 96.
+Package pdftex.def Info: Figures/egm08_figure.png used on input line 98.
 (pdftex.def)             Requested size: 433.61894pt x 289.07928pt.
 
-Overfull \hbox (16.14587pt too wide) in paragraph at lines 96--98
+Overfull \hbox (16.14587pt too wide) in paragraph at lines 98--100
  [][] 
  []
 
-<Figures/ITU_GRACE16_figure.png, id=663, 433.62pt x 289.08pt>
+<Figures/ITU_GRACE16_figure.png, id=696, 433.62pt x 289.08pt>
 File: Figures/ITU_GRACE16_figure.png Graphic file (type png)
 
 <use Figures/ITU_GRACE16_figure.png>
-Package pdftex.def Info: Figures/ITU_GRACE16_figure.png used on input line 104.
+Package pdftex.def Info: Figures/ITU_GRACE16_figure.png used on input line 106.
 
 (pdftex.def)             Requested size: 433.61894pt x 289.07928pt.
 
-Overfull \hbox (16.14587pt too wide) in paragraph at lines 104--106
+Overfull \hbox (16.14587pt too wide) in paragraph at lines 106--108
  [][] 
  []
 
-<Figures/ITU_GGC16_figure.png, id=664, 433.62pt x 289.08pt>
+<Figures/ITU_GGC16_figure.png, id=697, 433.62pt x 289.08pt>
 File: Figures/ITU_GGC16_figure.png Graphic file (type png)
 
 <use Figures/ITU_GGC16_figure.png>
-Package pdftex.def Info: Figures/ITU_GGC16_figure.png used on input line 112.
+Package pdftex.def Info: Figures/ITU_GGC16_figure.png used on input line 114.
 (pdftex.def)             Requested size: 433.61894pt x 289.07928pt.
 
-Overfull \hbox (16.14587pt too wide) in paragraph at lines 112--114
+Overfull \hbox (16.14587pt too wide) in paragraph at lines 114--116
  [][] 
  []
 
-<Figures/geco_figure.png, id=665, 433.62pt x 289.08pt>
+<Figures/geco_figure.png, id=698, 433.62pt x 289.08pt>
 File: Figures/geco_figure.png Graphic file (type png)
 
 <use Figures/geco_figure.png>
-Package pdftex.def Info: Figures/geco_figure.png used on input line 120.
+Package pdftex.def Info: Figures/geco_figure.png used on input line 122.
 (pdftex.def)             Requested size: 433.61894pt x 289.07928pt.
 
-Overfull \hbox (16.14587pt too wide) in paragraph at lines 120--122
+Overfull \hbox (16.14587pt too wide) in paragraph at lines 122--124
  [][] 
  []
 
-<Figures/eigen-6c4_figure.png, id=666, 433.62pt x 289.08pt>
+<Figures/eigen-6c4_figure.png, id=699, 433.62pt x 289.08pt>
 File: Figures/eigen-6c4_figure.png Graphic file (type png)
 
 <use Figures/eigen-6c4_figure.png>
-Package pdftex.def Info: Figures/eigen-6c4_figure.png used on input line 127.
+Package pdftex.def Info: Figures/eigen-6c4_figure.png used on input line 129.
 (pdftex.def)             Requested size: 433.61894pt x 289.07928pt.
 
-Overfull \hbox (16.14587pt too wide) in paragraph at lines 127--129
+Overfull \hbox (16.14587pt too wide) in paragraph at lines 129--131
  [][] 
  []
 
-) (./Appendices/AppendixA.tex [26
+<Figures/grayscale_style.png, id=700, 433.62pt x 289.08pt>
+File: Figures/grayscale_style.png Graphic file (type png)
 
-] [27] [28 <./Figures/egm08_figure.png> <./Figures/ITU_GRACE16_figure.png>] [29
- <./Figures/ITU_GGC16_figure.png> <./Figures/geco_figure.png>] [30 <./Figures/e
-igen-6c4_figure.png>]
+<use Figures/grayscale_style.png>
+Package pdftex.def Info: Figures/grayscale_style.png used on input line 137.
+(pdftex.def)             Requested size: 433.61894pt x 289.07928pt.
+
+Overfull \hbox (16.14587pt too wide) in paragraph at lines 137--139
+ [][] 
+ []
+
+[27]
+
+LaTeX Warning: No positions in optional float specifier.
+               Default added (so using `tbp') on input line 144.
+
+
+LaTeX Warning: No positions in optional float specifier.
+               Default added (so using `tbp') on input line 161.
+
+
+LaTeX Warning: No positions in optional float specifier.
+               Default added (so using `tbp') on input line 179.
+
+
+LaTeX Warning: No positions in optional float specifier.
+               Default added (so using `tbp') on input line 213.
+
+<Figures/classic_style.png, id=705, 433.62pt x 289.08pt>
+File: Figures/classic_style.png Graphic file (type png)
+
+<use Figures/classic_style.png>
+Package pdftex.def Info: Figures/classic_style.png used on input line 234.
+(pdftex.def)             Requested size: 433.61894pt x 289.07928pt.
+
+Overfull \hbox (16.14587pt too wide) in paragraph at lines 234--236
+ [][] 
+ []
+
+<Figures/egm2008_gps_figure.png, id=706, 433.62pt x 289.08pt>
+File: Figures/egm2008_gps_figure.png Graphic file (type png)
+
+<use Figures/egm2008_gps_figure.png>
+Package pdftex.def Info: Figures/egm2008_gps_figure.png used on input line 242.
+
+(pdftex.def)             Requested size: 433.61894pt x 289.07928pt.
+
+Overfull \hbox (16.14587pt too wide) in paragraph at lines 242--244
+ [][] 
+ []
+
+<Figures/ITU-GRACE16_gps_figure.png, id=707, 433.62pt x 289.08pt>
+File: Figures/ITU-GRACE16_gps_figure.png Graphic file (type png)
+
+<use Figures/ITU-GRACE16_gps_figure.png>
+Package pdftex.def Info: Figures/ITU-GRACE16_gps_figure.png used on input line 
+250.
+(pdftex.def)             Requested size: 433.61894pt x 289.07928pt.
+
+Overfull \hbox (16.14587pt too wide) in paragraph at lines 250--252
+ [][] 
+ []
+
+<Figures/ITU_GGC16_gps_figure.png, id=708, 433.62pt x 289.08pt>
+File: Figures/ITU_GGC16_gps_figure.png Graphic file (type png)
+
+<use Figures/ITU_GGC16_gps_figure.png>
+Package pdftex.def Info: Figures/ITU_GGC16_gps_figure.png used on input line 25
+8.
+(pdftex.def)             Requested size: 433.61894pt x 289.07928pt.
+
+Overfull \hbox (16.14587pt too wide) in paragraph at lines 258--260
+ [][] 
+ []
+
+<Figures/geco_gps_figure.png, id=709, 433.62pt x 289.08pt>
+File: Figures/geco_gps_figure.png Graphic file (type png)
+
+<use Figures/geco_gps_figure.png>
+Package pdftex.def Info: Figures/geco_gps_figure.png used on input line 266.
+(pdftex.def)             Requested size: 433.61894pt x 289.07928pt.
+
+Overfull \hbox (16.14587pt too wide) in paragraph at lines 266--268
+ [][] 
+ []
+
+<Figures/eigen-6c4_gps_figure.png, id=710, 433.62pt x 289.08pt>
+File: Figures/eigen-6c4_gps_figure.png Graphic file (type png)
+
+<use Figures/eigen-6c4_gps_figure.png>
+Package pdftex.def Info: Figures/eigen-6c4_gps_figure.png used on input line 27
+3.
+(pdftex.def)             Requested size: 433.61894pt x 289.07928pt.
+
+Overfull \hbox (16.14587pt too wide) in paragraph at lines 273--275
+ [][] 
+ []
+
+) (./Appendices/AppendixA.tex [28 <./Figures/egm08_figure.png>] [29] [30 <./Fig
+ures/ITU_GRACE16_figure.png> <./Figures/ITU_GGC16_figure.png>] [31 <./Figures/g
+eco_figure.png> <./Figures/eigen-6c4_figure.png>] [32 <./Figures/grayscale_styl
+e.png> <./Figures/classic_style.png>] [33 <./Figures/egm2008_gps_figure.png> <.
+/Figures/ITU-GRACE16_gps_figure.png>] [34 <./Figures/ITU_GGC16_gps_figure.png> 
+<./Figures/geco_gps_figure.png>] [35 <./Figures/eigen-6c4_gps_figure.png>]
 Appendix A.
 ------------------------------------------------------------------------------
  A An Appendix
 ------------------------------------------------------------------------------
-[31
+[36
 
-]) [32]
+]) [37]
 ------------------------------------------------------------------------------
  Bibliography
 ------------------------------------------------------------------------------
@@ -1495,7 +1642,7 @@ Missing character: There is no œ in font cmr10!
 Missing character: There is no â in font cmr10!
 Missing character: There is no € in font cmr10!
 Missing character: There is no ” in font cmr10!
- [33
+ [38
 
 
 ]
@@ -1508,13 +1655,13 @@ Missing character: There is no  in font cmr10!
 Package natbib Warning: There were undefined citations.
 
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 263.
-[34]
+[39]
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 263.
  (./Thesis.aux)
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 263.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 263.
 Package rerunfilecheck Info: File `Thesis.out' has not changed.
-(rerunfilecheck)             Checksum: 54B9F4F707201AA2B82E6B5BBD4AA57D;8179.
+(rerunfilecheck)             Checksum: F8FCF1C3E89CBF88CAFEC7BA72176DEA;8423.
 
 
 LaTeX Warning: There were undefined references.
@@ -1525,10 +1672,10 @@ LaTeX Warning: There were multiply-defined labels.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 263.
  ) 
 Here is how much of TeX's memory you used:
- 23184 strings out of 493029
- 405803 string characters out of 6136234
+ 23237 strings out of 493029
+ 407162 string characters out of 6136234
  466981 words of memory out of 5000000
- 26244 multiletter control sequences out of 15000+600000
+ 26272 multiletter control sequences out of 15000+600000
  15353 words of font info for 58 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  49i,16n,49p,10378b,2126s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -1550,10 +1697,10 @@ e/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/share/texlive/texm
 f-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/share/texlive/texmf-dist
 /fonts/type1/public/amsfonts/cm/cmtt10.pfb></usr/share/texlive/texmf-dist/fonts
 /type1/public/amsfonts/symbols/msam7.pfb>
-Output written on Thesis.pdf (47 pages, 2614312 bytes).
+Output written on Thesis.pdf (52 pages, 7501215 bytes).
 PDF statistics:
- 814 PDF objects out of 1000 (max. 8388607)
- 718 compressed objects within 8 object streams
- 186 named destinations out of 1000 (max. 500000)
- 420 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 881 PDF objects out of 1000 (max. 8388607)
+ 766 compressed objects within 8 object streams
+ 204 named destinations out of 1000 (max. 500000)
+ 463 words of extra memory for PDF output out of 10000 (max. 10000000)
 

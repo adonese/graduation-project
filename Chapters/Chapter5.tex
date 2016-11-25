@@ -3,8 +3,9 @@ We have evaluated different models in two types of datasets. The first data coll
 
 \section{Evaluation on astrogeodetic data}
 
-Our evaluation of GGM using astrogedetic data shows very interesting results. There is a huge difference between GGM results and data of \citep{adam}. 
-
+Our evaluation of GGM using astrogedetic data shows very interesting results. There is a huge difference between GGM results and data of \citep{adam}. Clearly there is a problem with \citep{adam} works. For the five that were tested, the best model has standard deviation of 5.867 m. Which is really very good. From our study on \cite{adam} we find that lowest degrees result on average in relatively good std compared with high order degrees. However, the trend of std with the increase in degrees shows clearly that, while some very lower degree (less than 20) are having the best score, but the general trend is that the error is reduced with increase of degrees. A table summarizes our results for each model showing the best five degrees for each model is presented in the below tables. 
+\\
+ITU\_GRACE16 has the best score of 5.8679769m on degree 12. ITU\_GGC16 has its best score on 12 degree also with 5.8679787m. The other models were close to each others of EGM2008 having its best score on 14 degree with std of 6.57m, interestingly GECO does also has its best score on 14 degree with standard deviation of 6.579m. EIGEN-6C4 has std of 6.718 on 1729 degree. In our results we found that it is often the case that near degrees have quite some similar std. To Have a very clear representation of our best model we decided to use as several degrees as possible. For ITU\_GGC16 and ITU\_GRACE16 we have tested each degree starting from the $10^{th}$ degree. For the other models (those of 2190), we have tested 500 degree for EGM2008, and GECO and 200 models from EIGEN-6C4. To the best of our knowledge, no such exhaustive testing was done for GGM before.
 
   \begin{table}[]
   	\centering
@@ -56,21 +57,22 @@ Our evaluation of GGM using astrogedetic data shows very interesting results. Th
     \end{table}
     
     
-      \begin{table}[]
-      	\centering
-      	\caption{Top 5 degrees for model GECO}
-      	\label{table:ggm_models_geco}
-      	\begin{tabular}{@{}lll@{}}
-      		\toprule
-      		\emph{degree} & std $\sigma$ [m]  & difference\\ \midrule
-      		10 & 7.7916 & -11.476 \\
-      		14 &6.579  &-10.016 \\
-      		18 &7.3629 &-10.144 \\
-      		23 &7.5549 &-11.196 \\
-      		27 &6.9829 &-10.997\\ \bottomrule
-      		
-      	\end{tabular}
-      \end{table}
+  \begin{table}[]
+  	\centering
+  	\caption{Top 5 degrees for model GECO}
+  	\label{table:ggm_models}
+  	\begin{tabular}{@{}lll@{}}
+  		\toprule
+  		\emph{degree} & std $\sigma$ [m]  & difference\\ \midrule
+  		14 &6.579&    -10.016\\
+  		1722 &6.7273&   -11.102\\
+  		1726 &6.7295 &  -11.104\\
+  		1595 &6.7335 &  -11.105\\
+  		1731 &6.7342  & -11.106\\
+  		\bottomrule
+  		
+  	\end{tabular}
+  \end{table}
     
     
       \begin{table}[]
@@ -127,3 +129,147 @@ Our evaluation of GGM using astrogedetic data shows very interesting results. Th
       	\includegraphics{Figures/eigen-6c4_figure.png}
       	\centering
       \end{figure}
+      
+      
+        \begin{figure}[t]
+           	\caption{Behavior of the five models truncated to the lowest model}
+           	\label{eigen_6c4_figure}
+           	\includegraphics{Figures/grayscale_style.png}
+           	\centering
+        \end{figure}
+        
+        \section{Evaluation of GPS/Leveling data}
+        The second dataset that we used is GPS/Leveling data. It consists of 24 GPS/leveling data that were collected from 2005-2008 from different geodetic networks ranging from $1^{st}$ order networks to $3^{rd}$ order networks. Our evaluation on GPS/leveling data shows that the std error has dropped from 5.86m to 0.365349m. 
+        
+          \begin{table}[]
+          	\centering
+          	\caption{Top 5 degrees for model ITU\_GRACE on GPS/leveling data}
+          	\label{table:ggm_models}
+          	\begin{tabular}{@{}lll@{}}
+          		\toprule
+          		\emph{degree} & std $\sigma$ [m]  & difference\\ \midrule
+          		46 &0.367751&    0.571191\\
+          		152 &0.369840&   0.417293\\
+          		149 &0.373809 &  0.127576\\
+          		29 &0.3739635 &  -0.027817\\
+          		30 &0.374076  & -1.040373\\
+          		\bottomrule
+          		
+          	\end{tabular}
+          \end{table}
+          
+            \begin{table}[]
+            	\centering
+            	\caption{Top 5 degrees for model ITU\_GGC on GPS/leveling data}
+            	\label{table:ggm_models}
+            	\begin{tabular}{@{}lll@{}}
+            		\toprule
+            		\emph{degree} & std $\sigma$ [m]  & difference\\ \midrule
+            		149 &0.365349&    0.330661\\
+            		150 &0.366355&   0.354195\\
+            		46 &0.367751 &  0.571312\\
+            		148 &0.368081 &  0.300463\\
+            		152 &0.368113  & 0.509021\\
+            		\bottomrule
+            		
+            	\end{tabular}
+            \end{table}
+            
+            
+              \begin{table}[]
+              	\centering
+              	\caption{Top 5 degrees for model EGM2008 on GPS/leveling data}
+              	\label{table:ggm_models}
+              	\begin{tabular}{@{}lll@{}}
+              		\toprule
+              		\emph{degree} & std $\sigma$ [m]  & difference\\ \midrule
+              		669 &0.373804&    0.487649\\
+              		665 &0.373929&   0.486516\\
+              		149 &0.375045 &  0.407975\\
+              		674 &0.376249 &  0.486830\\
+              		31 &0.376251  & 1.316226\\
+              		\bottomrule
+              		
+              	\end{tabular}
+              \end{table}
+              
+              \begin{table}
+               	\centering
+               	\caption{Top 5 degrees for model EIGEN-6C4 on GPS/leveling data}
+               	\label{table:ggm_models}
+               	\begin{tabular}{@{}lll@{}}
+               		\toprule
+               		\emph{degree} & std $\sigma$ [m]  & difference\\ \midrule
+               		667 &0.368126&    0.371325\\
+               		152 &0.368243&   0.460720\\
+               		327 &0.3713845 &  0.400191\\
+               		678 &0.372534 &  0.372325\\
+               		261 &0.372603  & 0.352102\\
+               		\bottomrule
+               		
+               	\end{tabular}
+               \end{table}
+        
+          \begin{table}[]
+          	\centering
+          	\caption{Top 5 degrees for model GECO on GPS/leveling data}
+          	\label{table:ggm_models}
+          	\begin{tabular}{@{}lll@{}}
+          		\toprule
+          		\emph{degree} & std $\sigma$ [m]  & difference\\ \midrule
+          		149 &0.365480&    0.304553\\
+          		669 &0.369906&   0.379220\\
+          		665 &0.370001 &  0.378087\\
+          		263 &0.370542 &  0.367333\\
+          		674 &0.372194  & 0.378396\\
+          		\bottomrule
+          		
+          	\end{tabular}
+          \end{table}
+        
+        
+        \begin{figure}[t]
+        	\caption{Evaluation of our GGM on GPS/leveling data}
+        	\label{sudan_data}
+        	\includegraphics{Figures/classic_style.png}
+        	\centering
+        \end{figure}
+        
+        
+        \begin{figure}[t]
+        	\caption{Evaluation of EGM2008 on GPS/leveling data}
+        	\label{sudan_data}
+        	\includegraphics{Figures/egm2008_gps_figure.png}
+        	\centering
+        \end{figure}
+        
+        
+        \begin{figure}[t]
+        	\caption{Evaluation of ITU\_GRACE16 on GPS/leveling data}
+        	\label{sudan_data}
+        	\includegraphics{Figures/ITU-GRACE16_gps_figure.png}
+        	\centering
+        \end{figure}
+        
+        
+        \begin{figure}[t]
+        	\caption{Evaluation of ITU\_GGC16 on GPS/leveling data}
+        	\label{sudan_data}
+        	\includegraphics{Figures/ITU_GGC16_gps_figure.png}
+        	\centering
+        \end{figure}
+        
+        
+        \begin{figure}[t]
+        	\caption{Evaluation of GECO on GPS/leveling data}
+        	\label{sudan_data}
+        	\includegraphics{Figures/geco_gps_figure.png}
+        	\centering
+        \end{figure}
+        
+        \begin{figure}[t]
+        	\caption{Evaluation EIGEN-6c4 on GPS/leveling data}
+        	\label{sudan_data}
+        	\includegraphics{Figures/eigen-6c4_gps_figure.png}
+        	\centering
+        \end{figure}

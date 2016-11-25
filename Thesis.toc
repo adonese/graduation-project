@@ -48,7 +48,8 @@
 \contentsline {subsection}{\numberline {4.3.2}Geoid height function}{23}{subsection.112}
 \contentsline {chapter}{\numberline {5}Results and Discussions}{26}{chapter.113}
 \contentsline {section}{\numberline {5.1}Evaluation on astrogeodetic data}{26}{section.114}
+\contentsline {section}{\numberline {5.2}Evaluation of GPS/Leveling data}{28}{section.126}
 \vspace {2em}
-\contentsline {chapter}{\numberline {A}An Appendix}{31}{appendix.125}
+\contentsline {chapter}{\numberline {A}An Appendix}{36}{appendix.138}
 \vspace {2em}
-\contentsline {chapter}{Bibliography}{33}{dummy.126}
+\contentsline {chapter}{Bibliography}{38}{dummy.139}
