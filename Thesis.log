@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2016.9.10)  24 NOV 2016 20:04
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2016.9.10)  25 NOV 2016 10:45
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1063,14 +1063,7 @@ LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10.95> not available
 (./Chapters/Chapter2.tex [2]
 Chapter 2.
 ------------------------------------------------------------------------------
- 2 Data Acquisition
-------------------------------------------------------------------------------
-) (./Chapters/Chapter3.tex [3
-
-]
-Chapter 3.
-------------------------------------------------------------------------------
- 3 Input Data
+ 2 Input Data
 ------------------------------------------------------------------------------
 Missing character: There is no √ in font cmr10!
 Missing character: There is no ≠ in font cmr10!
@@ -1078,7 +1071,7 @@ Missing character: There is no ƒ in font cmr10!
 Missing character: There is no ç in font cmr10!
 
 LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `tbp') on input line 10.
+               Default added (so using `tbp') on input line 11.
 
 Package epstopdf Info: Source file: <Figures/points_dist.eps>
 (epstopdf)                    date: 2016-11-23 10:12:57
@@ -1088,26 +1081,26 @@ Package epstopdf Info: Source file: <Figures/points_dist.eps>
 (epstopdf)                    size: 33044 bytes
 (epstopdf)             Command: <repstopdf --outfile=Figures/points_dist-eps-co
 nverted-to.pdf Figures/points_dist.eps>
-(epstopdf)             \includegraphics on input line 36.
+(epstopdf)             \includegraphics on input line 37.
 Package epstopdf Info: Output file is already uptodate.
-<Figures/points_dist-eps-converted-to.pdf, id=321, 340.27126pt x 385.44pt>
+<Figures/points_dist-eps-converted-to.pdf, id=364, 340.27126pt x 385.44pt>
 File: Figures/points_dist-eps-converted-to.pdf Graphic file (type pdf)
 
 <use Figures/points_dist-eps-converted-to.pdf>
 Package pdftex.def Info: Figures/points_dist-eps-converted-to.pdf used on input
- line 36.
+ line 37.
 (pdftex.def)             Requested size: 340.27042pt x 385.43906pt.
 
 
-LaTeX Warning: Reference `geoid_from_orthometric' on page 4 undefined on input 
-line 44.
+LaTeX Warning: Reference `geoid_from_orthometric' on page 3 undefined on input 
+line 45.
 
-[4
+[3
 
 ]
 
-LaTeX Warning: Reference `fig:gps_khartoum' on page 5 undefined on input line 5
-1.
+LaTeX Warning: Reference `fig:gps_khartoum' on page 4 undefined on input line 5
+2.
 
 Package epstopdf Info: Source file: <Figures/points_dist_krt.eps>
 (epstopdf)                    date: 2016-11-23 10:13:34
@@ -1118,43 +1111,95 @@ df>
 (epstopdf)                    size: 17463 bytes
 (epstopdf)             Command: <repstopdf --outfile=Figures/points_dist_krt-ep
 s-converted-to.pdf Figures/points_dist_krt.eps>
-(epstopdf)             \includegraphics on input line 56.
+(epstopdf)             \includegraphics on input line 57.
 Package epstopdf Info: Output file is already uptodate.
 
-<Figures/points_dist_krt-eps-converted-to.pdf, id=331, 340.27126pt x 193.72375p
+<Figures/points_dist_krt-eps-converted-to.pdf, id=373, 340.27126pt x 193.72375p
 t>
 File: Figures/points_dist_krt-eps-converted-to.pdf Graphic file (type pdf)
  <use Figures/points_dist_krt-eps-converted-to.pdf>
 Package pdftex.def Info: Figures/points_dist_krt-eps-converted-to.pdf used on i
-nput line 56.
+nput line 57.
 (pdftex.def)             Requested size: 340.27042pt x 193.72327pt.
 
 
 LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `tbp') on input line 61.
+               Default added (so using `tbp') on input line 62.
 
-[5]
+[4]
 
-Package natbib Warning: Citation `goce_sp123' on page 6 undefined on input line
- 102.
+Package natbib Warning: Citation `goce_sp123' on page 5 undefined on input line
+ 103.
 
-
-Package natbib Warning: Citation `rummel' on page 6 undefined on input line 111
-.
-
-[6 <./Figures/points_dist-eps-converted-to.pdf>] [7 <./Figures/points_dist_krt-
+[5 <./Figures/points_dist-eps-converted-to.pdf>] [6 <./Figures/points_dist_krt-
 eps-converted-to.pdf>]
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ò in font cmr10!
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ô in font cmr10!
+ [7]
 
 LaTeX Warning: Reference `table:dedicate_satellite_missions' on page 8 undefine
-d on input line 129.
+d on input line 135.
 
-[8]) (./Chapters/Chapter4.tex [9]
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ì in font cmr10!
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ì in font cmr10!
+
+Package natbib Warning: Citation `(' on page 8 undefined on input line 143.
+
+[8]
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ê in font cmr10!
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ê in font cmr10!
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ê in font cmr10!
+
+
+Package natbib Warning: Citation `hoffmann' on page 9 undefined on input line 1
+73.
+
+[9]
+
+LaTeX Warning: No positions in optional float specifier.
+               Default added (so using `tbp') on input line 183.
+
+
+LaTeX Warning: No positions in optional float specifier.
+               Default added (so using `tbp') on input line 199.
+
+
+LaTeX Warning: No positions in optional float specifier.
+               Default added (so using `tbp') on input line 213.
+
+) (./Chapters/Chapter3.tex [10] [11]
+Chapter 3.
+------------------------------------------------------------------------------
+ 3 Geoid Determination from GGM
+------------------------------------------------------------------------------
+[12
+
+]
+
+Package natbib Warning: Citation `lndrem' on page 13 undefined on input line 41
+.
+
+[13]) (./Chapters/Chapter4.tex [14]
 Chapter 4.
 ------------------------------------------------------------------------------
  4 Geoid Height Computation
 ------------------------------------------------------------------------------
 
-Package natbib Warning: Citation `ahmed_data' on page 10 undefined on input lin
+Package natbib Warning: Citation `ahmed_data' on page 15 undefined on input lin
 e 3.
 
 Missing character: There is no ‚ in font cmr10!
@@ -1178,9 +1223,9 @@ Missing character: There is no ô in font cmr10!
 Missing character: There is no ‚ in font cmr10!
 Missing character: There is no Ä in font cmr10!
 Missing character: There is no ô in font cmr10!
-[10
+[15
 
-] [11]
+] [16]
 
 Package xcolor Warning: Incompatible color definition on input line 42.
 
@@ -1259,7 +1304,7 @@ Package xcolor Warning: Incompatible color definition on input line 45.
 
 Package xcolor Warning: Incompatible color definition on input line 45.
 
-[12]
+[17]
 
 Package xcolor Warning: Incompatible color definition on input line 46.
 
@@ -1314,20 +1359,27 @@ Package xcolor Warning: Incompatible color definition on input line 48.
 
 Package xcolor Warning: Incompatible color definition on input line 48.
 
-[13] [14] [15]) (./Appendices/AppendixA.tex [16]
+[18] [19] [20]) (./Appendices/AppendixA.tex [21]
 Appendix A.
 ------------------------------------------------------------------------------
  A An Appendix
 ------------------------------------------------------------------------------
-[17
+[22
 
-]) [18]
+]) [23]
 ------------------------------------------------------------------------------
  Bibliography
 ------------------------------------------------------------------------------
 (./Thesis.bbl
 Missing character: There is no √ in font cmr10!
 Missing character: There is no ú in font cmr10!
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no î in font cmr10!
+ [24
+
+
+]
 Missing character: There is no √ in font cmr10!
 Missing character: There is no ≠ in font cmr10!
 Missing character: There is no ƒ in font cmr10!
@@ -1337,17 +1389,20 @@ Missing character: There is no ç in font cmr10!
 Package natbib Warning: There were undefined citations.
 
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 263.
-[19
-
-
-]
+[25]
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 263.
  (./Thesis.aux)
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 263.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 263.
-Package rerunfilecheck Info: File `Thesis.out' has not changed.
-(rerunfilecheck)             Checksum: A5807225E848552BD9805A0D3AB769B9;5540.
 
+
+Package rerunfilecheck Warning: File `Thesis.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `Thesis.out':
+(rerunfilecheck)             Before: F39C5B64E7FD7D64A8616CBBE3985B5E;7315
+(rerunfilecheck)             After:  E80533FA483501D62E974017C07211CB;7315.
 
 LaTeX Warning: There were undefined references.
 
@@ -1357,34 +1412,70 @@ LaTeX Warning: There were multiply-defined labels.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 263.
  ) 
 Here is how much of TeX's memory you used:
- 23040 strings out of 493029
- 403568 string characters out of 6136234
+ 23104 strings out of 493029
+ 404327 string characters out of 6136234
  466981 words of memory out of 5000000
- 26185 multiletter control sequences out of 15000+600000
+ 26204 multiletter control sequences out of 15000+600000
  15353 words of font info for 58 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 49i,17n,49p,10378b,2126s stack positions out of 5000i,500n,10000p,200000b,80000s
-</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></us
-r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/shar
-e/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb></usr/share/tex
-live/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texlive/t
-exmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-d
-ist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/share/texlive/texmf-dist/fon
-ts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texlive/texmf-dist/fonts/type
-1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/publi
-c/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfo
-nts/cm/cmr17.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/
-cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsl12.p
-fb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></u
-sr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/shar
-e/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/share/texl
-ive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/share/texlive/te
-xmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb></usr/share/texlive/texmf-di
-st/fonts/type1/public/amsfonts/symbols/msam7.pfb>
-Output written on Thesis.pdf (32 pages, 315130 bytes).
+ 49i,16n,49p,10378b,2126s stack positions out of 5000i,500n,10000p,200000b,80000s
+pdfTeX warning (dest): name{dummy.89} has been referenced but does not exist,
+ replaced by a fixed one
+
+pdfTeX warning (dest): name{appendix.88} has been referenced but does not exist
+, replaced by a fixed one
+
+pdfTeX warning (dest): name{subsection.87} has been referenced but does not exi
+st, replaced by a fixed one
+
+pdfTeX warning (dest): name{subsection.86} has been referenced but does not exi
+st, replaced by a fixed one
+
+pdfTeX warning (dest): name{section.85} has been referenced but does not exist,
+ replaced by a fixed one
+
+pdfTeX warning (dest): name{section*.71} has been referenced but does not exist
+, replaced by a fixed one
+
+pdfTeX warning (dest): name{section*.70} has been referenced but does not exist
+, replaced by a fixed one
+
+pdfTeX warning (dest): name{subsubsection.69} has been referenced but does not 
+exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{subsection.68} has been referenced but does not exi
+st, replaced by a fixed one
+
+pdfTeX warning (dest): name{section.67} has been referenced but does not exist,
+ replaced by a fixed one
+
+pdfTeX warning (dest): name{section.66} has been referenced but does not exist,
+ replaced by a fixed one
+
+pdfTeX warning (dest): name{chapter.65} has been referenced but does not exist,
+ replaced by a fixed one
+
+</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/
+share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/
+texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb></usr/share/texli
+ve/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texlive/tex
+mf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dis
+t/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/share/texlive/texmf-dist/fonts
+/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texlive/texmf-dist/fonts/type1/
+public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/
+amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfont
+s/cm/cmr17.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cm
+r8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsl12.pfb
+></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr
+/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/share/
+texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/share/texliv
+e/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/share/texlive/texm
+f-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb></usr/share/texlive/texmf-dist
+/fonts/type1/public/amsfonts/symbols/msam7.pfb>
+Output written on Thesis.pdf (38 pages, 336448 bytes).
 PDF statistics:
- 572 PDF objects out of 1000 (max. 8388607)
- 504 compressed objects within 6 object streams
- 109 named destinations out of 1000 (max. 500000)
- 291 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 697 PDF objects out of 1000 (max. 8388607)
+ 622 compressed objects within 7 object streams
+ 154 named destinations out of 1000 (max. 500000)
+ 355 words of extra memory for PDF output out of 10000 (max. 10000000)
 

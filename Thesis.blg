@@ -2,7 +2,7 @@ This is BibTeX, Version 0.99d (TeX Live 2015/Debian)
 Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
 The top-level auxiliary file: Thesis.aux
 The style file: agsm.bst
-Illegal, another \bibstyle command---line 138 of file Thesis.aux
+Illegal, another \bibstyle command---line 151 of file Thesis.aux
  : \bibstyle
  :          {unsrtnat}
 I'm skipping whatever remains of this command
@@ -17,7 +17,8 @@ Warning--I didn't find a database entry for "ahmed_similar_paper"
 Warning--I didn't find a database entry for "nasa"
 Warning--I didn't find a database entry for "adam"
 Warning--I didn't find a database entry for "goce_sp123"
-Warning--I didn't find a database entry for "rummel"
+Warning--I didn't find a database entry for "("
+Warning--I didn't find a database entry for "hoffmann"
 Warning--I didn't find a database entry for "ahmed_data"
 Name 1 in "Amos, M. J., and W. Featherstone" has a comma at the end for entry amos
 while executing---line 1222 of file agsm.bst
@@ -37,45 +38,45 @@ Name 1 in "Amos, M. J., and W. Featherstone" has a comma at the end for entry am
 while executing---line 1346 of file agsm.bst
 Name 1 in "Amos, M. J., and W. Featherstone" has a comma at the end for entry amos
 while executing---line 1346 of file agsm.bst
-You've used 10 entries,
+You've used 11 entries,
             2909 wiz_defined-function locations,
-            714 strings with 6500 characters,
-and the built_in function-call counts, 32335 in all, are:
-= -- 5177
-> -- 422
+            720 strings with 6654 characters,
+and the built_in function-call counts, 40212 in all, are:
+= -- 6487
+> -- 534
 < -- 0
-+ -- 2408
-- -- 126
-* -- 2731
-:= -- 6665
-add.period$ -- 10
-call.type$ -- 10
-change.case$ -- 140
-chr.to.int$ -- 10
-cite$ -- 10
-duplicate$ -- 144
-empty$ -- 314
-format.name$ -- 160
-if$ -- 5760
++ -- 3063
+- -- 161
+* -- 3448
+:= -- 8187
+add.period$ -- 11
+call.type$ -- 11
+change.case$ -- 154
+chr.to.int$ -- 11
+cite$ -- 11
+duplicate$ -- 160
+empty$ -- 347
+format.name$ -- 198
+if$ -- 7177
 int.to.chr$ -- 5
 int.to.str$ -- 0
-missing$ -- 7
-newline$ -- 36
-num.names$ -- 102
-pop$ -- 48
+missing$ -- 8
+newline$ -- 39
+num.names$ -- 113
+pop$ -- 50
 preamble$ -- 1
-purify$ -- 150
+purify$ -- 165
 quote$ -- 0
-skip$ -- 124
+skip$ -- 138
 stack$ -- 0
-substring$ -- 7225
-swap$ -- 23
-text.length$ -- 140
+substring$ -- 9125
+swap$ -- 26
+text.length$ -- 154
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 40
+type$ -- 44
 warning$ -- 0
-while$ -- 221
+while$ -- 244
 width$ -- 0
-write$ -- 126
+write$ -- 140
 (There were 10 error messages)

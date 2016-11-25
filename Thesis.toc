@@ -13,29 +13,37 @@
 \contentsline {chapter}{\numberline {1}Introduction}{1}{chapter.18}
 \contentsline {section}{\numberline {1.1}Objectives of the thesis}{1}{section.19}
 \contentsline {section}{\numberline {1.2}Thesis structure}{2}{section.20}
-\contentsline {chapter}{\numberline {2}Data Acquisition}{3}{chapter.21}
-\contentsline {chapter}{\numberline {3}Input Data}{4}{chapter.22}
-\contentsline {section}{\numberline {3.1}Astrogeodetic data}{4}{section.23}
-\contentsline {section}{\numberline {3.2}GPS/Leveling Data}{4}{section.26}
-\contentsline {section}{\numberline {3.3}Global Geopotential Models}{5}{section.30}
-\contentsline {subsection}{\numberline {3.3.1}Satellite-only models}{6}{subsection.31}
-\contentsline {subsection}{\numberline {3.3.2}Combined Models}{7}{subsection.35}
-\contentsline {subsection}{\numberline {3.3.3}Tailored Models}{7}{subsection.36}
-\contentsline {section}{\numberline {3.4}New Satellite Missions}{8}{section.37}
-\contentsline {subsection}{\numberline {3.4.1}CHAMP}{8}{subsection.38}
-\contentsline {subsection}{\numberline {3.4.2}GRACE}{9}{subsection.39}
-\contentsline {subsection}{\numberline {3.4.3}GOCE}{9}{subsection.40}
-\contentsline {chapter}{\numberline {4}Geoid Height Computation}{10}{chapter.41}
-\contentsline {section}{\numberline {4.1}Historical Background about Geoid Computations in Sudan}{10}{section.42}
-\contentsline {section}{\numberline {4.2}Computing the Geoid}{11}{section.43}
-\contentsline {subsection}{\numberline {4.2.1}Working with GGMs data}{12}{subsection.44}
-\contentsline {subsubsection}{\numberline {4.2.1.1}Parsing the data}{12}{subsubsection.45}
-\contentsline {paragraph}{Model's summary}{12}{section*.46}
-\contentsline {paragraph}{The header}{12}{section*.47}
-\contentsline {section}{\numberline {4.3}Software Implementation}{14}{section.61}
-\contentsline {subsection}{\numberline {4.3.1}Associated Legendre Function}{14}{subsection.62}
-\contentsline {subsection}{\numberline {4.3.2}Geoid height function}{14}{subsection.63}
+\contentsline {chapter}{\numberline {2}Input Data}{3}{chapter.21}
+\contentsline {section}{\numberline {2.1}Astrogeodetic data}{3}{section.22}
+\contentsline {section}{\numberline {2.2}GPS/Leveling Data}{3}{section.25}
+\contentsline {section}{\numberline {2.3}Global Geopotential Models}{4}{section.29}
+\contentsline {subsection}{\numberline {2.3.1}Satellite-only models}{5}{subsection.30}
+\contentsline {subsection}{\numberline {2.3.2}Combined Models}{6}{subsection.34}
+\contentsline {subsection}{\numberline {2.3.3}Tailored Models}{6}{subsection.35}
+\contentsline {subsection}{\numberline {2.3.4}Difficulties in modeling the Earth from the space}{7}{subsection.36}
+\contentsline {section}{\numberline {2.4}New Satellite Missions}{8}{section.37}
+\contentsline {subsection}{\numberline {2.4.1}CHAMP}{8}{subsection.38}
+\contentsline {subsection}{\numberline {2.4.2}GRACE}{8}{subsection.39}
+\contentsline {subsection}{\numberline {2.4.3}GOCE}{9}{subsection.40}
+\contentsline {section}{\numberline {2.5}Our models}{9}{section.44}
+\contentsline {section}{\numberline {2.6}An overview about this chapter}{10}{section.50}
+\contentsline {chapter}{\numberline {3}Geoid Determination from GGM}{12}{chapter.55}
+\contentsline {section}{\numberline {3.1}Boundary Value Problem}{12}{section.56}
+\contentsline {subsection}{\numberline {3.1.1}Existence and Uniqueness}{13}{subsection.60}
+\contentsline {subsubsection}{\numberline {3.1.1.1}Uniqueness}{13}{subsubsection.61}
+\contentsline {section}{\numberline {3.2}Solving Laplace's equation}{13}{section.62}
+\contentsline {subsection}{\numberline {3.2.1}Cartesian coordinates}{13}{subsection.63}
+\contentsline {chapter}{\numberline {4}Geoid Height Computation}{15}{chapter.67}
+\contentsline {section}{\numberline {4.1}Historical Background about Geoid Computations in Sudan}{15}{section.68}
+\contentsline {section}{\numberline {4.2}Computing the Geoid}{16}{section.69}
+\contentsline {subsection}{\numberline {4.2.1}Working with GGMs data}{17}{subsection.70}
+\contentsline {subsubsection}{\numberline {4.2.1.1}Parsing the data}{17}{subsubsection.71}
+\contentsline {paragraph}{Model's summary}{17}{section*.72}
+\contentsline {paragraph}{The header}{17}{section*.73}
+\contentsline {section}{\numberline {4.3}Software Implementation}{19}{section.87}
+\contentsline {subsection}{\numberline {4.3.1}Associated Legendre Function}{19}{subsection.88}
+\contentsline {subsection}{\numberline {4.3.2}Geoid height function}{19}{subsection.89}
 \vspace {2em}
-\contentsline {chapter}{\numberline {A}An Appendix}{17}{appendix.64}
+\contentsline {chapter}{\numberline {A}An Appendix}{22}{appendix.90}
 \vspace {2em}
-\contentsline {chapter}{Bibliography}{19}{dummy.65}
+\contentsline {chapter}{Bibliography}{24}{dummy.91}
