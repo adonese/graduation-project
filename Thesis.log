@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2016.9.10)  25 NOV 2016 23:00
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2016.9.10)  25 NOV 2016 23:31
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1089,7 +1089,7 @@ Package epstopdf Info: Source file: <Figures/points_dist.eps>
 nverted-to.pdf Figures/points_dist.eps>
 (epstopdf)             \includegraphics on input line 37.
 Package epstopdf Info: Output file is already uptodate.
-<Figures/points_dist-eps-converted-to.pdf, id=401, 340.27126pt x 385.44pt>
+<Figures/points_dist-eps-converted-to.pdf, id=411, 340.27126pt x 385.44pt>
 File: Figures/points_dist-eps-converted-to.pdf Graphic file (type pdf)
 
 <use Figures/points_dist-eps-converted-to.pdf>
@@ -1120,7 +1120,7 @@ s-converted-to.pdf Figures/points_dist_krt.eps>
 (epstopdf)             \includegraphics on input line 57.
 Package epstopdf Info: Output file is already uptodate.
 
-<Figures/points_dist_krt-eps-converted-to.pdf, id=410, 340.27126pt x 193.72375p
+<Figures/points_dist_krt-eps-converted-to.pdf, id=420, 340.27126pt x 193.72375p
 t>
 File: Figures/points_dist_krt-eps-converted-to.pdf Graphic file (type pdf)
  <use Figures/points_dist_krt-eps-converted-to.pdf>
@@ -1418,16 +1418,74 @@ LaTeX Warning: No positions in optional float specifier.
 LaTeX Warning: No positions in optional float specifier.
                Default added (so using `tbp') on input line 76.
 
+<Figures/egm08_figure.png, id=661, 433.62pt x 289.08pt>
+File: Figures/egm08_figure.png Graphic file (type png)
+
+<use Figures/egm08_figure.png>
+Package pdftex.def Info: Figures/egm08_figure.png used on input line 96.
+(pdftex.def)             Requested size: 433.61894pt x 289.07928pt.
+
+Overfull \hbox (16.14587pt too wide) in paragraph at lines 96--98
+ [][] 
+ []
+
+<Figures/ITU_GRACE16_figure.png, id=663, 433.62pt x 289.08pt>
+File: Figures/ITU_GRACE16_figure.png Graphic file (type png)
+
+<use Figures/ITU_GRACE16_figure.png>
+Package pdftex.def Info: Figures/ITU_GRACE16_figure.png used on input line 104.
+
+(pdftex.def)             Requested size: 433.61894pt x 289.07928pt.
+
+Overfull \hbox (16.14587pt too wide) in paragraph at lines 104--106
+ [][] 
+ []
+
+<Figures/ITU_GGC16_figure.png, id=664, 433.62pt x 289.08pt>
+File: Figures/ITU_GGC16_figure.png Graphic file (type png)
+
+<use Figures/ITU_GGC16_figure.png>
+Package pdftex.def Info: Figures/ITU_GGC16_figure.png used on input line 112.
+(pdftex.def)             Requested size: 433.61894pt x 289.07928pt.
+
+Overfull \hbox (16.14587pt too wide) in paragraph at lines 112--114
+ [][] 
+ []
+
+<Figures/geco_figure.png, id=665, 433.62pt x 289.08pt>
+File: Figures/geco_figure.png Graphic file (type png)
+
+<use Figures/geco_figure.png>
+Package pdftex.def Info: Figures/geco_figure.png used on input line 120.
+(pdftex.def)             Requested size: 433.61894pt x 289.07928pt.
+
+Overfull \hbox (16.14587pt too wide) in paragraph at lines 120--122
+ [][] 
+ []
+
+<Figures/eigen-6c4_figure.png, id=666, 433.62pt x 289.08pt>
+File: Figures/eigen-6c4_figure.png Graphic file (type png)
+
+<use Figures/eigen-6c4_figure.png>
+Package pdftex.def Info: Figures/eigen-6c4_figure.png used on input line 127.
+(pdftex.def)             Requested size: 433.61894pt x 289.07928pt.
+
+Overfull \hbox (16.14587pt too wide) in paragraph at lines 127--129
+ [][] 
+ []
+
 ) (./Appendices/AppendixA.tex [26
 
-] [27]
+] [27] [28 <./Figures/egm08_figure.png> <./Figures/ITU_GRACE16_figure.png>] [29
+ <./Figures/ITU_GGC16_figure.png> <./Figures/geco_figure.png>] [30 <./Figures/e
+igen-6c4_figure.png>]
 Appendix A.
 ------------------------------------------------------------------------------
  A An Appendix
 ------------------------------------------------------------------------------
-[28
+[31
 
-]) [29]
+]) [32]
 ------------------------------------------------------------------------------
  Bibliography
 ------------------------------------------------------------------------------
@@ -1437,7 +1495,7 @@ Missing character: There is no œ in font cmr10!
 Missing character: There is no â in font cmr10!
 Missing character: There is no € in font cmr10!
 Missing character: There is no ” in font cmr10!
- [30
+ [33
 
 
 ]
@@ -1450,13 +1508,13 @@ Missing character: There is no  in font cmr10!
 Package natbib Warning: There were undefined citations.
 
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 263.
-[31]
+[34]
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 263.
  (./Thesis.aux)
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 263.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 263.
 Package rerunfilecheck Info: File `Thesis.out' has not changed.
-(rerunfilecheck)             Checksum: 93A100F173ACEE4E9E2A5227F721B6B8;8179.
+(rerunfilecheck)             Checksum: 54B9F4F707201AA2B82E6B5BBD4AA57D;8179.
 
 
 LaTeX Warning: There were undefined references.
@@ -1467,10 +1525,10 @@ LaTeX Warning: There were multiply-defined labels.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 263.
  ) 
 Here is how much of TeX's memory you used:
- 23146 strings out of 493029
- 404887 string characters out of 6136234
+ 23184 strings out of 493029
+ 405803 string characters out of 6136234
  466981 words of memory out of 5000000
- 26219 multiletter control sequences out of 15000+600000
+ 26244 multiletter control sequences out of 15000+600000
  15353 words of font info for 58 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  49i,16n,49p,10378b,2126s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -1492,10 +1550,10 @@ e/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/share/texlive/texm
 f-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/share/texlive/texmf-dist
 /fonts/type1/public/amsfonts/cm/cmtt10.pfb></usr/share/texlive/texmf-dist/fonts
 /type1/public/amsfonts/symbols/msam7.pfb>
-Output written on Thesis.pdf (44 pages, 366779 bytes).
+Output written on Thesis.pdf (47 pages, 2614312 bytes).
 PDF statistics:
- 778 PDF objects out of 1000 (max. 8388607)
- 696 compressed objects within 7 object streams
- 178 named destinations out of 1000 (max. 500000)
- 395 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 814 PDF objects out of 1000 (max. 8388607)
+ 718 compressed objects within 8 object streams
+ 186 named destinations out of 1000 (max. 500000)
+ 420 words of extra memory for PDF output out of 10000 (max. 10000000)
 
