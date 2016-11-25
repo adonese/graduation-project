@@ -33,17 +33,22 @@
 \contentsline {subsubsection}{\numberline {3.1.1.1}Uniqueness}{13}{subsubsection.61}
 \contentsline {section}{\numberline {3.2}Solving Laplace's equation}{13}{section.62}
 \contentsline {subsection}{\numberline {3.2.1}Cartesian coordinates}{13}{subsection.63}
-\contentsline {chapter}{\numberline {4}Geoid Height Computation}{15}{chapter.67}
-\contentsline {section}{\numberline {4.1}Historical Background about Geoid Computations in Sudan}{15}{section.68}
-\contentsline {section}{\numberline {4.2}Computing the Geoid}{16}{section.69}
-\contentsline {subsection}{\numberline {4.2.1}Working with GGMs data}{17}{subsection.70}
-\contentsline {subsubsection}{\numberline {4.2.1.1}Parsing the data}{17}{subsubsection.71}
-\contentsline {paragraph}{Model's summary}{17}{section*.72}
-\contentsline {paragraph}{The header}{17}{section*.73}
-\contentsline {section}{\numberline {4.3}Software Implementation}{19}{section.87}
-\contentsline {subsection}{\numberline {4.3.1}Associated Legendre Function}{19}{subsection.88}
-\contentsline {subsection}{\numberline {4.3.2}Geoid height function}{19}{subsection.89}
+\contentsline {subsection}{\numberline {3.2.2}Legendre Polynomials}{16}{subsection.77}
+\contentsline {section}{\numberline {3.3}Our work}{17}{section.84}
+\contentsline {section}{\numberline {3.4}summary}{18}{section.89}
+\contentsline {chapter}{\numberline {4}Geoid Height Computation}{19}{chapter.90}
+\contentsline {section}{\numberline {4.1}Historical Background about Geoid Computations in Sudan}{19}{section.91}
+\contentsline {section}{\numberline {4.2}Computing the Geoid}{20}{section.92}
+\contentsline {subsection}{\numberline {4.2.1}Working with GGMs data}{21}{subsection.93}
+\contentsline {subsubsection}{\numberline {4.2.1.1}Parsing the data}{21}{subsubsection.94}
+\contentsline {paragraph}{Model's summary}{21}{section*.95}
+\contentsline {paragraph}{The header}{21}{section*.96}
+\contentsline {section}{\numberline {4.3}Software Implementation}{23}{section.110}
+\contentsline {subsection}{\numberline {4.3.1}Associated Legendre Function}{23}{subsection.111}
+\contentsline {subsection}{\numberline {4.3.2}Geoid height function}{23}{subsection.112}
+\contentsline {chapter}{\numberline {5}Results and Discussions}{26}{chapter.113}
+\contentsline {section}{\numberline {5.1}Evaluation on astrogeodetic data}{26}{section.114}
 \vspace {2em}
-\contentsline {chapter}{\numberline {A}An Appendix}{22}{appendix.90}
+\contentsline {chapter}{\numberline {A}An Appendix}{28}{appendix.120}
 \vspace {2em}
-\contentsline {chapter}{Bibliography}{24}{dummy.91}
+\contentsline {chapter}{Bibliography}{30}{dummy.121}

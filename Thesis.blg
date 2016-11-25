@@ -2,7 +2,7 @@ This is BibTeX, Version 0.99d (TeX Live 2015/Debian)
 Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
 The top-level auxiliary file: Thesis.aux
 The style file: agsm.bst
-Illegal, another \bibstyle command---line 151 of file Thesis.aux
+Illegal, another \bibstyle command---line 185 of file Thesis.aux
  : \bibstyle
  :          {unsrtnat}
 I'm skipping whatever remains of this command
@@ -19,6 +19,9 @@ Warning--I didn't find a database entry for "adam"
 Warning--I didn't find a database entry for "goce_sp123"
 Warning--I didn't find a database entry for "("
 Warning--I didn't find a database entry for "hoffmann"
+Warning--I didn't find a database entry for "lndrem"
+Warning--I didn't find a database entry for "lnerdm"
+Warning--I didn't find a database entry for "meziani"
 Warning--I didn't find a database entry for "ahmed_data"
 Name 1 in "Amos, M. J., and W. Featherstone" has a comma at the end for entry amos
 while executing---line 1222 of file agsm.bst
@@ -40,7 +43,7 @@ Name 1 in "Amos, M. J., and W. Featherstone" has a comma at the end for entry am
 while executing---line 1346 of file agsm.bst
 You've used 11 entries,
             2909 wiz_defined-function locations,
-            720 strings with 6654 characters,
+            723 strings with 6673 characters,
 and the built_in function-call counts, 40212 in all, are:
 = -- 6487
 > -- 534

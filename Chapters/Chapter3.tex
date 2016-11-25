@@ -59,12 +59,188 @@ remember that $\triangle f$ is just a short hand notation for $\nabla \cdot \nab
 Applying the chain rule gives us
 
 \begin{equation}
-f"gh + fg"h + fgh"
+f''gh + fg''h + fgh''
 \end{equation}
-we substitute the second partial derivative symbol by " notation, just for clarification. 
+we substitute the second partial derivative symbol by $''$ notation, just for clarification. 
 \\
 Dividing by $fgh$ will lead us to
 \begin{equation}
-\frac{f"}{f} + \frac{g"}{g} + \frac{h"}{h} = 0
+\frac{f''}{f} + \frac{g''}{g} + \frac{h''}{h} = 0
 \end{equation}
 
+The separation of variables lead to separate differential equations
+
+\begin{align}
+\frac{f''}{f} &= -n^2 &: f'' + n^2f = 0 \\
+\frac{g''}{g} &= -m^2 &: f'' + m^2g = 0 \\
+\frac{h''}{h} &= n^2+m^2 &: h'' - (n^2+m^2) = 0
+\end{align}
+
+We can easily solve these equation (they are second order ODEs), each part will have two solutions
+
+\begin{align*}
+f_1(x) &= \cos nx  &f_2(x) &= \sin nx\\
+g_1(y) &= \cos my  &g_2(y) &= \sin my \\
+h_1(z) &= e^{-\sqrt{n^2+m^2z}}  &h_2(z) &= e^{n^2 + m^2z}
+\end{align*}
+
+The general solution is a combination of all possible solutions. That is, for each $n$ and $m$ we get a new solution. However, due to the regularity condition, we discard all terms with amplifying upward continuation (For further discussions cf. \cite{lnerdm}). That leads us to
+
+\begin{multline}
+W(x,y,z) = \sum_{m=0}^{\infty}\sum_{m=0}^{\infty} (p_{nm} \cos nx \cos my + q_{nm} \cos nx \sin my +\\ r_{nm} \sin nx \cos my + s_{nm} \sin nx \sin my)
+\end{multline}
+
+Now we have to develop our BVP in terms of 2D Fourier series
+
+\begin{multline}
+\frac{\partial W (x,y,z)}{\partial x}\Big|_{z=0} = \sum_{n=0}^{\infty}\sum_{m=0}^{\infty} (p_{nm} \cos nx \cos my +\\ q_{nm} \cos nx \sin my + r_{nm} \sin nx \cos my + s_{nm} \sin nx \sin my)
+\end{multline}
+
+
+We have solved the Laplace's equation in the sphere case. With slight modifications, we can derive Laplace's equation in the spherical case. Separation of variables gives us
+
+\begin{equation}
+\triangle (r, \phi, \lambda) = r^2 \frac{f''}{f} + 2r \frac{f'}{f} + \frac{\triangle_S Y}{Y} = 0
+\end{equation}
+
+Again, that leads to the known solutions
+
+\begin{align*}
+f_1(r) &= r^{-(l+1)} & f_2 &= r^l\\
+h_1(\lambda) &= \cos m \lambda & h_2(\lambda) &= \sin m \lambda\\
+g_1({\theta}) &= P_{lm}(\cos \theta) & g_2(\theta) &= Q_{lm}(\cos \theta)
+\end{align*}
+
+That will leave us with two different types of base functions. \textbf{Solid and spherical harmonic functions}. Solid spherical harmonics are
+
+\begin{equation}
+	\begin{Bmatrix}
+	r^{-(l+1)} \\
+	r^l
+	\end{Bmatrix} = P_{lm}(\cos \theta)
+		\begin{Bmatrix}
+		\cos m \lambda \\
+		\sin m \lambda
+		\end{Bmatrix}
+\end{equation}
+
+Where surface spherical harmonics are
+
+\begin{equation}
+	Y_{lm}(\phi, \lambda) = P_{lm}(\cos \theta)
+	\begin{Bmatrix}
+		\cos m \lambda\\
+		\sin m \lambda
+	\end{Bmatrix}
+\end{equation}
+
+Where $l$ is the degree of the spherical harmonic, and $n$ is the order. This inconsistency in notations is a bit tricky, but it is the one adopted by ICGEM, so we decided to go with it. In other literature, degree and order, of the model are ofter represented by $n$ and $m$ respectively.
+\\
+Fourier's series cannot be used in spherical coordinates, so another types of base functions should be introduced. Hence the use of spherical harmonics.
+
+\begin{align*}
+W(r, \phi, \lambda) = \sum_{l=0}^{\infty}\sum_{m=0}^{l}P_{lm}(\sin \theta)(a_{lm} \cos m \lambda + b_{lm}\sin m \lambda) r^{-(l+1)}\\
++P_{lm}(\cos \theta)(c_{lm} \cos m \lambda + d_{lm} \sin m \lambda)r^l
+\end{align*} 
+
+Our solution should follow the general form as follows
+
+\begin{equation}
+W(r, \phi, \lambda) = \sum_{l=0}^{\infty}\sum_{m=0}^{l}P_{lm}(\sin \theta)(a_{lm} \cos m \lambda \\
++ b_{lm} \sin m \lambda) R^{-(l+1)}
+\end{equation}
+
+Comparing our solution with the general form yields
+
+\begin{equation}
+W(r, \phi, \lambda) = \sum_{l=0}^{\infty}\sum_{m=0}^{l}P_{lm}(\sin \theta)(u_{lm} \cos m \lambda \\
++ u_{lm} \sin m \lambda) \left(\frac{R}{r}\right)^{l+1}
+\end{equation}
+
+
+\subsection{Legendre Polynomials}
+We need Legendre polynomials as a base function to solve our BVP. For interested readers, a thorough discussion of Legendre polynomials can be found at \cite{meziani}. 
+\\
+We will begin our discussion of Legendre polynomials by \textit{analytical recipe}. In particular Rodrigues and Ferrers formulas. The only different between them is that Ferres' is a general form of Rodrigues. Rodrigues works on zonal areas. That is the order (or $m$) is zero. We begin our derivation by assuming that $t=\cos \theta$
+
+\begin{align}
+	P_{l} &= \frac{d^l(t^2-1)^l}{2^l\ l!\ dt^l} &\text{(Rodrigues)}\\
+	P_{lm} &= \frac{(1-t^2)^{\tfrac{m}{2}}d^mP_{l}(t)}{dt^m} &\text{(Ferres)}
+\end{align}
+
+Associated Legendre Polynomials are then provided by this equation
+
+\begin{equation}
+P_{l}^{m}(t) = \frac{(1-t)^{m/2}\ d^m\ P_l(t)}{t}
+\end{equation}
+
+Note that $P_l^0(t) = P_l(t)$. Plugging Legendre function to our previous equation result in
+
+\begin{equation}
+	W(r, \phi, \lambda) = \sum_{l=0}^{\infty}\sum_{m=0}^{l}\bar{P_{lm}}(\sin \theta)(a_{lm} \cos m \lambda \\
+	+ b_{lm} \sin m \lambda)
+\end{equation}
+
+Combining the above steps, and solving the potential for the Earth yields
+
+\begin{equation}
+W(r, \phi, \lambda) = \frac{GM}{r}\sum_{l=0}^{\infty}\left(\frac{R}{r}\right)^{l+1}\sum_{m=0}^{l}\bar{P_{lm}}(\sin \theta)(\bar{C_{lm}} \cos m \lambda \\
++ \bar{S_{lm}} \sin m \lambda)
+\end{equation}
+
+In Table \ref{table:alfs} we present the first three degrees of Legendre polynomials. Note that there is a different solution for each degree.
+ \begin{table}[]
+ 	\centering
+ 	\caption{first 3 values for Legendre Polynomials}
+ 	\label{table:alfs}
+ 	\begin{tabular}{@{}lll@{}}
+ 		\toprule
+ 		\emph{l} & \emph{m} & $P_{lm}(t)$\\ \midrule
+ 		0 & 0 & 1\\
+ 		1 & 0 & t \\
+ 		& 1 & $\sqrt{1-t^2}$\\
+ 		2 & 0 & $\tfrac{1}{2}(3t^2-1)$\\
+ 		& 1 & $3t\sqrt{1-t^2}$\\
+ 		& 2 & $3(1-t^2)$\\
+ 		3 & 0 & $\tfrac{1}{2}(5t^2-3)$\\
+ 		& 1 & $\tfrac{3}{2}(5t^2-1)\sqrt{1-t^2}$\\
+ 		& 2 & $15(1-t^2)t$\\
+ 		& 3 & $15(1-t^2)^{3/2}$\\  \bottomrule
+ 		
+ 	\end{tabular}
+ \end{table}
+ 
+ \section{Our work}
+ We derived the geoid height using the popular Brums fromula Eq. \ref{eqn:brums}
+ 
+ \begin{equation}
+ \label{eqn:brums}
+ N = \frac{T}{\gamma}
+ \end{equation}
+ where $\gamma$ is the normal gravity, $T$ is the disturbance potential. The disturbance potential $T$ in spherical harmonics is given by \ref{eqn:t}
+ 
+ \begin{equation}
+ \label{eqn:t}
+ T(r, \phi, \lambda) = \frac{GM}{r}\sum_{l=0}^{l_{max}}\left(\frac{R}{r}\right)^{l}\sum_{m=0}^{l}\bar{P_{lm}}(\sin \theta)\left[\bar{C_{lm}} \cos m \lambda \\
+ + \bar{S_{lm}} \sin m \lambda\right]
+ \end{equation}
+ 
+ The geoid height is the can be computed as follows
+ 
+  \begin{equation}
+  \label{eqn:n}
+  N(r, \phi, \lambda) = \frac{GM}{r\ \gamma}\sum_{l=0}^{l_{max}}\left(\frac{R}{r}\right)^{l}\sum_{m=0}^{l}\bar{P_{lm}}\sin \theta)\left[(\bar{C_{lm}} \cos m \lambda \\
+  + \bar{S_{lm}} \sin m \lambda\right]
+  \end{equation}
+  
+  The last piece of our puzzle is the equation of normal gravity $\gamma$. We have used Somigliana-Pizzetti normal gravity formula as shown in Eq. \ref{eqn:normal_gravity}.
+  
+  \begin{equation}
+  \label{eqn:normal_gravity}
+  \gamma(\varphi) = \frac{a \gamma_a \cos^2 \phi + b \gamma_b \sin^2\phi}{\sqrt{a^2 \cos^2 \phi + b^2 \sin^2 \phi}}
+  \end{equation} 
+  
+  
+  \section{summary}
+  
+  We aimed at this chapter to introduce a sufficient mathematical derivation for geopotential functionals (geoid height being the example used). Our goal was never to show complete derivation, but rather a very simple and intuitive representation of geopotential functionals. A clear and detailed derivation of the aforementioned topics can often be found in a typical geodesy textbooks. We derived the geoptential of the Earth in terms of cartesian coordinates and spherical coordinates, using spherical harmonics for the latter. Our goal of that, was to help the reader to familiarize himself with the use of spherical harmonics in geodesy context. We have derived the geoid height--one of several geopotential functionals, but arguably the most important one. The notation was a common problem, we found different notations in the literature. We followed the notations that are used by ICGEM website.
