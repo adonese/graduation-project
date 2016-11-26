@@ -24,6 +24,11 @@ Amos, M.~J. \harvardand\ Featherstone, W.  \harvardyearleft
 Fashir, H.~H.  \harvardyearleft 1991\harvardyearright , `The gravimetric geoid
   of sudan', {\em Journal of Geodynamics} {\bf 14},~19--36.
 
+\harvarditem{Godah \harvardand\ Krynski}{2015}{godah}
+Godah, W. \harvardand\ Krynski, J.  \harvardyearleft 2015\harvardyearright , `A
+  new gravimetric geoid model for the area of sudan using the least squares
+  collocation and a goce-based ggm'.
+
 \harvarditem{Heck}{1990}{heck}
 Heck, B.  \harvardyearleft 1990\harvardyearright , `An evaluation of some
   systematic error sources affecting terrestrial gravity anomalies', {\em
@@ -44,6 +49,17 @@ Kiamehr, R. \harvardand\ Eshagh, M.  \harvardyearleft 2008\harvardyearright ,
   {\bf 1}(2),~93--103.
 \newline\harvardurl{http://dx.doi.org/10.1007/s12145-008-0013-4}
 
+\harvarditem[Pail et~al.]{Pail, Bruinsma, Migliaccio, F{\"o}rste, Goiginger,
+  Schuh, H{\"o}ck, Reguzzoni, Brockmann, Abrikosov, Veicherts, Fecher,
+  Mayrhofer, Krasbutter, Sans{\`o} \harvardand\ Tscherning}{2011}{pail}
+Pail, R., Bruinsma, S., Migliaccio, F., F{\"o}rste, C., Goiginger, H., Schuh,
+  W.-D., H{\"o}ck, E., Reguzzoni, M., Brockmann, J.~M., Abrikosov, O.,
+  Veicherts, M., Fecher, T., Mayrhofer, R., Krasbutter, I., Sans{\`o}, F.
+  \harvardand\ Tscherning, C.~C.  \harvardyearleft 2011\harvardyearright ,
+  `First goce gravity field models derived by three different approaches', {\em
+  Journal of Geodesy} {\bf 85}(11),~819.
+\newline\harvardurl{http://dx.doi.org/10.1007/s00190-011-0467-x}
+
 \harvarditem[REIGBER et~al.]{REIGBER, SCHWINTZER \harvardand\
   LÜHR}{1999}{luhr}
 REIGBER, C., SCHWINTZER, P. \harvardand\ LÜHR, H.  \harvardyearleft
@@ -58,8 +74,8 @@ Rummel, R., Balmino, G., Johannessen, J., Visser, P. \harvardand\ Woodworth, P.
   missions—principles and aims', {\em Journal of Geodynamics} {\bf
   33}(1),~3--20.
 
-\harvarditem{Vaníček}{1975}{vanicek}
-Vaníček, P.  \harvardyearleft 1975\harvardyearright , `Report on geocentric
-  and geodetic datums'.
+\harvarditem{Vanicek}{1975}{vanicek}
+Vanicek, P.  \harvardyearleft 1975\harvardyearright , `Report on geocentric and
+  geodetic datums'.
 
 \end{thebibliography}

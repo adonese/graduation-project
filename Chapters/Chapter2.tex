@@ -1,12 +1,12 @@
 \chapter{Input Data}
 
-In this chapter we will introduce our datasets that we use to evaluate recent Goce/Grace models in Sudan. 
+In this chapter we will introduce our datasets. The source of the data, its acquisition date will also be introduced. Our selected GGM will also be introduced.
 
 \section{Astrogeodetic data}
 
-In 1967 \cite{osman} during his studies at Cornell University has conducted a study to compute the geoid in Sudan. His data consists of 46 points for different locations in Sudan. Due to the lack of data from neighboring countries, and the huge gaps between measurements inside. He suggested to fill the gaps to have a reliable datum. For a detailed discussion about the attempts to compute datums for Sudan, reader is referred to \citep{ahmed_similar}. 
+\cite{osman} during his studies at Cornell University has conducted a study to compute the geoid in Sudan. His data consists of 46 points for different locations in Sudan. Due to the lack of data from neighboring countries, and the huge gaps between measurements inside. He suggested to fill the gaps to have a reliable datum. For a detailed discussion about the attempts to compute datums for Sudan, reader is referred to \citep{ahmed_similar}. 
 
-We have mentioned that \citet{osman} used an astro-geodetic observation, hence their datum is astro-geodetic datum. \citet{ahmed_msc} used gravity data to compute gravimetric datum for Sudan. The astro-geodetic datum, or \emph{geodetic datum} is a geoid computed by astronomically determined deflection of the vertical, while the gravimetric geoid is a geoid referred to the geocentric datum, hence the use of satellite data. A good discussion about the differences between the geoid types can be found in \cite{vanicek}. A sample of this data is provided in Table \ref{table:sudan_astro_data}. While the full data is provided in the appendix. The distribution of \citep{osman} work is introduced in Figure \ref{sudan_data}. 
+We have mentioned that \citet{osman} used an astro-geodetic observation, hence their datum is astro-geodetic datum. \citet{ahmed_msc} used gravity data to compute gravimetric datum for Sudan. The astro-geodetic datum, or \emph{geodetic datum} is a geoid computed by astronomically determined deflection of the vertical, while the gravimetric geoid is a geoid referred to the geocentric datum \cite{vanicek}, hence the use of satellite data. A good discussion about the differences between the geoid types can be found in \cite{vanicek}. A sample of this data is provided in Table \ref{table:sudan_astro_data}. While the full data is provided in the appendix. The distribution of \citep{osman} work is introduced in Figure \ref{sudan_data_distribution}. 
 
 \begin{table}[]
 	\centering
@@ -33,7 +33,7 @@ We have mentioned that \citet{osman} used an astro-geodetic observation, hence t
 
 \begin{figure}[t]
 	\caption{Distribution of \citep{osman} points in Sudan. It is clear the huge gap that \citet{osman} suggested to be filled}
-	\label{sudan_data}
+	\label{sudan_data_distribution}
 	\includegraphics{Figures/points_dist.eps}
 	\centering
 \end{figure}
@@ -98,7 +98,7 @@ The GPS measurements were performed using dual frequency GPS receivers LEICA 120
 
 \section{Global Geopotential Models}
 
-A global Geopotential Model is a mathematical function approximates the real gravity potential of the Earth. From such an approximation, all related gravity field functionals can be computed (e.g., gravity potential, gravity vector). However, other gravity field functionals e.g., \textit{geoid height, gravity anomaly and gravity disturbance, and the second radial derivative} cannot be computed without a defined reference system (Geodetic Reference System 1980). As the centrifugal part can be modeled easily and accurately. It is usually beneficial to select a global geopotential model (and degree) that is best fit to the local gravity field as base for a regional gravimetric model. This will reduce the error by Stokes' formula by reducing the amount of the geoid contribution to the total error.
+A Global Geopotential Model is a mathematical function approximates the real gravity potential of the Earth. From such an approximation, all related gravity field functionals can be computed (e.g., gravity potential, gravity vector). However, other gravity field functionals e.g., \textit{geoid height, gravity anomaly and gravity disturbance, and the second radial derivative} cannot be computed without a defined reference system (Geodetic Reference System 1980). As the centrifugal part can be modeled easily and accurately. It is usually beneficial to select a global geopotential model (and degree) that is best fit to the local gravity field as base for a regional gravimetric model. This will reduce the error by Stokes' formula by reducing the amount of the geoid contribution to the total error.
 
 \subsection{Satellite-only models} they are derived solely from the analysis of the satellite orbit. They use laser and Doppler measurements to track the satellites \cite{goce_sp123} Historically, these models were known to have a low precision due to
 
@@ -153,22 +153,15 @@ A global Geopotential Model is a mathematical function approximates the real gra
  For our study we have tested five models. Two of them are satellite-only models (ITU\_GCC16, and ITU\_GRACE16), three are combined models (EGM2008, EIGEN-6C4, and GECO). The choice of these models are based on their release date. The choice of the number of models is totally arbitrary.
  
  \begin{enumerate}
- 	\item {ITU\_GCC16}. It was released on 2016 with degree and order up-to 280. A detail description about the mission can be found \href{http://www.geo.itu.edu.tr/gravity/ITU\_GGC16.html}{here}
- 	
- 	
- 	\item {ITU\_GRACE16}. It was also released on 2016, with degree and order of 180. You can check their \href{http://www.geo.itu.edu.tr/gravity/ITU\_GRACE16.html}{website}
- 	
- 	
- 	
- 	\item{EGM2008}. The popular new version of EGM series, the previous ones were EGM84 and EGM96. We use this one for up-to degree of 2190. Released on 2008. For interested readers you can check their online website at \href{http://earth-info.nima.mil/GandG/wgs84/gravitymod/egm2008/index.html}{EGM2008}
- 	\item {EIGEN-6C4}. Composed of data from different EIGEN series missions, in particular it uses data from EIGEN*‐6C, EIGEN‐6C2, and EIGEN‐6C3. It was released on 2014, and it is the last mission of EIGEN series. The model is up-to to degree and order of 2190. More details about the model can be found \href{http://icgem.gfz-potsdam.de/ICGEM/documents/Foerste-et-al-EIGEN-6C4.pdf}{here}
- 	
- 	\item {GECO}. It was released 2015, and it is the latest models of high o/d models (those above 2190 d/o). It combined data from GOCE mission as well as EGM2008. No available details about GECO model from ICGEM official website (at the time of writing this)
- 	
+	\item ITU\_GGC16 \citep{ituggc}. It was released on 2016 with degree and order up-to 280.
+	\item ITU\_GRACE16 \citep{itugrace16}. It was also released on 2016, with degree and order of 180.
+	\item EGM2008 \citep{egm2008}. The popular new version of EGM series, the previous ones were EGM84 and EGM96. We use this one for up-to degree of 2190. Released on 2008.
+	\item EIGEN-6C4 \citep{eigen6c4}. Composed of data from different EIGEN series missions, in particular it uses data from EIGEN*‐6C, EIGEN‐6C2, and EIGEN‐6C3. It was released on 2014, and it is the last mission of EIGEN series. The model is up-to to degree and order of 2190.
+	\item GECO \citep{geco}. It was released 2015, and it is the latest models of high o/d models (those above 2190 d/o). It combined data from GOCE mission as well as EGM2008.	
  \end{enumerate}
  
  
- \section{An overview about this chapter}
+ \section{Chapter summary}
  
  In this chapter we have introduced the new method of computing the geoid, or more generally measuring the surface of the Earth. While in the classic conservative approach to problems of physical geodesy as described by \cite{hoffmann}. The advantage of this approach is that the geoid as a reference surface has a very simple definition in terms of the physically meaningful and geodetically important, Potential $V$. The disadvantage, however, is that the potential $V$ inside the earth depends on the  density $\varrho$ because of the Poisson's equation Eq. \eqref{eqn:poisson}. 
  \begin{equation}
@@ -178,7 +171,7 @@ A global Geopotential Model is a mathematical function approximates the real gra
  
  The mathematical aspects of GGM are reserved for the next chapter. It is clearly impossible that we cannot measure the density at each point in the earth, hence there should be some approximations. The other, or the modern approach is what proposed by Molodensky in 1945. He was able to show that the physical surface of the earth can be determined from geodetic measurements alone, without the need of the density of earth's crust. That means the concept of the geoid should be abandoned. This disadvantage is that the concept of the reference surface--which was easily defined by the geoid--will be more abstract, and the mathematical method will be more difficult.
  \\
- The development of satellite missions (that uses Molodensky's theory) was going such that with every new model there is a possible increase in degrees, and hence the accuracy. Table \ref{table:satellite_evolution} summarizes the major technical details regarding the new dedicated satellite missions. Table \ref{table:ggm_models} summarizes the models that were used in our study. 
+ The development of satellite missions (that uses Molodensky's theory) was going such that with every new model there is a possible increase in degrees, and hence the accuracy. Table \ref{table:satellite_evolution} summarizes the major technical details regarding the new dedicated satellite missions. Table \ref{table:ggm_models_summary} summarizes the models that were used in our study. 
  
  \begin{table}[]
  	\centering
@@ -213,7 +206,7 @@ A global Geopotential Model is a mathematical function approximates the real gra
  \begin{table}[]
  	\centering
  	\caption{Summary of GGM that were used in our study}
- 	\label{table:ggm_models}
+ 	\label{table:ggm_models_summary}
  	\begin{tabular}{@{}llll@{}}
  		\toprule
  		\emph{Model Name} & Type  & Max Degree \si{\degree} & \emph{Tested models} $(m)$\\ \midrule

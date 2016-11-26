@@ -1,14 +1,14 @@
 \chapter{Geoid Determination from GGM}
 
-In this chapter we will present the mathematical and physical interpretations of computing the geoid from GGMs. In the previous chapter we said that one issue of classical way of solving geodetic problems is the that the density of the body (in this case the Earth), should be known. Which is clearly impossible. Our problem is that we want to know the gravitational field in outer space without the knowing the density structure of the Earth, but with the knowledge of the potential o the boundary. This kind of problem is called ``Boundary Value Problem" or BVP. In our case, even the shape of that body e.g., the Earth must be considered unknown. Which to a special type of BVP called ``Geodetic Boundary Value Problem" or GBVP.
+In this chapter we will present the mathematical and physical interpretations of computing the geoid from GGMs. Our task to compute the gravitational field in outer Earth without knowing the density structure of the Earth, only with the knowledge of the potential on the boundary. This kind of problem is called ``Boundary Value Problem" or BVP. In our case, even the shape of that body e.g., the Earth must be considered unknown. Which leads us to a special type of BVP called ``Geodetic Boundary Value Problem" or GBVP.
 
 \section{Boundary Value Problem}
 
 Earlier, we have introduced Poisson's equation \ref{eqn:poisson}, but without any further details about it. For the sake of convenience, we will write the equation again
 
-\begin{equation}
+\begin{equation*}
 \triangle W = -4 \pi G \varrho
-\end{equation} 
+\end{equation*} 
 This equation is a general case of a more familiar equation in geodesy called `Laplace's equation'. Laplace's equation is a special kind of Poisson equation, it can be derived by setting the $\varrho$ to zero outside the masses
 
 \begin{equation}
@@ -33,17 +33,15 @@ In a compact form
 
 The first step after developing our BVP is to prove their \textit{existence} and \textit{uniqueness}. We basically aim to prove that our BVP has a solution, and it is unique.
 
-\subsubsection{Uniqueness}
-Assuming the BVP is not unique, and we were able to find two different solutions $W_1$ and $W_2$. And let us say that their different is called $U$. That is $W_1 - W_1 = U$. Using Green's $1^{st}$ identity we can prove the existence of our BVP
-
-
+\paragraph{Uniqueness}. Assuming the BVP is not unique, and we were able to find two different solutions $W_1$ and $W_2$. And let us say that their different is called $U$. That is $W_1 - W_1 = U$. Using Green's $1^{st}$ identity we can prove the existence of our BVP.
+\\
 So either U, or its normal derivative is zero on the boundary and since the integrand is always positive, $\nabla U$ must be zero.
 And that prove the uniqueness of our $1^{st}$ BVP. For interested readers in the development and prove for the rest of BVPs refer to \cite{lndrem}.  
 \\
 We have proved that the solution of BVP is unique, but we did not derive that solution yet.
 
 \section{Solving Laplace's equation}
-We will start simply by solving Laplace's equation $\triangle W = 0$ in the Cartesian case, and then we will solve the problem in the spherical case. Both solutions will lead into a series of orthogonal base functions that can be solved by 1) Fourier series in the case of Cartesian solution, and 2) spherical harmonics in the case of spherical solution. The former solution (Cartesian one) is generally used in regional application, while the latter (spherical) serves more as a global solution. Hence the use of GGM.
+We will simply start by solving Laplace's equation $\triangle W = 0$ in the Cartesian case, and then we will solve the problem in the spherical case. Both solutions will lead into a series of orthogonal base functions that can be solved by 1) Fourier series in the case of Cartesian solution, and 2) spherical harmonics in the case of spherical solution. The former solution (Cartesian one) is generally used in regional application, while the latter (spherical) serves more as a global solution. Hence the use of GGM.
 
 \subsection{Cartesian coordinates}
 Our task is to solve $\triangle W(x, y, z) = 0$ for $z > 0$. We start our solution by separating the variables
@@ -210,8 +208,8 @@ In Table \ref{table:alfs} we present the first three degrees of Legendre polynom
  	\end{tabular}
  \end{table}
  
- \section{Our work}
- We derived the geoid height using the popular Brums fromula Eq. \ref{eqn:brums}
+ \section{Application of spherical harmonics in deriving geopotential functionals}
+ We have used Brums formula as to compute the geoid height Eq. \ref{eqn:brums}. 
  
  \begin{equation}
  \label{eqn:brums}
@@ -225,7 +223,7 @@ In Table \ref{table:alfs} we present the first three degrees of Legendre polynom
  + \bar{S_{lm}} \sin m \lambda\right]
  \end{equation}
  
- The geoid height is the can be computed as follows
+ The geoid height is then can be computed as follows
  
   \begin{equation}
   \label{eqn:n}
@@ -233,7 +231,7 @@ In Table \ref{table:alfs} we present the first three degrees of Legendre polynom
   + \bar{S_{lm}} \sin m \lambda\right]
   \end{equation}
   
-  The last piece of our puzzle is the equation of normal gravity $\gamma$. We have used Somigliana-Pizzetti normal gravity formula as shown in Eq. \ref{eqn:normal_gravity}.
+  The last piece of our puzzle is the normal gravity $\gamma$. We have used Somigliana-Pizzetti normal gravity formula as shown in Eq. \ref{eqn:normal_gravity}.
   
   \begin{equation}
   \label{eqn:normal_gravity}
@@ -241,6 +239,6 @@ In Table \ref{table:alfs} we present the first three degrees of Legendre polynom
   \end{equation} 
   
   
-  \section{summary}
+  \section{Summary}
   
   We aimed at this chapter to introduce a sufficient mathematical derivation for geopotential functionals (geoid height being the example used). Our goal was never to show complete derivation, but rather a very simple and intuitive representation of geopotential functionals. A clear and detailed derivation of the aforementioned topics can often be found in a typical geodesy textbooks. We derived the geoptential of the Earth in terms of cartesian coordinates and spherical coordinates, using spherical harmonics for the latter. Our goal of that, was to help the reader to familiarize himself with the use of spherical harmonics in geodesy context. We have derived the geoid height--one of several geopotential functionals, but arguably the most important one. The notation was a common problem, we found different notations in the literature. We followed the notations that are used by ICGEM website.

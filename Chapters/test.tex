@@ -57,3 +57,23 @@
 
 
 
+
+In the previous chapter we said that one issue of classical way of solving geodetic problems is the that the density of the body (in this case the Earth), should be known. Which is clearly impossible.
+
+\section{Introduction}
+In this chapter we will discuss the computation of the geoid height and the validation of our results based on local terrestrial data. High resolution models are required to convert GPS leveling data (ellipsoidal height) into orthometric height. For evaluation purposes we have two terrestrial data 1) Astrogeodetic data provided by \cite{osman}, and 2) GPS leveling data by \cite{ahmed_data}. Our results show higher degrees will often result in a lower standard deviation, i.e., better results. But that should does not always holds true, hence the our evaluation was done using different degrees.
+\\
+ Combined models e.g., EGM2008, EIGEN-6C4, and GECO have a very similar trend--it is expected because both EIGEN-6C4 and Geco share some degrees with EGM2008. Interestingly, ITU GGC16, the best model with an error of $0.3653m$ in 149 degree, has the worst results for degrees > 154.
+
+
+
+\section{Historical Background about Geoid Computations in Sudan}
+
+There are several attempts was done through the years to compute the geoid for Sudan. The first was committed by \cite{osman}. He was done it during his MSc in Cornell University. He used astrogeodetic data i.e., astrogeodetic geoid, it's common to use astrogeodetic observations when there is a lack of data. Even with that, Osman recommended to fill the gaps due to large un-surveyed areas (largely on Northwest and Southwest parts of Sudan), and lack of data from neighboring countries. He used Clarke 1880 as a reference ellipsoid which is reasonable because the well-known WGS wasn't established at that time. Another attempt was done by \cite{fashir}. Unlike Osman's geoid, he used a gravimeteric data i.e., a gravimetric geoid. He covered a grid of $(5 \si{\degree} \le \phi \le 22 \si{\degree} , 22 \si{\degree} \le \lambda \le 38\si{\degree})$. Fashir introduced the use of GGMs in computing the long wavelength components of the Earth gravity. He used Goddard Earth Model (GEM-T1) with a modified Stoke's kernel to compute the geoid height.\\
+More recently \citep{ahmed_msc} proposed a new gravimetric datum for Sudan KTH-SDG08. Ahmed's model was based on the new dedicated satellite missions (GOCE/GRACE, and CHAMP). New satellite mission have an improved results over the previous satellite missions, thanks to the gradiometer and the precise positioning system from GNSS. The new gravimetric geoid model (KTH-SDG08) has been determined over the whole country of Sudan at 5′ x 5′ grid for area $(4 \si{\degree} \le \phi \le 23 \si{\degree}, 22 \si{\degree} \le \lambda \le 38 \si{\degree})$. The optimum method provides the best agreement with GPS/levelling estimated to 29 cm while the agreement for the relative geoid heights to 0.493 ppm \cite{ahmed_msc}. Ahmed used GRACE02S gravitational model (for the long wavelength part) and 30”x 30” SRTM DEM (for the short wavelength part of Earth's gravity field), beside the terrestrial data for the medium wavelength part. For a fair comparsion, we compared only the results of \cite{ahmed_msc} with our results. It clearly shows that the std has dropped from 0.576 (in KTH-SD08) to 0.365349m in our case. We gained a 37\% accuracy without any terrestrial observations.
+We wanted to compare our results with that of \cite{fashir}, but as indicated by \cite{ahmed_msc} Doppler data of \cite{fashir} is not available. From \cite{ahmed_msc}, Fashir’s model looks smoother than KTH-SDG08. The drastic values of the geoidal height in the north-west corner and south-east corner are 14 m and -10 m for Fashir’s model while 20 m and -14 m for KTH-SDG08, respectively. The fitting with the reference ellipsoid is similar from the northwest to south-east. Fashir’s model covers the reference ellipsoid over a large area
+(approximately 75\%). On the contrary KTH-SDG08 model apparently keeps the same fitting
+with reference ellipsoid as in the original area before resizing.
+
+
+

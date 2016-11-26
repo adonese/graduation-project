@@ -1,21 +1,25 @@
 \chapter{Introduction}
 
-Historically Sudan has two gravimetric geoid models \cite{ahmed_similar_paper}. The first one (Geoid91) was computed by \cite{fashir} in 1991 using Geodetic reference System GRS80. The free-air co-geoid was computed from the combination of surface gravity data using a modified Stokes's kernel and GODDARD EARTH MODEL (GEM-T1)  \cite{fashir}. GEM-T1, a satellite-only model, is complete to degree and order of 36 \cite{nasa}. The second model is known as `KTH-SDG08' was computed in 2008 using optimum least-squares modification of Stoke's kernels, which is widely known as KTH method \cite{ahmed_msc}. EIGEN-GRACE02S
-satellite-only model was adopted for KTHSDG08 final computation at spherical harmonic degree and order 120. Adam was the first to attempt to compute the geoid for Sudan in 1967 \cite{adam}. Due to lack of data from neighboring countries and large un-surveyed areas in Northwest and Southwest parts of Sudan, Adam found that the information was insufficient to determine the accurate geoid in Sudan and recommended to fill the gabs over there \cite{ahmed_msc}. 
+\cite{osman} was the first to attempt to compute a geoid for Sudan. Due to lack of data from neighboring countries and large un-surveyed areas in Northwest and Southwest parts of Sudan, Adam found that the information was insufficient to determine an accurate geoid for Sudan and recommended to fill the gabs over there \cite{ahmed_msc}. 
 
+Historically, Sudan has three gravimetric geoid models. The first one (Geoid91) was computed by \cite{fashir} in 1991 using Geodetic reference System GRS80. The free-air co-geoid was computed from the combination of surface gravity data using a modified Stokes's kernel and GODDARD EARTH MODEL (GEM-T1)  \cite{fashir}. GEM-T1, a satellite-only model, is complete to degree and order of 36 \cite{nasa}. The accuracy of their datum was 1.6m \cite{fashir, godah}. The second model `KTH-SDG08' was computed in 2008 using optimum least-squares modification of Stoke's kernels, which is widely known as KTH method \cite{ahmed_msc}. EIGEN-GRACE02S satellite-only model was adopted for KTH-SDG08 final computation at spherical harmonic degree and order 120. Without any corrections, they reported an accuracy of 5.86m.
+More recently, \citep{godah} has proposed a new gravimetric geoid for Sudan SUD-GM2014. They used GO\_CONS\_GCF\_2\_TIM\_R4 (TIM-R4) of 250 degree \cite{pail}. The accuracy of their chosen model was 0.644m without any corrections. It was dropped to 0.306m after `7-parameter fitting', which is lower than that reported by \citep{ahmed_msc}. We can naively conclude that their choice of GO\_CONS\_GCF\_2\_TIM\_R4 (TIM-R4) did not make any contribution to the derived geoid. However, we think that the lack, and the bad distribution (in-homogeneities lead to more errors). Another observation, the higher degrees does not always mean a better results.
+\\
+We have tested five models on different degrees. Three of our models were tested up to degree and order 2190. For those models we chose an step of roughly 5 degrees which gave us a 500 variants of each model to evaluate on our local data. For the other small models (ITU\_GGC16, ITU\_GRACE16), we have tested each degree starting from the $10^{th}$ degree. The best result was $0.365m$ reported on ITU\_GGC16 without any corrections. 
 
 \section{Objectives of the thesis}
-The main objective of this thesis is to evaluate recent grace/goce models over Sudan using asterogeodetic data and GPS/Leveling data. As a result we also propose a general software framework for various geoid components computations. In particular, it can be used to compute ``geoid-height'', ``geoid-undulation'`, and ``geoid-disturbance''. To the best of our knowledge, we could not find a software for geoid computations that is
+The main objective of this thesis is to evaluate recent GRACE/GOCE models over Sudan using asterogeodetic data and GPS/Leveling data. For that purpose we have developed our own software to compute the geoid height, or more generally \textit{geopotentail functionals}. In particular, it can be used to compute ``geoid height", ``geoid anomaly", and ``geoid disturbance". There are available software but the lack many features, which led us, eventually, to develop our own implementation
+
 \begin{itemize}
-	\item {Supported}. Most of geoid computations libraries are no longer supported, their links are dead.
-	\item {Strong back-end, and simple front-end}. It is common to use a low-level programming language in the calculation of geoid componenets e.g. geoid height. Low-level languages are very fast compared to high-level languages, but they are much harder. We built a framework on top of C/C++ libraries, with a very simple interface, in particular Java and Matlab.
-	\item {Customizable}. Because we know that users need to explore different models with different degree. We offer them just that. GeoidApp is designed such that the user can easily modify any parameter.
+	\item We want it to be very generic.
+	\item Easy to use. Computations of geopotential functionals should be much easier than the available
+	\item Very efficient. In terms of the stability of solution in higher degrees, and also in the running time for our chosen algorithms.
 \end{itemize}
 
-In particular our contribution is
+Our contribution can be summarized as follows 
 \begin{itemize}
-	\item Evaluate recent Grace/Goce money in Sudan
-	\item GeoidApp: A unified software framework for geoid computations
+	\item Proposing new GGMs for datum computations in Sudan (ITU\_GGC16, and GECO)
+	\item GeoidApp: the software that we use to compute, automate, and evaluate the results of our models
 \end{itemize}
 
 
@@ -24,12 +28,13 @@ Following this introduction, the thesis is divided into five chapters
 
 \begin{itemize}
 	\item Chapter 2\\
-	Glances the theory behind GGMs, and summarizes dedicated satellites missions.
+	It introduces the theory behind the use of GGM in the development of spherical harmonics series.
 	\item Chapter 3\\
-	Details about the input data
+	Highlights the input data and it also shows their accuracy as it is reported by their corresponding authors.
 	\item Chapter 4\\
-	Methodology
-	
-	
-	
+	In chapter 4 we will study the computation of geoid height from GGM. We start from the parsing of GGM raw data up-to choosing of different algorithms, and discussing some numerical tricks for enhancing the computations performance.
+	\item Chapter 5\\
+	Shows our result on different datasets. It also compares our results with available similar published works.
+	\item Chapter 6\\
+	Our suggestions, recommendations and conclusion remarks.
 \end{itemize}

@@ -144,7 +144,7 @@ ITU\_GRACE16 has the best score of 5.8679769m on degree 12. ITU\_GGC16 has its b
           \begin{table}[]
           	\centering
           	\caption{Top 5 degrees for model ITU\_GRACE on GPS/leveling data}
-          	\label{table:ggm_models}
+          	\label{table:ggm_itu_grace16_gps}
           	\begin{tabular}{@{}lll@{}}
           		\toprule
           		\emph{degree} & std $\sigma$ [m]  & difference\\ \midrule
@@ -280,3 +280,16 @@ ITU\_GRACE16 has the best score of 5.8679769m on degree 12. ITU\_GGC16 has its b
               	\includegraphics{Figures/high_order_results.png}
               	\centering
         \end{figure}
+        
+            \begin{figure}[t]
+               	\caption{Geoid height values for Khartoum area using GPS/leveling data}
+               	\label{new_datum}
+               	\includegraphics{Figures/ITU_GGC16.pdf}
+               	\centering
+            \end{figure}
+    
+ \section{Summary}
+ 
+ In this chapter we have shown our results on two different datasets. Our evaluation on astrogeodetic data shows that there is a huge offset between the two results. The std error was in order of meters (5 meters the lowest). A plot for the new 
+ \\
+  Our evaluation on GPS/leveling data shows a huge increase in the accuracy, as the std was dropped to 0.35m.
