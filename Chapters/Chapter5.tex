@@ -140,7 +140,7 @@ ITU\_GRACE16 has the best score of 5.8679769m on degree 12. ITU\_GGC16 has its b
         
         \section{Evaluation of GPS/Leveling data}
         The second dataset that we used is GPS/Leveling data. It consists of 24 GPS/leveling data that were collected from 2005-2008 from different geodetic networks ranging from $1^{st}$ order networks to $3^{rd}$ order networks. Our evaluation on GPS/leveling data shows that the std error has dropped from 5.86m to 0.365349m. ITU\_GRACE16 had a very strange trend in degrees > 150. The reason for that is due to the emission error that takes place in the higher degree of the satellite model.
-        Another observation is that in all of our models, the best 5 models are dominant by the higher degrees, 150 for ITU\_GCC16 and (669, 665, and 674) for EGM2008. For EIGEN-6C4 there is 667, 327, and 678. GECO had a near result to that recorded by ITU\_GCC16 (the difference is 0.000131m), has three high degree models in its 5 best models, 669, 674, and 263. The definition of high order models is quite arbitrary, but use the score that degrees > 100 is called high degree models, else are low degree models. In our best 20 models (based on std) for all models, 18 of the 20 are classified as high degree models which is 90\% of the total 20 models. We conclude that using high order/degree models often leads to a better results. It's true for the global representation of the gravitational functionals that ``the \textit{higher} is the \textit{better}", but that does not always hold true for the local case, hence the use of evaluation different models with different degrees to find the best one. 
+        Another observation is that in all of our models, the best 5 models are dominant by the higher degrees, 150 for ITU\_GCC16 and (669, 665, and 674) for EGM2008. For EIGEN-6C4 there is 667, 327, and 678. GECO had a near result to that recorded by ITU\_GCC16 (the difference is 0.000131m), has three high degree models in its 5 best models, 669, 674, and 263. The definition of high order models is quite arbitrary, but use the score that degrees > 100 is called high degree models, else are low degree models. In our best 20 models (based on std) for all models, 18 of the 20 are classified as high degree models which is 90\% of the total 20 models. We conclude that using high order/degree models often leads to a better results. It's true for the global representation of the gravitational functionals that ``the \textit{higher} is the \textit{better}", but that does not always hold true for the local case. Hence, the evaluation of different degrees of the model on local data. We evaluated three high models together (EGM2008, EIGEN-6C-4, and GECO), the results on the lower degrees (< 900) seems to be a bit noisy (a few peaks occur), but for the higher degrees the results were very stable. GECO and EIGEN-6C4 has always surpassed those of EGM2008, even though some of their degrees are derived from EGM2008. There a constant difference between EGM2008 and GECO and EIGEN-6C4 results, they all have the same trend. The magnitude of the difference between GECO and EIGEN-6C4 is constant, which lead us to believe that there were a systematic error(s) in EGM2008 and they were resolved in the latter models. 
           \begin{table}[]
           	\centering
           	\caption{Top 5 degrees for model ITU\_GRACE on GPS/leveling data}
@@ -272,4 +272,11 @@ ITU\_GRACE16 has the best score of 5.8679769m on degree 12. ITU\_GGC16 has its b
         	\label{sudan_data}
         	\includegraphics{Figures/eigen-6c4_gps_figure.png}
         	\centering
+        \end{figure}
+        
+        \begin{figure}[t]
+              	\caption{Evaluation of higher degrees of EGM2008, EIGEN-6C4 and GECO}
+              	\label{sudan_data}
+              	\includegraphics{Figures/high_order_results.png}
+              	\centering
         \end{figure}
