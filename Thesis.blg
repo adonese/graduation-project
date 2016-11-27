@@ -2,7 +2,7 @@ This is BibTeX, Version 0.99d (TeX Live 2015/Debian)
 Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
 The top-level auxiliary file: Thesis.aux
 The style file: agsm.bst
-Illegal, another \bibstyle command---line 244 of file Thesis.aux
+Illegal, another \bibstyle command---line 249 of file Thesis.aux
  : \bibstyle
  :          {unsrtnat}
 I'm skipping whatever remains of this command
@@ -11,6 +11,11 @@ Warning--entry type for "vanicek" isn't style-file defined
 --line 66 of file Bibliography.bib
 Warning--entry type for "osman" isn't style-file defined
 --line 221 of file Bibliography.bib
+I was expecting a `,' or a `}'---line 270 of file Bibliography.bib
+ :  
+ :  url = {url},
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
 Warning--I didn't find a database entry for "lndrem"
 Warning--I didn't find a database entry for "lnerdm"
 Warning--I didn't find a database entry for "meziani"
@@ -22,6 +27,7 @@ Warning--I didn't find a database entry for "egm2008"
 Warning--I didn't find a database entry for "eigen6c4"
 Warning--I didn't find a database entry for "geco"
 Warning--I didn't find a database entry for "hoffmann"
+Warning--I didn't find a database entry for "geographiclib"
 Warning--I didn't find a database entry for "adam"
 Name 1 in "Amos, M. J., and W. Featherstone" has a comma at the end for entry amos
 while executing---line 1222 of file agsm.bst
@@ -41,45 +47,45 @@ Name 1 in "Amos, M. J., and W. Featherstone" has a comma at the end for entry am
 while executing---line 1346 of file agsm.bst
 Name 1 in "Amos, M. J., and W. Featherstone" has a comma at the end for entry amos
 while executing---line 1346 of file agsm.bst
-You've used 14 entries,
+You've used 15 entries,
             2909 wiz_defined-function locations,
-            742 strings with 7586 characters,
-and the built_in function-call counts, 72402 in all, are:
-= -- 11896
-> -- 971
+            751 strings with 7778 characters,
+and the built_in function-call counts, 78979 in all, are:
+= -- 12982
+> -- 1062
 < -- 0
-+ -- 5819
-- -- 301
-* -- 6393
-:= -- 14339
-add.period$ -- 14
-call.type$ -- 14
-change.case$ -- 195
-chr.to.int$ -- 14
-cite$ -- 14
-duplicate$ -- 207
-empty$ -- 434
-format.name$ -- 353
-if$ -- 12966
++ -- 6356
+- -- 329
+* -- 6988
+:= -- 15616
+add.period$ -- 15
+call.type$ -- 15
+change.case$ -- 209
+chr.to.int$ -- 15
+cite$ -- 15
+duplicate$ -- 223
+empty$ -- 471
+format.name$ -- 384
+if$ -- 14149
 int.to.chr$ -- 5
 int.to.str$ -- 0
-missing$ -- 12
-newline$ -- 50
-num.names$ -- 144
-pop$ -- 66
+missing$ -- 13
+newline$ -- 54
+num.names$ -- 155
+pop$ -- 68
 preamble$ -- 1
-purify$ -- 210
+purify$ -- 225
 quote$ -- 0
-skip$ -- 173
+skip$ -- 186
 stack$ -- 0
-substring$ -- 17042
-swap$ -- 31
-text.length$ -- 196
+substring$ -- 18615
+swap$ -- 34
+text.length$ -- 210
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 54
+type$ -- 58
 warning$ -- 0
-while$ -- 308
+while$ -- 331
 width$ -- 0
-write$ -- 180
-(There were 10 error messages)
+write$ -- 195
+(There were 11 error messages)
