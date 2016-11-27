@@ -110,9 +110,9 @@ GeoidApp consists of mainly 4 parts. A model reader to parse the *.gfc files and
 A shell script was integrated into our main program suite to automate the process of the computation. When you run the application, you are only prompted to enter the name of you model. They are many other arguments but they are not required e.g., the number of the degrees to be computed, and their range. Because, when the user enter the name of the model we will check it against the directory where we store our *.gfc files. If the model exists, we will tell the user that this model is available. Then, we will prompt it whether to proceed with it, or use another model. If he decided to go with that model we perform another check to make sure with this model was already parsed or not. If it was parsed we will tell the user that their model was already parsed, and we will ask them whether to proceed with it or not. We make all of these checking, because these operations are not trivial. If the model does not exist in the user directory we will automatically download it from official ICGEM website, and then start the process on it. Table \ref{figure:flowchart} shows a diagram about GeoidApp workflow.
 
 \begin{figure}[t]
-	\caption{GeoiApp workflow summary}
+	\caption{GeoidApp workflow summary}
 	\label{figure:flowchart}
-	\includegraphics[scale=0.5]{Figures/cropped_final.pdf}
+	\includegraphics[scale=0.5]{Figures/cropped_flow.pdf}
 	\centering
 \end{figure}
 

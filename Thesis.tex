@@ -135,7 +135,9 @@ McKenzie, 1994
 \addtotoc{Abstract}  % Add the "Abstract" page entry to the Contents
 \abstract{
 \addtocontents{toc}{\vspace{1em}}  % Add a gap in the Contents, for aesthetics
-The main objective of this study is to evaluate new GOCE missions on Sudan. We have evaluated 5 models; EGM2008, EIGEN-6C4, GECO, ITU\_GGC16, and ITU\_GRACE16. We have compared our evaluation results with two published works \citep{ahmed_msc, godah}. Without any corrections, we reported an accuracy that is comparable to \citep{ahmed_msc, godah}. The best model ITU\_GGC16 with std of $0.365349m$ which is comparable to $0.29m$ and$0.306m$ reported by \cite{ahmed_msc, godah} respectively. Their results without applying any corrections, that is, a geoid height solely derived from GGM were $0.576m$, $0.644m$. Thus, a new datum for Sudan using our proposed models with an accuracy of $0.10m~0.20m$ is quite achievable. For our computations we developed GeoidApp. While it is a generic software for geopotential functionals computations, it is very useful in automating the process of choosing the best model.
+The main objective of this study is to evaluate new GOCE missions on Sudan. We have evaluated 5 models; EGM2008, EIGEN-6C4, GECO, ITU\_GGC16, and ITU\_GRACE16. We have compared our evaluation results with two published works \citep{ahmed_msc, godah}. We reported an accuracy of $0.356m$ which surpasses any previously conducted works on Sudan. Our results are also comparable to the corrected results of \citep{ahmed_msc, godah}. Thus, a new datum for Sudan using our proposed models can have an accuracy of $0.10m~0.20m$. 
+\\
+ For our computations we developed GeoidApp an efficient software application to compute the geoid height and other geopotential functionals. The efficiency and ease of use of GeoidApp can lead into substantial improvements in geoid determination from GGM. We have compared GeoidApp with available libraries for geoid computations--specially the official ICGEM software. We found that our software is better than the available ones in terms of efficiency, customizations, and ease of use. GeoidApp will accelerate the task of choosing GGM by automating the whole process of choosing the best model. 
 }
 
 \clearpage  % Abstract ended, start a new page
@@ -147,8 +149,11 @@ The main objective of this study is to evaluate new GOCE missions on Sudan. We h
 \acknowledgements{
 \addtocontents{toc}{\vspace{1em}}  % Add a gap in the Contents, for aesthetics
 
-The acknowledgements and the people to thank go here, don't forget to include your project advisor\ldots
-
+We would like to  express our thanks for our supervisor Ahmed Abdalla for everything he has done for us. None of this work would ever happened without him. He was always with us with his deep insights and suggestions, and most of all, his time we would really have had horrible nights. You passion about science and research has inspired us all. It was a privilige and huge honor to work with you.
+\\
+We also like to show our gratidue to the faculty members of Surveying department.
+ \\
+ I would love to show my deepest gratitude to my parents. Your trust and prays have l 
 }
 \clearpage  % End of the Acknowledgements
 %% ----------------------------------------------------------------
@@ -211,7 +216,7 @@ $\sigma$ & standard deviation & meters\\
 \setstretch{1.3}  % Return the line spacing back to 1.3
 
 \pagestyle{empty}  % Page style needs to be empty for this page
-\dedicatory{For/Dedicated to/To my\ldots}
+\dedicatory{To our families and friends}
 
 \addtocontents{toc}{\vspace{2em}}  % Add a gap in the Contents, for aesthetics
 
@@ -219,7 +224,7 @@ $\sigma$ & standard deviation & meters\\
 %% ----------------------------------------------------------------
 \mainmatter	  % Begin normal, numeric (1,2,3...) page numbering
 \pagestyle{fancy}  % Return the page headers back to the "fancy" style
-
+\lhead{}
 % Include the chapters of the thesis, as separate files
 % Just uncomment the lines as you write the chapters
 

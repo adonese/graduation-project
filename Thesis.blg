@@ -2,7 +2,7 @@ This is BibTeX, Version 0.99d (TeX Live 2015/Debian)
 Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
 The top-level auxiliary file: Thesis.aux
 The style file: agsm.bst
-Illegal, another \bibstyle command---line 249 of file Thesis.aux
+Illegal, another \bibstyle command---line 276 of file Thesis.aux
  : \bibstyle
  :          {unsrtnat}
 I'm skipping whatever remains of this command
@@ -16,10 +16,28 @@ I was expecting a `,' or a `}'---line 270 of file Bibliography.bib
  :  url = {url},
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
-Warning--I didn't find a database entry for "lndrem"
-Warning--I didn't find a database entry for "lnerdm"
-Warning--I didn't find a database entry for "meziani"
+I was expecting a `,' or a `}'---line 354 of file Bibliography.bib
+ :  and Frommknecht, Bj\"
+ :                       orn
+I'm skipping whatever remains of this entry
+I was expecting a `,' or a `}'---line 375 of file Bibliography.bib
+ :  and F\"
+ :         orste, Christoph
+I'm skipping whatever remains of this entry
+You're missing a field part---line 398 of file Bibliography.bib
+ :  eid = 
+ :        ,
+I'm skipping whatever remains of this entry
+You're missing a field part---line 412 of file Bibliography.bib
+ :  eid = 
+ :        ,
+I'm skipping whatever remains of this entry
+You're missing a field part---line 426 of file Bibliography.bib
+ :  eid = 
+ :        ,
+I'm skipping whatever remains of this entry
 Warning--I didn't find a database entry for "goce_sp123"
+Warning--I didn't find a database entry for "grace"
 Warning--I didn't find a database entry for "("
 Warning--I didn't find a database entry for "ituggc"
 Warning--I didn't find a database entry for "itugrace16"
@@ -47,45 +65,50 @@ Name 1 in "Amos, M. J., and W. Featherstone" has a comma at the end for entry am
 while executing---line 1346 of file agsm.bst
 Name 1 in "Amos, M. J., and W. Featherstone" has a comma at the end for entry amos
 while executing---line 1346 of file agsm.bst
-You've used 15 entries,
+Warning--empty title in goce
+Warning--empty publisher in meziani
+Warning--empty title in champ
+Warning--empty publisher in champ
+Warning--empty chapter and pages in champ
+You've used 21 entries,
             2909 wiz_defined-function locations,
-            751 strings with 7778 characters,
-and the built_in function-call counts, 78979 in all, are:
-= -- 12982
-> -- 1062
-< -- 0
-+ -- 6356
-- -- 329
-* -- 6988
-:= -- 15616
-add.period$ -- 15
-call.type$ -- 15
-change.case$ -- 209
-chr.to.int$ -- 15
-cite$ -- 15
-duplicate$ -- 223
-empty$ -- 471
-format.name$ -- 384
-if$ -- 14149
+            773 strings with 8346 characters,
+and the built_in function-call counts, 103124 in all, are:
+= -- 16904
+> -- 1384
+< -- 1
++ -- 8246
+- -- 427
+* -- 9057
+:= -- 20505
+add.period$ -- 21
+call.type$ -- 21
+change.case$ -- 288
+chr.to.int$ -- 21
+cite$ -- 26
+duplicate$ -- 319
+empty$ -- 643
+format.name$ -- 500
+if$ -- 18462
 int.to.chr$ -- 5
 int.to.str$ -- 0
-missing$ -- 13
-newline$ -- 54
-num.names$ -- 155
-pop$ -- 68
+missing$ -- 23
+newline$ -- 74
+num.names$ -- 217
+pop$ -- 130
 preamble$ -- 1
-purify$ -- 225
+purify$ -- 315
 quote$ -- 0
-skip$ -- 186
+skip$ -- 237
 stack$ -- 0
-substring$ -- 18615
-swap$ -- 34
-text.length$ -- 210
+substring$ -- 24156
+swap$ -- 41
+text.length$ -- 295
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 58
-warning$ -- 0
-while$ -- 331
+type$ -- 74
+warning$ -- 5
+while$ -- 457
 width$ -- 0
-write$ -- 195
-(There were 11 error messages)
+write$ -- 269
+(There were 16 error messages)

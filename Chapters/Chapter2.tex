@@ -37,7 +37,7 @@ The first step after developing our BVP is to prove their \textit{existence} and
 \paragraph{Uniqueness}. Assuming the BVP is not unique, and we were able to find two different solutions $W_1$ and $W_2$. And let us say that their different is called $U$. That is $W_1 - W_1 = U$. Using Green's $1^{st}$ identity we can prove the existence of our BVP.
 \\
 So either U, or its normal derivative is zero on the boundary and since the integrand is always positive, $\nabla U$ must be zero.
-And that prove the uniqueness of our $1^{st}$ BVP. For interested readers in the development and prove for the rest of BVPs refer to \cite{lndrem}.  
+And that prove the uniqueness of our $1^{st}$ BVP. For interested readers in the development and prove for the rest of BVPs refer to \cite{nico}.  
 \\
 We have proved that the solution of BVP is unique, but we did not derive that solution yet.
 
@@ -83,7 +83,7 @@ g_1(y) &= \cos my  &g_2(y) &= \sin my \\
 h_1(z) &= e^{-\sqrt{n^2+m^2z}}  &h_2(z) &= e^{n^2 + m^2z}
 \end{align*}
 
-The general solution is a combination of all possible solutions. That is, for each $n$ and $m$ we get a new solution. However, due to the regularity condition, we discard all terms with amplifying upward continuation (For further discussions cf. \cite{lnerdm}). That leads us to
+The general solution is a combination of all possible solutions. That is, for each $n$ and $m$ we get a new solution. However, due to the regularity condition, we discard all terms with amplifying upward continuation (For further discussions cf. \cite{nico, hofmann}). That leads us to
 
 \begin{multline}
 W(x,y,z) = \sum_{m=0}^{\infty}\sum_{m=0}^{\infty} (p_{nm} \cos nx \cos my + q_{nm} \cos nx \sin my +\\ r_{nm} \sin nx \cos my + s_{nm} \sin nx \sin my)
@@ -242,7 +242,7 @@ The last piece of our puzzle is the normal gravity $\gamma$. We have used Somigl
 
 \section{Summary}
 
-We aimed at this chapter to introduce a sufficient mathematical derivation for geopotential functionals (geoid height being the example used). Our goal was never to show complete derivation, but rather a very simple and intuitive representation of geopotential functionals. A clear and detailed derivation of the aforementioned topics can often be found in a typical geodesy textbooks. We derived the geoptential of the Earth in terms of cartesian coordinates and spherical coordinates, using spherical harmonics for the latter. Our goal of that, was to help the reader to familiarize himself with the use of spherical harmonics in geodesy context. We have derived the geoid height--one of several geopotential functionals, but arguably the most important one. The notation was a common problem, we found different notations in the literature. We followed the notations that are used by ICGEM website.
+We aimed at this chapter to introduce a sufficient mathematical derivation for geopotential functionals (geoid height being the example used). Our goal was never to show complete derivation, but rather a very simple and intuitive representation of geopotential functionals. A clear and detailed derivation of the aforementioned topics can often be found in \citep{hofmann, nico, petrphysical}. We derived the geoptential of the Earth in terms of cartesian coordinates and spherical coordinates, using spherical harmonics for the latter. Our goal of that, was to help the reader to familiarize himself with the use of spherical harmonics in geodesy context. We have derived the geoid height--one of several geopotential functionals, but arguably the most important one. The notation was a common problem, we found different notations in the literature. We followed the notations that are used by ICGEM website.
 
 
 

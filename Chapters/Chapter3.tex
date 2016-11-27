@@ -44,7 +44,7 @@ We have mentioned that \citet{osman} used an astro-geodetic observation, hence t
 \section{GPS/Leveling Data}
 
 GPS/leveling data are used to evaluate GGMs results by deriving the geoid height from them. The data were collected over Khartoum area. \\
-GPS/Leveling data are two separate heights systems (orthometric and ellipsoidal height) for the same points (in terms of latitude and longitude). GPS data is ellipsoidal height data that is computed by means of GPS/GNSS systems. Leveling data on the other hand, is the orthometric height that is computed using spirit leveling. The geoid height can then be computed using Eq. \eqref{geoid_from_orthometric}
+GPS/Leveling data are two separate heights systems (orthometric and ellipsoidal height) for the same points (in terms of latitude and longitude). GPS data is ellipsoidal height data that is computed by means of GPS/GNSS systems. Leveling data on the other hand, is the orthometric height that is computed using spirit leveling. The geoid height can then be computed using Eq. \eqref{eqn:geoid_from_orthometric}
 
 \begin{equation}
 \label{eqn:geoid_from_orthometric}
@@ -55,7 +55,7 @@ The GPS measurements were performed using dual frequency GPS receivers LEICA 120
 
 \begin{figure}[t]
 	\caption{Distribution of GPS/leveling data over Khartoum}
-	\label{sudan_data}
+	\label{fig:gps_khartoum}
 	\includegraphics{Figures/points_dist_krt}
 	\centering
 \end{figure}
@@ -102,7 +102,8 @@ The GPS measurements were performed using dual frequency GPS receivers LEICA 120
 
 A Global Geopotential Model is a mathematical function approximates the real gravity potential of the Earth. From such an approximation, all related gravity field functionals can be computed (e.g., gravity potential, gravity vector). However, other gravity field functionals e.g., \textit{geoid height, gravity anomaly and gravity disturbance, and the second radial derivative} cannot be computed without a defined reference system (Geodetic Reference System 1980). As the centrifugal part can be modeled easily and accurately. It is usually beneficial to select a global geopotential model (and degree) that is best fit to the local gravity field as base for a regional gravimetric model. This will reduce the error by Stokes' formula by reducing the amount of the geoid contribution to the total error.
 
-\subsection{Satellite-only models} they are derived solely from the analysis of the satellite orbit. They use laser and Doppler measurements to track the satellites \cite{goce_sp123} Historically, these models were known to have a low precision due to
+\subsection{Satellite-only models} 
+They are solely derived from the analysis of the satellite orbit. They use laser and Doppler measurements to track the satellites \cite{goce_sp123} Historically, these models were known to have a low precision due to
 
 \begin{enumerate}
 	\item the inability to track complete satellite orbits using ground-based stations
@@ -132,17 +133,17 @@ A Global Geopotential Model is a mathematical function approximates the real gra
  
  Because of the mentioned limitations of satellite missions, new dedicated satellite missions was launched in early 2000s to tackle those problems. There are three satellite missions launched for that purpose
  \subsection{CHAMP}
- {CHAMP} \textbf{CHA}llenging \textbf{M}inisatellite \textbf{P}ayload is a German small satellite mission for geoscientific and atmospheric research and applications, managed by GFZ. The orbit of CHAMP is almost circular (inclination 87\si{degree}) which gives it an advantage of getting homogeneous and complete global coverage. With an altitude of 454 km, it guarantees that the satellite can work in severe atmospheric conditions. It also has a direct on-board measurement to account for the non-gravitational orbit perturbations. . CHAMP uses satellite-to-satellite tracking working on high-to-low mode, i.e., GNSS satellites are tracking the spaceship position, and it uses an accelerometer to compute the geoid functionals (cf. \cite{luhr} for detailed discussions about CHAMP mission). 
+ {CHAMP} \textbf{CHA}llenging \textbf{M}inisatellite \textbf{P}ayload \cite{champ} is a German small satellite mission for geoscientific and atmospheric research and applications, managed by GFZ. The orbit of CHAMP is almost circular (inclination 87\si{degree}) which gives it an advantage of getting homogeneous and complete global coverage. With an altitude of 454 km, it guarantees that the satellite can work in severe atmospheric conditions. It also has a direct on-board measurement to account for the non-gravitational orbit perturbations. . CHAMP uses satellite-to-satellite tracking working on high-to-low mode, i.e., GNSS satellites are tracking the spaceship position, and it uses an accelerometer to compute the geoid functionals (cf. \cite{luhr} for detailed discussions about CHAMP mission). 
  \\
- Clearly, the aforementioned issues with previous satellite mission was resolved in the new dedicated satellite mission. A detailed description of CHAMP, and other new satellite missions e.g., GOCE and GRACE will be presented in Table \ref{table:dedicate_satellite_missions}. 
+ Clearly, the aforementioned issues with previous satellite mission was resolved in the new dedicated satellite mission. A detailed description of CHAMP, and other new satellite missions e.g., GOCE and GRACE will be presented in Table \ref{table:dedicated_satellite_missions}. 
  
  \subsection{GRACE}
- \textbf{G}ravity \textbf{R}ecovery and \textbf{C}limate \textbf{E}xperiment is the second satellite mission that was launched on March 2002. GRACE consists of two identical satellites separated by 220 km from each others, and at 500 km above the Earth surface. Unlike CHAMP, GRACE is uses satelite-to-satellite tracking to precise position determination, but it uses low-low mode to compute the gravity functionals i.e., the gravity is measured by the change of the distance between the twin satellites. Areas of slightly stronger gravity (greater masses) will affect the leading satellite first. An accelerometer will be used to measure the non-gravitational acceleration--common errors due to atmospheric attraction--such that only the accelerations caused by the gravity are measured. 
+ \textbf{G}ravity \textbf{R}ecovery and \textbf{C}limate \textbf{E}xperiment \cite{grace} is the second satellite mission that was launched on March 2002. GRACE consists of two identical satellites separated by 220 km from each others, and at 500 km above the Earth surface. Unlike CHAMP, GRACE is uses satelite-to-satellite tracking to precise position determination, but it uses low-low mode to compute the gravity functionals i.e., the gravity is measured by the change of the distance between the twin satellites. Areas of slightly stronger gravity (greater masses) will affect the leading satellite first. An accelerometer will be used to measure the non-gravitational acceleration--common errors due to atmospheric attraction--such that only the accelerations caused by the gravity are measured. 
  \\
  It is common to find a model with data from different satellite mission--each one of them contribute to specific range of spherical harmonics degrees.
  
  \subsection{GOCE}
- The last mission in the new gravity measurement satellites era is GOCE. \textbf{G}ravity Field and Steady-State \textbf{O}cean \textbf{C}irculation \textbf{E}xplorer. It is specifically designed for the determination of the stationary gravity field – geoid and gravity anomalies – to high accuracy and spatial resolution \cite{rummel}. As reported by \citep(rummer), GOCE is the only satellite mission that was able to solve the problem of gravity observations from satellites that was introduced in Section \ref{fundamental_satellite_problem}. In summary, GOCE has tackled the classic problems of using satellite to compute the gravity as follow
+ The last mission in the new gravity measurement satellites era is GOCE \cite{goce}. \textbf{G}ravity Field and Steady-State \textbf{O}cean \textbf{C}irculation \textbf{E}xplorer. It is specifically designed for the determination of the stationary gravity field – geoid and gravity anomalies – to high accuracy and spatial resolution \cite{rummel}. As reported by \citep(rummer), GOCE is the only satellite mission that was able to solve the problem of gravity observations from satellites that was introduced in Section \ref{fundamental_satellite_problem}. In summary, GOCE has tackled the classic problems of using satellite to compute the gravity as follow
  
  \begin{enumerate}
  	\item Uninterrupted tracking in three spatial dimensions
@@ -178,7 +179,7 @@ A Global Geopotential Model is a mathematical function approximates the real gra
  \begin{table}[]
  	\centering
  	\caption{Comparsion of new dedicated satellite missions}
- 	\label{table:satellite_missions}
+ 	\label{table:dedicated_satellite_missions}
  	\begin{tabular}{@{}llll@{}}
  		\toprule
  		\emph{mission} & \emph{inclination angle \si{\degree}} & \emph{altitude (km)} \emph{release date} & status\\ \midrule

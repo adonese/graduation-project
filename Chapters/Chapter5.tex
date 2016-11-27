@@ -2,18 +2,18 @@
 \label{Chapter5}
 
 
-We have evaluated different models in two types of datasets. The first data collected by \citep{adam} consists of 46 points. They use astrogeodetic observation to compute the geoid height. GPS/leveling data consists of 24 points collected during 2005-2008. We evaluated our models in different range of degrees (step of 5 degrees for EGM2008 and GECO, step of one degree for ITU\_GGC16 and ITU\_GRACE16). We used standard deviation as a measure of accuracy.
+We have evaluated different models in two types of datasets. The first data collected by \citep{osman} consists of 46 points. They use astrogeodetic observation to compute the geoid height. GPS/leveling data consists of 24 points collected during 2005-2008. We evaluated our models in different range of degrees (step of 5 degrees for EGM2008 and GECO, step of one degree for ITU\_GGC16 and ITU\_GRACE16). We used standard deviation as a measure of accuracy.
 
 \section{Evaluation on astrogeodetic data}
 
-Our evaluation of GGM using astrogedetic data shows very interesting results. There is a huge difference between GGM results and data of \citep{adam}. Clearly there is a problem with \citep{adam} works. For the five that were tested, the best model has standard deviation of 5.867 m. Which is really very good. From our study on \cite{adam} we find that lowest degrees result on average in relatively good std compared with high order degrees. However, the trend of std with the increase in degrees shows clearly that, while some very lower degree (less than 20) are having the best score, but the general trend is that the error is reduced with increase of degrees. A table summarizes our results for each model showing the best five degrees for each model is presented in the below tables. 
+Our evaluation of GGM using astrogedetic data shows very interesting results. There is a huge difference between GGM results and data of \citep{osman}. Clearly there is a problem with \citep{adam} works. For the five that were tested, the best model has standard deviation of 5.867 m. Which is really very good. From our study on \cite{osman} we find that lowest degrees result on average in relatively good std compared with high order degrees. However, the trend of std with the increase in degrees shows clearly that, while some very lower degree (less than 20) are having the best score, but the general trend is that the error is reduced with increase of degrees. A table summarizes our results for each model showing the best five degrees for each model is presented in the below tables. 
 \\
 ITU\_GRACE16 has the best score of 5.8679769m on degree 12. ITU\_GGC16 has its best score on 12 degree also with 5.8679787m. The other models were close to each others of EGM2008 having its best score on 14 degree with std of 6.57m, interestingly GECO does also has its best score on 14 degree with standard deviation of 6.579m. EIGEN-6C4 has std of 6.718 on 1729 degree. In our results we found that it is often the case that near degrees have quite some similar std. To Have a very clear representation of our best model we decided to use as several degrees as possible. For ITU\_GGC16 and ITU\_GRACE16 we have tested each degree starting from the $10^{th}$ degree. For the other models (those of 2190), we have tested 500 degree for EGM2008, and GECO and 200 models from EIGEN-6C4. To the best of our knowledge, no such exhaustive testing was done for GGM before.
 
   \begin{table}[]
   	\centering
-  	\caption{Top 5 degrees for model ITU\_GGC16}
-  	\label{table:ggm_models}
+  	\caption{Top 5 degrees for model ITU\_GGC16 on \citep{osman}}
+  	\label{table:itugrace_five_osman}
   	\begin{tabular}{@{}lll@{}}
   		\toprule
   		\emph{degree} & std $\sigma$ [m]  & difference\\ \midrule
@@ -28,8 +28,8 @@ ITU\_GRACE16 has the best score of 5.8679769m on degree 12. ITU\_GGC16 has its b
   
     \begin{table}[]
     	\centering
-    	\caption{Top 5 degrees for model EGM2008}
-    	\label{table:ggm_models_egm2008}
+    	\caption{Top 5 degrees for model EGM2008 on \citep{osman}}
+    	\label{table:egm2008_five_osman}
     	\begin{tabular}{@{}lll@{}}
     		\toprule
     		\emph{degree} & std $\sigma$ [m]  & difference\\ \midrule
@@ -44,8 +44,8 @@ ITU\_GRACE16 has the best score of 5.8679769m on degree 12. ITU\_GGC16 has its b
     
     \begin{table}[]
     	\centering
-    	\caption{Top 5 degrees for model EIGEN-6C4}
-    	\label{table:ggm_models}
+    	\caption{Top 5 degrees for EIGEN-6C4 on \citep{osman}}
+    	\label{table:eigen6c4_five_osman}
     	\begin{tabular}{@{}lll@{}}
     		\toprule
     		\emph{degree} & std $\sigma$ [m]  & difference\\ \midrule
@@ -62,8 +62,8 @@ ITU\_GRACE16 has the best score of 5.8679769m on degree 12. ITU\_GGC16 has its b
     
   \begin{table}[]
   	\centering
-  	\caption{Top 5 degrees for model GECO}
-  	\label{table:ggm_models}
+  	\caption{Top 5 degrees for model GECO on \citep{osman}}
+  	\label{table:geco_five_osman}
   	\begin{tabular}{@{}lll@{}}
   		\toprule
   		\emph{degree} & std $\sigma$ [m]  & difference\\ \midrule
@@ -80,7 +80,7 @@ ITU\_GRACE16 has the best score of 5.8679769m on degree 12. ITU\_GGC16 has its b
     
       \begin{table}[]
       	\centering
-      	\caption{Top 5 degrees for model ITU\_GRACE16}
+      	\caption{Top 5 degrees for ITU\_GRACE16 on \citep{osman}}
       	\label{table:ggm_models_itu_grace}
       	\begin{tabular}{@{}lll@{}}
       		\toprule
@@ -96,7 +96,7 @@ ITU\_GRACE16 has the best score of 5.8679769m on degree 12. ITU\_GGC16 has its b
       
       
       \begin{figure}[t]
-      	\caption{std behaviour with the change of degrees}
+      	\caption{Evaluation of EGM2008 on \citep{osman}}
       	\label{egm2008_figure}
       	\includegraphics{Figures/egm08_figure.png}
       	\centering
@@ -104,7 +104,7 @@ ITU\_GRACE16 has the best score of 5.8679769m on degree 12. ITU\_GGC16 has its b
       
       
       \begin{figure}[t]
-      	\caption{std behaviour with the change of degrees}
+      	\caption{Evaluation of ITU\_GRACE16 on \citep{osman}}
       	\label{itu_grace16_figure}
       	\includegraphics{Figures/ITU_GRACE16_figure.png}
       	\centering
@@ -112,7 +112,7 @@ ITU\_GRACE16 has the best score of 5.8679769m on degree 12. ITU\_GGC16 has its b
       
       
       \begin{figure}[t]
-      	\caption{std behaviour with the change of degrees}
+      	\caption{Evaluation of ITU\_GGC16 on \citep{osman}}
       	\label{itu_ggc16_figure}
       	\includegraphics{Figures/ITU_GGC16_figure.png}
       	\centering
