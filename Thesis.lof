@@ -4,20 +4,20 @@
 \contentsline {figure}{\numberline {3.1}{\ignorespaces Distribution of \citep {osman} points in Sudan. It is clear the huge gap that \citet {osman} suggested to be filled\relax }}{13}{figure.caption.58}
 \contentsline {figure}{\numberline {3.2}{\ignorespaces Distribution of GPS/leveling data over Khartoum\relax }}{14}{figure.caption.61}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {4.1}{\ignorespaces GeoidApp workflow summary\relax }}{26}{figure.caption.114}
+\contentsline {figure}{\numberline {4.1}{\ignorespaces GeoidApp workflow summary\relax }}{25}{figure.caption.114}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {5.1}{\ignorespaces Evaluation of EGM2008 on \citep {osman}\relax }}{29}{figure.caption.122}
-\contentsline {figure}{\numberline {5.2}{\ignorespaces Evaluation of ITU\_GRACE16 on \citep {osman}\relax }}{30}{figure.caption.123}
-\contentsline {figure}{\numberline {5.3}{\ignorespaces Evaluation of ITU\_GGC16 on \citep {osman}\relax }}{32}{figure.caption.124}
-\contentsline {figure}{\numberline {5.4}{\ignorespaces std behaviour with the change of degrees\relax }}{33}{figure.caption.125}
-\contentsline {figure}{\numberline {5.5}{\ignorespaces std behaviour with the change of degrees\relax }}{33}{figure.caption.126}
-\contentsline {figure}{\numberline {5.6}{\ignorespaces Behavior of the five models truncated to the lowest model\relax }}{34}{figure.caption.127}
-\contentsline {figure}{\numberline {5.7}{\ignorespaces Evaluation of our GGM on GPS/leveling data\relax }}{34}{figure.caption.134}
-\contentsline {figure}{\numberline {5.8}{\ignorespaces Evaluation of EGM2008 on GPS/leveling data\relax }}{35}{figure.caption.135}
-\contentsline {figure}{\numberline {5.9}{\ignorespaces Evaluation of ITU\_GRACE16 on GPS/leveling data\relax }}{35}{figure.caption.136}
-\contentsline {figure}{\numberline {5.10}{\ignorespaces Evaluation of ITU\_GGC16 on GPS/leveling data\relax }}{36}{figure.caption.137}
-\contentsline {figure}{\numberline {5.11}{\ignorespaces Evaluation of GECO on GPS/leveling data\relax }}{36}{figure.caption.138}
-\contentsline {figure}{\numberline {5.12}{\ignorespaces Evaluation EIGEN-6c4 on GPS/leveling data\relax }}{37}{figure.caption.139}
-\contentsline {figure}{\numberline {5.13}{\ignorespaces Evaluation of higher degrees of EGM2008, EIGEN-6C4 and GECO\relax }}{37}{figure.caption.140}
-\contentsline {figure}{\numberline {5.14}{\ignorespaces New Geoid height for Sudan based on ITU\_GGC16\relax }}{38}{figure.caption.141}
+\contentsline {figure}{\numberline {5.1}{\ignorespaces Evaluation of EGM2008 on \citep {osman}\relax }}{28}{figure.caption.122}
+\contentsline {figure}{\numberline {5.2}{\ignorespaces Evaluation of ITU\_GRACE16 on \citep {osman}\relax }}{29}{figure.caption.123}
+\contentsline {figure}{\numberline {5.3}{\ignorespaces Evaluation of ITU\_GGC16 on \citep {osman}\relax }}{31}{figure.caption.124}
+\contentsline {figure}{\numberline {5.4}{\ignorespaces std behaviour with the change of degrees\relax }}{32}{figure.caption.125}
+\contentsline {figure}{\numberline {5.5}{\ignorespaces std behaviour with the change of degrees\relax }}{32}{figure.caption.126}
+\contentsline {figure}{\numberline {5.6}{\ignorespaces Behavior of the five models truncated to the lowest model\relax }}{33}{figure.caption.127}
+\contentsline {figure}{\numberline {5.7}{\ignorespaces Evaluation of our GGM on GPS/leveling data\relax }}{33}{figure.caption.134}
+\contentsline {figure}{\numberline {5.8}{\ignorespaces Evaluation of EGM2008 on GPS/leveling data\relax }}{34}{figure.caption.135}
+\contentsline {figure}{\numberline {5.9}{\ignorespaces Evaluation of ITU\_GRACE16 on GPS/leveling data\relax }}{34}{figure.caption.136}
+\contentsline {figure}{\numberline {5.10}{\ignorespaces Evaluation of ITU\_GGC16 on GPS/leveling data\relax }}{35}{figure.caption.137}
+\contentsline {figure}{\numberline {5.11}{\ignorespaces Evaluation of GECO on GPS/leveling data\relax }}{35}{figure.caption.138}
+\contentsline {figure}{\numberline {5.12}{\ignorespaces Evaluation EIGEN-6c4 on GPS/leveling data\relax }}{36}{figure.caption.139}
+\contentsline {figure}{\numberline {5.13}{\ignorespaces Evaluation of higher degrees of EGM2008, EIGEN-6C4 and GECO\relax }}{36}{figure.caption.140}
+\contentsline {figure}{\numberline {5.14}{\ignorespaces New Geoid height for Sudan based on ITU\_GGC16\relax }}{37}{figure.caption.141}
 \addvspace {10\p@ }

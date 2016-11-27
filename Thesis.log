@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2016.9.10)  27 NOV 2016 20:04
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2016.9.10)  27 NOV 2016 23:04
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -982,6 +982,22 @@ Underfull \hbox (badness 10000) in paragraph at lines 115--115
 ------------------------------------------------------------------------------
  Abstract Page
 ------------------------------------------------------------------------------
+
+Package natbib Warning: Citation `ahmed_msc' on page iii undefined on input lin
+e 138.
+
+
+Package natbib Warning: Citation `godah' on page iii undefined on input line 13
+8.
+
+
+Package natbib Warning: Citation `ahmed_msc' on page iii undefined on input lin
+e 138.
+
+
+Package natbib Warning: Citation `godah' on page iii undefined on input line 13
+8.
+
 [3
 
 ]
@@ -1005,7 +1021,28 @@ Underfull \hbox (badness 10000) in paragraph at lines 115--115
 ------------------------------------------------------------------------------
  List of Figures
 ------------------------------------------------------------------------------
-(./Thesis.lof)
+(./Thesis.lof
+
+Package natbib Warning: Citation `osman' on page vii undefined on input line 4.
+
+
+
+Package natbib Warning: Citation `osman' on page vii undefined on input line 4.
+
+
+
+Package natbib Warning: Citation `osman' on page vii undefined on input line 9.
+
+
+
+Package natbib Warning: Citation `osman' on page vii undefined on input line 10
+.
+
+
+Package natbib Warning: Citation `osman' on page vii undefined on input line 11
+.
+
+)
 \tf@lof=\write5
 \openout5 = `Thesis.lof'.
 
@@ -1016,7 +1053,28 @@ Underfull \hbox (badness 10000) in paragraph at lines 115--115
 ------------------------------------------------------------------------------
  List of Tables
 ------------------------------------------------------------------------------
-(./Thesis.lot)
+(./Thesis.lot
+
+Package natbib Warning: Citation `osman' on page viii undefined on input line 1
+2.
+
+
+Package natbib Warning: Citation `osman' on page viii undefined on input line 1
+3.
+
+
+Package natbib Warning: Citation `osman' on page viii undefined on input line 1
+4.
+
+
+Package natbib Warning: Citation `osman' on page viii undefined on input line 1
+5.
+
+
+Package natbib Warning: Citation `osman' on page viii undefined on input line 1
+6.
+
+)
 \tf@lot=\write6
 \openout6 = `Thesis.lot'.
 
@@ -1053,11 +1111,59 @@ Underfull \hbox (badness 10000) in paragraph at lines 115--115
 ------------------------------------------------------------------------------
 [12
 
-] (./Chapters/Chapter1.tex
+]
+! Undefined control sequence.
+<argument> \undefinedpagestyle 
+                               
+l.226 \pagestyle{thesis}
+                          % Return the page headers back to the "fancy" style
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+(./Chapters/Chapter1.tex
 Chapter 1.
 ------------------------------------------------------------------------------
  1 Introduction
 ------------------------------------------------------------------------------
+
+Package natbib Warning: Citation `osman' on page 1 undefined on input line 5.
+
+
+Package natbib Warning: Citation `ahmed_msc' on page 1 undefined on input line 
+5.
+
+
+Package natbib Warning: Citation `fashir' on page 1 undefined on input line 7.
+
+
+Package natbib Warning: Citation `fashir' on page 1 undefined on input line 7.
+
+
+Package natbib Warning: Citation `nasa' on page 1 undefined on input line 7.
+
+
+Package natbib Warning: Citation `fashir' on page 1 undefined on input line 7.
+
+
+Package natbib Warning: Citation `godah' on page 1 undefined on input line 7.
+
+
+Package natbib Warning: Citation `ahmed_msc' on page 1 undefined on input line 
+7.
+
+
+Package natbib Warning: Citation `godah' on page 1 undefined on input line 8.
+
+
+Package natbib Warning: Citation `pail' on page 1 undefined on input line 8.
+
+
+Package natbib Warning: Citation `ahmed_msc' on page 1 undefined on input line 
+8.
+
 [1
 
 
@@ -1075,7 +1181,19 @@ Overfull \hbox (2.21977pt too wide) in paragraph at lines 23--24
 TU[]GGC16, and GECO) 
  []
 
-[2]) (./Chapters/Chapter2.tex [3]
+[2])
+! Undefined control sequence.
+<argument> \undefinedpagestyle 
+                               
+l.232 \pagestyle{thesis}
+                        
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+(./Chapters/Chapter2.tex [3]
 Chapter 2.
 ------------------------------------------------------------------------------
  2 Geoid Determination from GGM
@@ -1094,12 +1212,25 @@ Package natbib Warning: Citation `nico' on page 5 undefined on input line 40.
 
 Package natbib Warning: Citation `nico' on page 6 undefined on input line 86.
 
-[6] [7] [8]
+
+Package natbib Warning: Citation `hofmann' on page 6 undefined on input line 86
+.
+
+[6] [7]
+
+Package natbib Warning: Citation `meziani' on page 8 undefined on input line 16
+1.
+
+[8]
 
 LaTeX Warning: No positions in optional float specifier.
                Default added (so using `tbp') on input line 191.
 
 [9]
+
+Package natbib Warning: Citation `hofmann' on page 10 undefined on input line 2
+45.
+
 
 Package natbib Warning: Citation `nico' on page 10 undefined on input line 245.
 
@@ -1108,22 +1239,69 @@ Package natbib Warning: Citation `nico' on page 10 undefined on input line 245.
 Package natbib Warning: Citation `petrphysical' on page 10 undefined on input l
 ine 245.
 
-) (./Chapters/Chapter3.tex [10]
+)
+! Undefined control sequence.
+<argument> \undefinedpagestyle 
+                               
+l.234 \pagestyle{thesis}
+                        
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+(./Chapters/Chapter3.tex [10]
 Chapter 3.
 ------------------------------------------------------------------------------
  3 Input Data
 ------------------------------------------------------------------------------
 
+Package natbib Warning: Citation `osman' on page 11 undefined on input line 9.
+
+
+Package natbib Warning: Citation `ahmed_similar' on page 11 undefined on input 
+line 9.
+
+
+Package natbib Warning: Citation `osman' on page 11 undefined on input line 11.
+
+
+
+Package natbib Warning: Citation `ahmed_msc' on page 11 undefined on input line
+ 11.
+
+
 Package natbib Warning: Citation `vanicek' on page 11 undefined on input line 1
 1.
 
 
 Package natbib Warning: Citation `vanicek' on page 11 undefined on input line 1
 1.
+
+
+Package natbib Warning: Citation `osman' on page 11 undefined on input line 11.
+
 
 
 LaTeX Warning: No positions in optional float specifier.
                Default added (so using `tbp') on input line 13.
+
+
+Package natbib Warning: Citation `osman' on page 11 undefined on input line 37.
+
+
+
+Package natbib Warning: Citation `osman' on page 11 undefined on input line 37.
+
+
+
+Package natbib Warning: Citation `osman' on page 11 undefined on input line 37.
+
+
+
+Package natbib Warning: Citation `osman' on page 11 undefined on input line 37.
+
 
 Package epstopdf Info: Source file: <Figures/points_dist.eps>
 (epstopdf)                    date: 2016-11-23 10:12:57
@@ -1135,7 +1313,7 @@ Package epstopdf Info: Source file: <Figures/points_dist.eps>
 nverted-to.pdf Figures/points_dist.eps>
 (epstopdf)             \includegraphics on input line 39.
 Package epstopdf Info: Output file is already uptodate.
-<Figures/points_dist-eps-converted-to.pdf, id=583, 340.27126pt x 385.44pt>
+<Figures/points_dist-eps-converted-to.pdf, id=495, 340.27126pt x 385.44pt>
 File: Figures/points_dist-eps-converted-to.pdf Graphic file (type pdf)
 
 <use Figures/points_dist-eps-converted-to.pdf>
@@ -1145,6 +1323,10 @@ Package pdftex.def Info: Figures/points_dist-eps-converted-to.pdf used on input
  [11
 
 ]
+
+Package natbib Warning: Citation `ahmed_msc' on page 12 undefined on input line
+ 54.
+
 Package epstopdf Info: Source file: <Figures/points_dist_krt.eps>
 (epstopdf)                    date: 2016-11-23 10:13:34
 (epstopdf)                    size: 1003942 bytes
@@ -1157,7 +1339,7 @@ s-converted-to.pdf Figures/points_dist_krt.eps>
 (epstopdf)             \includegraphics on input line 59.
 Package epstopdf Info: Output file is already uptodate.
 
-<Figures/points_dist_krt-eps-converted-to.pdf, id=594, 340.27126pt x 193.72375p
+<Figures/points_dist_krt-eps-converted-to.pdf, id=502, 340.27126pt x 193.72375p
 t>
 File: Figures/points_dist_krt-eps-converted-to.pdf Graphic file (type pdf)
  <use Figures/points_dist_krt-eps-converted-to.pdf>
@@ -1169,19 +1351,30 @@ nput line 59.
 LaTeX Warning: No positions in optional float specifier.
                Default added (so using `tbp') on input line 64.
 
-[12]
 
-Package natbib Warning: Citation `goce_sp123' on page 13 undefined on input lin
+Package natbib Warning: Citation `goce_sp123' on page 12 undefined on input lin
 e 106.
 
+[12]
 
 Package natbib Warning: Citation `rummel' on page 13 undefined on input line 11
 5.
 
-[13 <./Figures/points_dist-eps-converted-to.pdf>] [14 <./Figures/points_dist_kr
-t-eps-converted-to.pdf>]
 
-Package natbib Warning: Citation `rummel' on page 15 undefined on input line 12
+Package natbib Warning: Citation `amos' on page 13 undefined on input line 120.
+
+
+
+Package natbib Warning: Citation `heck' on page 13 undefined on input line 120.
+
+
+
+Package natbib Warning: Citation `heck' on page 13 undefined on input line 120.
+
+
+[13 <./Figures/points_dist-eps-converted-to.pdf>]
+
+Package natbib Warning: Citation `rummel' on page 14 undefined on input line 12
 9.
 
 Missing character: There is no â in font cmr10!
@@ -1190,18 +1383,23 @@ Missing character: There is no ˜ in font cmr10!
 Missing character: There is no â in font cmr10!
 Missing character: There is no € in font cmr10!
 Missing character: There is no ™ in font cmr10!
-[15]
+[14 <./Figures/points_dist_krt-eps-converted-to.pdf>]
 
-Package natbib Warning: Citation `champ' on page 16 undefined on input line 136
+Package natbib Warning: Citation `champ' on page 15 undefined on input line 136
 .
 
 
-Package natbib Warning: Citation `luhr' on page 16 undefined on input line 136.
+Package natbib Warning: Citation `luhr' on page 15 undefined on input line 136.
 
 
+[15]
 
 Package natbib Warning: Citation `grace' on page 16 undefined on input line 141
 .
+
+
+Package natbib Warning: Citation `goce' on page 16 undefined on input line 146.
+
 
 Missing character: There is no â in font cmr10!
 Missing character: There is no € in font cmr10!
@@ -1263,14 +1461,58 @@ LaTeX Warning: No positions in optional float specifier.
 LaTeX Warning: No positions in optional float specifier.
                Default added (so using `tbp') on input line 209.
 
-) (./Chapters/Chapter4.tex [18] [19]
+)
+! Undefined control sequence.
+<argument> \undefinedpagestyle 
+                               
+l.236 \pagestyle{thesis}
+                        
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+(./Chapters/Chapter4.tex [18]
 Chapter 4.
 ------------------------------------------------------------------------------
  4 Geoid Height Determination Using GeoidApp
 ------------------------------------------------------------------------------
-[20
 
-] [21]
+Package natbib Warning: Citation `osman' on page 19 undefined on input line 6.
+
+
+Package natbib Warning: Citation `ahmed_msc' on page 19 undefined on input line
+ 6.
+
+
+Package natbib Warning: Citation `ahmed_msc' on page 19 undefined on input line
+ 8.
+
+
+Package natbib Warning: Citation `fashir' on page 19 undefined on input line 8.
+
+
+
+Package natbib Warning: Citation `godah' on page 19 undefined on input line 8.
+
+
+Package natbib Warning: Citation `ahmed_msc' on page 19 undefined on input line
+ 8.
+
+
+Package natbib Warning: Citation `godah' on page 19 undefined on input line 8.
+
+
+Package natbib Warning: Citation `ahmed_msc' on page 19 undefined on input line
+ 8.
+
+
+Package natbib Warning: Citation `godah' on page 19 undefined on input line 8.
+
+[19
+
+] [20]
 
 Package xcolor Warning: Incompatible color definition on input line 40.
 
@@ -1403,30 +1645,88 @@ Package xcolor Warning: Incompatible color definition on input line 46.
 
 Package xcolor Warning: Incompatible color definition on input line 46.
 
-[22] [23] [24]
+[21]
 
-Package natbib Warning: Citation `geographiclib' on page 25 undefined on input 
+Package natbib Warning: Citation `holmes' on page 22 undefined on input line 90
+.
+
+
+Package natbib Warning: Citation `holmes' on page 22 undefined on input line 90
+.
+
+
+Package natbib Warning: Citation `egmlab' on page 22 undefined on input line 96
+.
+
+
+Package natbib Warning: Citation `holmes' on page 22 undefined on input line 96
+.
+
+
+Package natbib Warning: Citation `egmlab' on page 22 undefined on input line 98
+.
+
+
+Package natbib Warning: Citation `egmlab' on page 22 undefined on input line 98
+.
+
+
+Package natbib Warning: Citation `egmlab' on page 22 undefined on input line 98
+.
+
+[22] [23]
+
+Package natbib Warning: Citation `egmlab' on page 24 undefined on input line 10
+6.
+
+
+Package natbib Warning: Citation `icgem' on page 24 undefined on input line 106
+.
+
+
+Package natbib Warning: Citation `geographiclib' on page 24 undefined on input 
 line 106.
 
-[25]
+[24]
 
 pdfTeX warning: /usr/bin/pdflatex (file ./Figures/cropped_flow.pdf): PDF inclus
 ion: found PDF version <1.7>, but at most version <1.5> allowed
-<Figures/cropped_flow.pdf, id=757, 622.06401pt x 414.3781pt>
+<Figures/cropped_flow.pdf, id=608, 622.06401pt x 414.3781pt>
 File: Figures/cropped_flow.pdf Graphic file (type pdf)
 
 <use Figures/cropped_flow.pdf>
 Package pdftex.def Info: Figures/cropped_flow.pdf used on input line 115.
 (pdftex.def)             Requested size: 311.03123pt x 207.18854pt.
-) (./Chapters/Chapter5.tex [26 <./Figures/cropped_flow.pdf>]
+)
+! Undefined control sequence.
+<argument> \undefinedpagestyle 
+                               
+l.238 \pagestyle{thesis}
+                        
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+(./Chapters/Chapter5.tex [25 <./Figures/cropped_flow.pdf>]
 Chapter 5.
 ------------------------------------------------------------------------------
  5 Results and Discussions
 ------------------------------------------------------------------------------
 
-Package natbib Warning: Citation `adam' on page 27 undefined on input line 9.
+Package natbib Warning: Citation `osman' on page 26 undefined on input line 5.
 
-[27
+
+Package natbib Warning: Citation `osman' on page 26 undefined on input line 9.
+
+
+Package natbib Warning: Citation `adam' on page 26 undefined on input line 9.
+
+
+Package natbib Warning: Citation `osman' on page 26 undefined on input line 9.
+
+[26
 
 ]
 
@@ -1434,22 +1734,70 @@ LaTeX Warning: No positions in optional float specifier.
                Default added (so using `tbp') on input line 13.
 
 
+Package natbib Warning: Citation `osman' on page 27 undefined on input line 15.
+
+
+
+Package natbib Warning: Citation `osman' on page 27 undefined on input line 15.
+
+
+
 LaTeX Warning: No positions in optional float specifier.
                Default added (so using `tbp') on input line 29.
+
+
+Package natbib Warning: Citation `osman' on page 27 undefined on input line 31.
+
+
+
+Package natbib Warning: Citation `osman' on page 27 undefined on input line 31.
+
 
 
 LaTeX Warning: No positions in optional float specifier.
                Default added (so using `tbp') on input line 45.
 
 
+Package natbib Warning: Citation `osman' on page 27 undefined on input line 47.
+
+
+
+Package natbib Warning: Citation `osman' on page 27 undefined on input line 47.
+
+
+
 LaTeX Warning: No positions in optional float specifier.
                Default added (so using `tbp') on input line 63.
+
+
+Package natbib Warning: Citation `osman' on page 27 undefined on input line 65.
+
+
+
+Package natbib Warning: Citation `osman' on page 27 undefined on input line 65.
+
 
 
 LaTeX Warning: No positions in optional float specifier.
                Default added (so using `tbp') on input line 81.
 
-<Figures/egm08_figure.png, id=804, 433.62pt x 289.08pt>
+
+Package natbib Warning: Citation `osman' on page 27 undefined on input line 83.
+
+
+
+Package natbib Warning: Citation `osman' on page 27 undefined on input line 83.
+
+
+
+Package natbib Warning: Citation `osman' on page 27 undefined on input line 99.
+
+
+
+Package natbib Warning: Citation `osman' on page 27 undefined on input line 99.
+
+
+<Figures/egm08_figure.png, id=625, 433.62pt x 289.08pt>
 File: Figures/egm08_figure.png Graphic file (type png)
 
 <use Figures/egm08_figure.png>
@@ -1460,7 +1808,15 @@ Overfull \hbox (16.14587pt too wide) in paragraph at lines 101--103
  [][] 
  []
 
-<Figures/ITU_GRACE16_figure.png, id=810, 433.62pt x 289.08pt>
+
+Package natbib Warning: Citation `osman' on page 27 undefined on input line 107
+.
+
+
+Package natbib Warning: Citation `osman' on page 27 undefined on input line 107
+.
+
+<Figures/ITU_GRACE16_figure.png, id=627, 433.62pt x 289.08pt>
 File: Figures/ITU_GRACE16_figure.png Graphic file (type png)
 
 <use Figures/ITU_GRACE16_figure.png>
@@ -1472,7 +1828,15 @@ Overfull \hbox (16.14587pt too wide) in paragraph at lines 109--111
  [][] 
  []
 
-<Figures/ITU_GGC16_figure.png, id=815, 433.62pt x 289.08pt>
+
+Package natbib Warning: Citation `osman' on page 27 undefined on input line 115
+.
+
+
+Package natbib Warning: Citation `osman' on page 27 undefined on input line 115
+.
+
+<Figures/ITU_GGC16_figure.png, id=628, 433.62pt x 289.08pt>
 File: Figures/ITU_GGC16_figure.png Graphic file (type png)
 
 <use Figures/ITU_GGC16_figure.png>
@@ -1483,7 +1847,7 @@ Overfull \hbox (16.14587pt too wide) in paragraph at lines 117--119
  [][] 
  []
 
-<Figures/geco_figure.png, id=816, 433.62pt x 289.08pt>
+<Figures/geco_figure.png, id=629, 433.62pt x 289.08pt>
 File: Figures/geco_figure.png Graphic file (type png)
 
 <use Figures/geco_figure.png>
@@ -1494,7 +1858,7 @@ Overfull \hbox (16.14587pt too wide) in paragraph at lines 125--127
  [][] 
  []
 
-<Figures/eigen-6c4_figure.png, id=817, 433.62pt x 289.08pt>
+<Figures/eigen-6c4_figure.png, id=630, 433.62pt x 289.08pt>
 File: Figures/eigen-6c4_figure.png Graphic file (type png)
 
 <use Figures/eigen-6c4_figure.png>
@@ -1505,7 +1869,7 @@ Overfull \hbox (16.14587pt too wide) in paragraph at lines 132--134
  [][] 
  []
 
-<Figures/grayscale_style.png, id=818, 433.62pt x 289.08pt>
+<Figures/grayscale_style.png, id=631, 433.62pt x 289.08pt>
 File: Figures/grayscale_style.png Graphic file (type png)
 
 <use Figures/grayscale_style.png>
@@ -1520,7 +1884,7 @@ Overfull \hbox (16.14587pt too wide) in paragraph at lines 140--142
 LaTeX Warning: No positions in optional float specifier.
                Default added (so using `tbp') on input line 147.
 
-[28] [29 <./Figures/egm08_figure.png>]
+[27] [28 <./Figures/egm08_figure.png>]
 
 LaTeX Warning: No positions in optional float specifier.
                Default added (so using `tbp') on input line 164.
@@ -1533,7 +1897,7 @@ LaTeX Warning: No positions in optional float specifier.
 LaTeX Warning: No positions in optional float specifier.
                Default added (so using `tbp') on input line 216.
 
-<Figures/classic_style.png, id=829, 433.62pt x 289.08pt>
+<Figures/classic_style.png, id=641, 433.62pt x 289.08pt>
 File: Figures/classic_style.png Graphic file (type png)
 
 <use Figures/classic_style.png>
@@ -1544,7 +1908,7 @@ Overfull \hbox (16.14587pt too wide) in paragraph at lines 237--239
  [][] 
  []
 
-<Figures/egm2008_gps_figure.png, id=830, 433.62pt x 289.08pt>
+<Figures/egm2008_gps_figure.png, id=642, 433.62pt x 289.08pt>
 File: Figures/egm2008_gps_figure.png Graphic file (type png)
 
 <use Figures/egm2008_gps_figure.png>
@@ -1556,7 +1920,7 @@ Overfull \hbox (16.14587pt too wide) in paragraph at lines 245--247
  [][] 
  []
 
-<Figures/ITU-GRACE16_gps_figure.png, id=831, 433.62pt x 289.08pt>
+<Figures/ITU-GRACE16_gps_figure.png, id=643, 433.62pt x 289.08pt>
 File: Figures/ITU-GRACE16_gps_figure.png Graphic file (type png)
 
 <use Figures/ITU-GRACE16_gps_figure.png>
@@ -1568,7 +1932,7 @@ Overfull \hbox (16.14587pt too wide) in paragraph at lines 253--255
  [][] 
  []
 
-<Figures/ITU_GGC16_gps_figure.png, id=832, 433.62pt x 289.08pt>
+<Figures/ITU_GGC16_gps_figure.png, id=644, 433.62pt x 289.08pt>
 File: Figures/ITU_GGC16_gps_figure.png Graphic file (type png)
 
 <use Figures/ITU_GGC16_gps_figure.png>
@@ -1580,7 +1944,7 @@ Overfull \hbox (16.14587pt too wide) in paragraph at lines 261--263
  [][] 
  []
 
-<Figures/geco_gps_figure.png, id=833, 433.62pt x 289.08pt>
+<Figures/geco_gps_figure.png, id=645, 433.62pt x 289.08pt>
 File: Figures/geco_gps_figure.png Graphic file (type png)
 
 <use Figures/geco_gps_figure.png>
@@ -1591,7 +1955,7 @@ Overfull \hbox (16.14587pt too wide) in paragraph at lines 269--271
  [][] 
  []
 
-<Figures/eigen-6c4_gps_figure.png, id=834, 433.62pt x 289.08pt>
+<Figures/eigen-6c4_gps_figure.png, id=646, 433.62pt x 289.08pt>
 File: Figures/eigen-6c4_gps_figure.png Graphic file (type png)
 
 <use Figures/eigen-6c4_gps_figure.png>
@@ -1603,7 +1967,7 @@ Overfull \hbox (16.14587pt too wide) in paragraph at lines 276--278
  [][] 
  []
 
-<Figures/high_order_results.png, id=835, 433.62pt x 289.08pt>
+<Figures/high_order_results.png, id=647, 433.62pt x 289.08pt>
 File: Figures/high_order_results.png Graphic file (type png)
 
 <use Figures/high_order_results.png>
@@ -1615,7 +1979,7 @@ Overfull \hbox (16.14587pt too wide) in paragraph at lines 283--285
  [][] 
  []
 
-<Figures/ITU_GGC16.pdf, id=836, 845.1575pt x 597.23125pt>
+<Figures/ITU_GGC16.pdf, id=648, 845.1575pt x 597.23125pt>
 File: Figures/ITU_GGC16.pdf Graphic file (type pdf)
 
 <use Figures/ITU_GGC16.pdf>
@@ -1626,104 +1990,117 @@ Overfull \hbox (427.68237pt too wide) in paragraph at lines 290--292
  [][] 
  []
 
-) [30 <./Figures/ITU_GRACE16_figure.png>] [31] (./Chapters/Chapter6.tex
-[32 <./Figures/ITU_GGC16_figure.png>] [33 <./Figures/geco_figure.png> <./Figure
-s/eigen-6c4_figure.png>] [34 <./Figures/grayscale_style.png> <./Figures/classic
-_style.png>] [35 <./Figures/egm2008_gps_figure.png> <./Figures/ITU-GRACE16_gps_
-figure.png>] [36 <./Figures/ITU_GGC16_gps_figure.png> <./Figures/geco_gps_figur
-e.png>] [37 <./Figures/eigen-6c4_gps_figure.png> <./Figures/high_order_results.
-png>] [38 <./Figures/ITU_GGC16.pdf, page is rotated 90 degrees>]
+)
+! Undefined control sequence.
+<argument> \undefinedpagestyle 
+                               
+l.240 \pagestyle{thesis}
+                        
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+(./Chapters/Chapter6.tex [29 <./Figures/ITU_GRACE16_figure.png>] [30] [31 <./Fi
+gures/ITU_GGC16_figure.png>] [32 <./Figures/geco_figure.png> <./Figures/eigen-6
+c4_figure.png>] [33 <./Figures/grayscale_style.png> <./Figures/classic_style.pn
+g>] [34 <./Figures/egm2008_gps_figure.png> <./Figures/ITU-GRACE16_gps_figure.pn
+g>] [35 <./Figures/ITU_GGC16_gps_figure.png> <./Figures/geco_gps_figure.png>]
+[36 <./Figures/eigen-6c4_gps_figure.png> <./Figures/high_order_results.png>]
+[37 <./Figures/ITU_GGC16.pdf, page is rotated 90 degrees>]
 Chapter 6.
 ------------------------------------------------------------------------------
  6 Conclusion and Recommendations
 ------------------------------------------------------------------------------
-) [39
 
-] [40]
+Package natbib Warning: Citation `ahmed_msc' on page 38 undefined on input line
+ 4.
+
+
+Package natbib Warning: Citation `godah' on page 38 undefined on input line 4.
+
+
+Package natbib Warning: Citation `osman' on page 38 undefined on input line 16.
+
+
+
+Package natbib Warning: Citation `numpy' on page 38 undefined on input line 20.
+
+
+
+Package natbib Warning: Citation `matplotlib' on page 38 undefined on input lin
+e 20.
+
+
+Package natbib Warning: Citation `scipy' on page 38 undefined on input line 20.
+
+
+
+Package natbib Warning: Citation `octave' on page 38 undefined on input line 20
+.
+
+
+Package natbib Warning: Citation `ipython' on page 38 undefined on input line 2
+0.
+
+
+Package natbib Warning: Citation `bokeh' on page 38 undefined on input line 20.
+
+
+) [38
+
+] [39]
 ------------------------------------------------------------------------------
  Bibliography
 ------------------------------------------------------------------------------
-(./Thesis.bbl [41
-
-
-])
-Runaway argument?
-{Reigber, Luhr, Grunwaldt \harvardand \^^MF\}{n.d.}{champ} Reigber, C\ETC.
-! File ended while scanning use of \\harvarditem.
-<inserted text> 
-                \par 
-l.265 \bibliography{Bibliography}
-                                   % The references (bibliography) informati...
-I suspect you have forgotten a `}', causing me
-to read past where you wanted me to stop.
-I'll try to recover; but if the error is serious,
-you'd better type `E' or `X' now and fix your file.
-
+(./Thesis.bbl)
 
 Package natbib Warning: There were undefined citations.
 
-
-! LaTeX Error: \begin{thebibliography} on input line 1 ended by \end{document}.
-
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.267 \end{document}
-                      % The End
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 267.
-[42]
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 267.
- (./Thesis.aux)
+(./Thesis.aux)
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 267.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 267.
 Package rerunfilecheck Info: File `Thesis.out' has not changed.
-(rerunfilecheck)             Checksum: 539B40C73F52017E1940847EDBBD4F5E;9182.
+(rerunfilecheck)             Checksum: 12A6F56B03B2EC38BCAED372A9CF6260;9078.
 
 
 LaTeX Warning: There were multiply-defined labels.
 
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 267.
- )
-(\end occurred inside a group at level 1)
-
-### semi simple group (level 1) entered at line 1 (\begingroup)
-### bottom level 
+ ) 
 Here is how much of TeX's memory you used:
- 23300 strings out of 493029
- 408140 string characters out of 6136234
+ 23251 strings out of 493029
+ 407435 string characters out of 6136234
  471980 words of memory out of 5000000
- 26320 multiletter control sequences out of 15000+600000
- 15353 words of font info for 58 fonts, out of 8000000 for 9000
+ 26291 multiletter control sequences out of 15000+600000
+ 15661 words of font info for 59 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  49i,16n,49p,10378b,1008s stack positions out of 5000i,500n,10000p,200000b,80000s
-</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/c
-mbx10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.
-pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb><
-/usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/s
-hare/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/t
-exlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/share/texlive/
-texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texlive/texmf-d
-ist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fon
-ts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type
-1/public/amsfonts/cm/cmr17.pfb></usr/share/texlive/texmf-dist/fonts/type1/publi
-c/amsfonts/cm/cmr6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfon
-ts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cm
-sl12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.p
-fb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></us
-r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/shar
-e/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/share/texl
-ive/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb></usr/share/texlive/te
-xmf-dist/fonts/type1/public/amsfonts/symbols/msam7.pfb>
-Output written on Thesis.pdf (55 pages, 8220441 bytes).
+</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></us
+r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/shar
+e/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb></usr/share/tex
+live/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texlive/t
+exmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-d
+ist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/share/texlive/texmf-dist/fon
+ts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texlive/texmf-dist/fonts/type
+1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/publi
+c/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfo
+nts/cm/cmr17.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/
+cmr6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb
+></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsl12.pfb></usr
+/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share
+/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/share/texliv
+e/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/share/texlive/texm
+f-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/share/texlive/texmf-dist
+/fonts/type1/public/amsfonts/cm/cmtt10.pfb></usr/share/texlive/texmf-dist/fonts
+/type1/public/amsfonts/symbols/msam7.pfb>
+Output written on Thesis.pdf (52 pages, 8203346 bytes).
 PDF statistics:
- 1034 PDF objects out of 1200 (max. 8388607)
- 893 compressed objects within 9 object streams
- 217 named destinations out of 1000 (max. 500000)
- 510 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 820 PDF objects out of 1000 (max. 8388607)
+ 703 compressed objects within 8 object streams
+ 197 named destinations out of 1000 (max. 500000)
+ 502 words of extra memory for PDF output out of 10000 (max. 10000000)
 

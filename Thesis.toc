@@ -30,30 +30,29 @@
 \contentsline {subsection}{\numberline {3.3.2}Combined Models}{14}{subsection.68}
 \contentsline {subsection}{\numberline {3.3.3}Tailored Models}{14}{subsection.69}
 \contentsline {subsection}{\numberline {3.3.4}Difficulties in modeling the Earth from the space}{15}{subsection.70}
-\contentsline {section}{\numberline {3.4}New Satellite Missions}{16}{section.71}
+\contentsline {section}{\numberline {3.4}New Satellite Missions}{15}{section.71}
 \contentsline {subsection}{\numberline {3.4.1}CHAMP}{16}{subsection.72}
 \contentsline {subsection}{\numberline {3.4.2}GRACE}{16}{subsection.73}
-\contentsline {subsection}{\numberline {3.4.3}GOCE}{17}{subsection.74}
+\contentsline {subsection}{\numberline {3.4.3}GOCE}{16}{subsection.74}
 \contentsline {section}{\numberline {3.5}Our models}{17}{section.78}
-\contentsline {section}{\numberline {3.6}Chapter summary}{18}{section.84}
-\contentsline {chapter}{\numberline {4}Geoid Height Determination Using GeoidApp}{20}{chapter.89}
-\contentsline {section}{\numberline {4.1}Introduction}{20}{section.90}
-\contentsline {section}{\numberline {4.2}Computing the Geoid}{20}{section.91}
-\contentsline {subsection}{\numberline {4.2.1}Working with GGMs data}{21}{subsection.92}
-\contentsline {subsubsection}{\numberline {4.2.1.1}Parsing the data}{21}{subsubsection.93}
-\contentsline {paragraph}{Model's summary}{21}{section*.94}
-\contentsline {paragraph}{The header}{22}{section*.95}
-\contentsline {section}{\numberline {4.3}Software Implementation}{23}{section.109}
-\contentsline {subsection}{\numberline {4.3.1}Associated Legendre Function}{23}{subsection.110}
-\contentsline {subsection}{\numberline {4.3.2}Geoid height function}{23}{subsection.111}
-\contentsline {section}{\numberline {4.4}GeoidApp}{25}{section.112}
-\contentsline {subsection}{\numberline {4.4.1}Automations in GeoidApp}{26}{subsection.113}
-\contentsline {chapter}{\numberline {5}Results and Discussions}{27}{chapter.115}
-\contentsline {section}{\numberline {5.1}Evaluation on astrogeodetic data}{27}{section.116}
-\contentsline {section}{\numberline {5.2}Evaluation of GPS/Leveling data}{29}{section.128}
-\contentsline {section}{\numberline {5.3}Summary}{30}{section.142}
-\contentsline {chapter}{\numberline {6}Conclusion and Recommendations}{39}{chapter.143}
-\contentsline {section}{\numberline {6.1}Recommendations}{39}{section.144}
+\contentsline {section}{\numberline {3.6}Chapter summary}{17}{section.84}
+\contentsline {chapter}{\numberline {4}Geoid Height Determination Using GeoidApp}{19}{chapter.89}
+\contentsline {section}{\numberline {4.1}Introduction}{19}{section.90}
+\contentsline {section}{\numberline {4.2}Computing the Geoid}{19}{section.91}
+\contentsline {subsection}{\numberline {4.2.1}Working with GGMs data}{20}{subsection.92}
+\contentsline {subsubsection}{\numberline {4.2.1.1}Parsing the data}{20}{subsubsection.93}
+\contentsline {paragraph}{Model's summary}{20}{section*.94}
+\contentsline {paragraph}{The header}{21}{section*.95}
+\contentsline {section}{\numberline {4.3}Software Implementation}{22}{section.109}
+\contentsline {subsection}{\numberline {4.3.1}Associated Legendre Function}{22}{subsection.110}
+\contentsline {subsection}{\numberline {4.3.2}Geoid height function}{22}{subsection.111}
+\contentsline {section}{\numberline {4.4}GeoidApp}{24}{section.112}
+\contentsline {subsection}{\numberline {4.4.1}Automations in GeoidApp}{24}{subsection.113}
+\contentsline {chapter}{\numberline {5}Results and Discussions}{26}{chapter.115}
+\contentsline {section}{\numberline {5.1}Evaluation on astrogeodetic data}{26}{section.116}
+\contentsline {section}{\numberline {5.2}Evaluation of GPS/Leveling data}{28}{section.128}
+\contentsline {section}{\numberline {5.3}Summary}{29}{section.142}
+\contentsline {chapter}{\numberline {6}Conclusion and Recommendations}{38}{chapter.143}
+\contentsline {section}{\numberline {6.1}Recommendations}{38}{section.144}
 \vspace {2em}
 \vspace {2em}
-\contentsline {chapter}{Bibliography}{41}{dummy.145}
