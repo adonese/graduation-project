@@ -23,7 +23,7 @@
 \definecolor{dkgreen}{rgb}{0,0.6,0}
 \definecolor{gray}{rgb}{0.5,0.5,0.5}
 \definecolor{mauve}{rgb}{0.58,0,0.82}
-
+\usepackage{fancyhdr}
 \usepackage[table]{xcolor}
 \usepackage{booktabs,caption}
 \usepackage[flushleft]{threeparttable}
@@ -121,10 +121,10 @@ Date:\\
 
 \null\vfill
 % Now comes the "Funny Quote", written in italics
-\textit{``Write a funny quote here.''}
+\textit{``The gravity field over land areas on Earth is less well known than is that of Venus''}
 
 \begin{flushright}
-If the quote is taken from someone, their name goes here
+McKenzie, 1994
 \end{flushright}
 
 \vfill\vfill\vfill\vfill\vfill\vfill\null
@@ -135,8 +135,7 @@ If the quote is taken from someone, their name goes here
 \addtotoc{Abstract}  % Add the "Abstract" page entry to the Contents
 \abstract{
 \addtocontents{toc}{\vspace{1em}}  % Add a gap in the Contents, for aesthetics
-Figure of the earth remains one of the most crucial aspects of geodesy. Modern studies of the figure of the earth have started with Gauss \cite{gauss} who call it `geoid'. The geoid according to Gauss is the surface that approximates the sea level. Another approach of describing the figure of the earth was proposed by Molodnskey \cite{molodonskey}. His proposal was to treat the earth's figure as `a boundary value problem'. We're interested in the later approach as we believe that it's economically feasible, yet accurate enough.
-
+The main objective of this study is to evaluate new GOCE missions on Sudan. We have evaluated 5 models; EGM2008, EIGEN-6C4, GECO, ITU\_GGC16, and ITU\_GRACE16. We have compared our evaluation results with two published works \citep{ahmed_msc, godah}. Without any corrections, we reported an accuracy that is comparable to \citep{ahmed_msc, godah}. The best model ITU\_GGC16 with std of $0.365349m$ which is comparable to $0.29m$ and$0.306m$ reported by \cite{ahmed_msc, godah} respectively. Their results without applying any corrections, that is, a geoid height solely derived from GGM were $0.576m$, $0.644m$. Thus, a new datum for Sudan using our proposed models with an accuracy of $0.10m~0.20m$ is quite achievable. For our computations we developed GeoidApp. While it is a generic software for geopotential functionals computations, it is very useful in automating the process of choosing the best model.
 }
 
 \clearpage  % Abstract ended, start a new page
@@ -243,9 +242,9 @@ $\sigma$ & standard deviation & meters\\
 
 \addtocontents{toc}{\vspace{2em}} % Add a gap in the Contents, for aesthetics
 
-\appendix % Cue to tell LaTeX that the following 'chapters' are Appendices
+%\appendix % Cue to tell LaTeX that the following 'chapters' are Appendices
 
-\input{Appendices/AppendixA}	% Appendix Title
+%\input{Appendices/AppendixA}	% Appendix Title
 
 %\input{Appendices/AppendixB} % Appendix Title
 

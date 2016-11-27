@@ -2,19 +2,18 @@ This is BibTeX, Version 0.99d (TeX Live 2015/Debian)
 Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
 The top-level auxiliary file: Thesis.aux
 The style file: agsm.bst
-Illegal, another \bibstyle command---line 232 of file Thesis.aux
+Illegal, another \bibstyle command---line 244 of file Thesis.aux
  : \bibstyle
  :          {unsrtnat}
 I'm skipping whatever remains of this command
 Database file #1: Bibliography.bib
-Warning--entry type for "osman" isn't style-file defined
---line 56 of file Bibliography.bib
 Warning--entry type for "vanicek" isn't style-file defined
---line 93 of file Bibliography.bib
-Warning--I didn't find a database entry for "gauss"
-Warning--I didn't find a database entry for "molodonskey"
-Warning--I didn't find a database entry for "adam"
-Warning--I didn't find a database entry for "nasa"
+--line 66 of file Bibliography.bib
+Warning--entry type for "osman" isn't style-file defined
+--line 221 of file Bibliography.bib
+Warning--I didn't find a database entry for "lndrem"
+Warning--I didn't find a database entry for "lnerdm"
+Warning--I didn't find a database entry for "meziani"
 Warning--I didn't find a database entry for "goce_sp123"
 Warning--I didn't find a database entry for "("
 Warning--I didn't find a database entry for "ituggc"
@@ -23,9 +22,7 @@ Warning--I didn't find a database entry for "egm2008"
 Warning--I didn't find a database entry for "eigen6c4"
 Warning--I didn't find a database entry for "geco"
 Warning--I didn't find a database entry for "hoffmann"
-Warning--I didn't find a database entry for "lndrem"
-Warning--I didn't find a database entry for "lnerdm"
-Warning--I didn't find a database entry for "meziani"
+Warning--I didn't find a database entry for "adam"
 Name 1 in "Amos, M. J., and W. Featherstone" has a comma at the end for entry amos
 while executing---line 1222 of file agsm.bst
 Name 1 in "Amos, M. J., and W. Featherstone" has a comma at the end for entry amos
@@ -44,45 +41,45 @@ Name 1 in "Amos, M. J., and W. Featherstone" has a comma at the end for entry am
 while executing---line 1346 of file agsm.bst
 Name 1 in "Amos, M. J., and W. Featherstone" has a comma at the end for entry amos
 while executing---line 1346 of file agsm.bst
-You've used 13 entries,
+You've used 14 entries,
             2909 wiz_defined-function locations,
-            739 strings with 7336 characters,
-and the built_in function-call counts, 68289 in all, are:
-= -- 11218
-> -- 924
+            742 strings with 7586 characters,
+and the built_in function-call counts, 72402 in all, are:
+= -- 11896
+> -- 971
 < -- 0
-+ -- 5494
-- -- 287
-* -- 6042
-:= -- 13512
-add.period$ -- 13
-call.type$ -- 13
-change.case$ -- 182
-chr.to.int$ -- 13
-cite$ -- 13
-duplicate$ -- 191
-empty$ -- 405
-format.name$ -- 333
-if$ -- 12227
++ -- 5819
+- -- 301
+* -- 6393
+:= -- 14339
+add.period$ -- 14
+call.type$ -- 14
+change.case$ -- 195
+chr.to.int$ -- 14
+cite$ -- 14
+duplicate$ -- 207
+empty$ -- 434
+format.name$ -- 353
+if$ -- 12966
 int.to.chr$ -- 5
 int.to.str$ -- 0
-missing$ -- 10
-newline$ -- 46
-num.names$ -- 134
-pop$ -- 59
+missing$ -- 12
+newline$ -- 50
+num.names$ -- 144
+pop$ -- 66
 preamble$ -- 1
-purify$ -- 195
+purify$ -- 210
 quote$ -- 0
-skip$ -- 164
+skip$ -- 173
 stack$ -- 0
-substring$ -- 16091
-swap$ -- 30
-text.length$ -- 182
+substring$ -- 17042
+swap$ -- 31
+text.length$ -- 196
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 52
+type$ -- 54
 warning$ -- 0
-while$ -- 287
+while$ -- 308
 width$ -- 0
-write$ -- 166
+write$ -- 180
 (There were 10 error messages)
