@@ -37,14 +37,6 @@ Amos, M.~J. \harvardand\ Featherstone, W.  \harvardyearleft
   with terrestrial gravity field observations over new zealand and australia',
   {\em Geomatics Research Australasia} .
 
-\harvarditem[C. et~al.]{C., S.L., Abrikosov, Lemoine, Marty, Flechtner,
-  Balmino, Barthelmes \harvardand\ Biancale}{2015}{eigen6c4}
-C., F., S.L., B., Abrikosov, O., Lemoine, J.-M., Marty, J., Flechtner, F.,
-  Balmino, G., Barthelmes, F. \harvardand\ Biancale, R.  \harvardyearleft
-  2015\harvardyearright , `Eigen-6c4 the latest combined global gravity field
-  model including goce data up to degree and order 2190 of gfz potsdam and grgs
-  toulouse'.
-
 \harvarditem[Drewes et~al.]{Drewes, Kuglitsch \harvardand\ Adam}{n.d.}{icgem}
 Drewes, H., Kuglitsch, F. \harvardand\ Adam, J.  \harvardyearleft
   n.d.\harvardyearright .
@@ -61,6 +53,20 @@ Floberghagen, R., Fehringer, M., Lamarre, D., Muzi, D., Frommknecht, B.,
   gravity field and steady-state ocean circulation explorer mission', {\em
   Journal of Geodesy} {\bf 85}(11),~749--758.
 \newline\harvardurl{http://dx.doi.org/10.1007/s00190-011-0498-3}
+
+\harvarditem[Forste et~al.]{Forste, Bruinsma, Abrikosov, Lemoine, Marty,
+  Flechtner, Balmino, Barthelmes \harvardand\ Biancale}{2015}{eigen6c4}
+Forste, C., Bruinsma, S., Abrikosov, O., Lemoine, J.-M., Marty, J., Flechtner,
+  F., Balmino, G., Barthelmes, F. \harvardand\ Biancale, R.  \harvardyearleft
+  2015\harvardyearright , `Eigen-6c4 the latest combined global gravity field
+  model including goce data up to degree and order 2190 of gfz potsdam and grgs
+  toulouse'.
+
+\harvarditem[Gilardoni et~al.]{Gilardoni, Reguzzoni \harvardand\
+  Sampietro}{2015}{geco}
+Gilardoni, M., Reguzzoni, M. \harvardand\ Sampietro, D.  \harvardyearleft
+  2015\harvardyearright , `Geco: a global gravity model by locally combining
+  goce data and egm2008', {\em Studia Geophysica et Geodaetica} .
 
 \harvarditem{Godah \harvardand\ Krynski}{2015}{godah}
 Godah, W. \harvardand\ Krynski, J.  \harvardyearleft 2015\harvardyearright , `A
@@ -96,11 +102,6 @@ Kiamehr, R. \harvardand\ Eshagh, M.  \harvardyearleft 2008\harvardyearright ,
   components from global geopotential models', {\em Earth Science Informatics}
   {\bf 1}(2),~93--103.
 \newline\harvardurl{http://dx.doi.org/10.1007/s12145-008-0013-4}
-
-\harvarditem[M. et~al.]{M., M. \harvardand\ D.}{2015}{geco}
-M., G., M., R. \harvardand\ D., S.  \harvardyearleft 2015\harvardyearright ,
-  `Geco: a global gravity model by locally combining goce data and egm2008',
-  {\em Studia Geophysica et Geodaetica} .
 
 \harvarditem{Marsh \harvardand\ Center}{1987}{nasa}
 Marsh, J. \harvardand\ Center, G. S.~F.  \harvardyearleft 1987\harvardyearright
