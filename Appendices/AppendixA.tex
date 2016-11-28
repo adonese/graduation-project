@@ -93,3 +93,51 @@ In this appendix we show the complete datasets that we used in our study. Table 
 		15.340   & 32.394    & 2.692        \\ \bottomrule
 	\end{tabular}
 \end{table}
+
+\section{Other models for Sudan using the rest of our GGM}
+We show different models for Sudan using our GGM. While ITU\_GGC16 has scored the best result on our local data, the lack of the data, and the closeness of the results among the selected models make any of them a good candidate. The figures below are all purely from satellite observations, i.e., we did not use any local data to produce them. All of these models were evaluated using the maximum degree.
+\\  
+Figure \ref{figure:point_astro_dist} clearly shows the lack of our local data, and in the inhomogeneity in their distribution.
+
+      \begin{figure}[t]
+      	\caption{Points distribution of \cite{osman}}
+      	\label{figure:point_astro_dist}
+      	\includegraphics{Figures/points_astro_dist.pdf}
+      	\centering
+      \end{figure}
+      
+    \begin{figure}[t]
+          	\caption{Points distribution of \cite{ahmed_msc}}
+          	\label{figure:point_gps_dist}
+          	\includegraphics{Figures/krt.png}
+          	\centering
+    \end{figure}
+    
+        \begin{figure}[t]
+        	\caption{New Geoid for Sudan based on EGM2008}
+        	\label{figure:datum_egm2008}
+        	\includegraphics{Figures/cropped_egm2008.pdf}
+        	\centering
+        \end{figure}
+        
+        \begin{figure}[t]
+              	\caption{New Geoid for Sudan based on EIGEN-6C4}
+              	\label{figure:datum_eigen6c4}
+              	\includegraphics{Figures/cropped_eigen6c4.pdf}
+              	\centering
+        \end{figure}
+        
+            \begin{figure}[t]
+                  	\caption{New Geoid for Sudan based on GECO}
+                  	\label{figure:datum_geco}
+                  	\includegraphics{Figures/cropped_geco.pdf}
+                  	\centering
+            \end{figure}
+            
+On Fig. \ref{figure:datum_itugrace16}, it is clear that ITU\_GRACE16 has a different behavior than other models. They \cite{itugrace16} reported that ITU\_GRACE16 is not regularized or constrained in any way, the errors increase with degree.Hence, they don't recommend to use it in any work without smoothing. 
+                    \begin{figure}[t]
+                       	\caption{New Geoid for Sudan based on ITU\_GRACE16}
+                       	\label{figure:datum_itugrace16}
+                       	\includegraphics{Figures/cropped_itu_grace16.pdf}
+                       	\centering
+                    \end{figure}

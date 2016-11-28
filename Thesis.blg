@@ -2,7 +2,7 @@ This is BibTeX, Version 0.99d (TeX Live 2015/Debian)
 Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
 The top-level auxiliary file: Thesis.aux
 The style file: agsm.bst
-Illegal, another \bibstyle command---line 276 of file Thesis.aux
+Illegal, another \bibstyle command---line 317 of file Thesis.aux
  : \bibstyle
  :          {unsrtnat}
 I'm skipping whatever remains of this command
@@ -15,24 +15,24 @@ I was expecting a `,' or a `}'---line 249 of file Bibliography.bib
  :  and Adam, J\"
  :               ozsef
 I'm skipping whatever remains of this entry
-I was expecting a `,' or a `}'---line 268 of file Bibliography.bib
+I was expecting a `,' or a `}'---line 269 of file Bibliography.bib
  :  
  :  url = {https://geographiclib.sourceforge.net/},
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
-You're missing a field part---line 336 of file Bibliography.bib
+You're missing a field part---line 337 of file Bibliography.bib
  :  eid = 
  :        ,
 I'm skipping whatever remains of this entry
-You're missing a field part---line 350 of file Bibliography.bib
+You're missing a field part---line 351 of file Bibliography.bib
  :  eid = 
  :        ,
 I'm skipping whatever remains of this entry
-You're missing a field part---line 364 of file Bibliography.bib
+You're missing a field part---line 365 of file Bibliography.bib
  :  eid = 
  :        ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 458 of file Bibliography.bib
+Repeated entry---line 459 of file Bibliography.bib
  : @article{goce
  :              ,
 I'm skipping whatever remains of this entry
@@ -110,45 +110,45 @@ Warning--empty publisher in octave
 Warning--empty publisher in meziani
 Warning--can't use both author and editor fields in champ
 Warning--can't use both author and editor fields in grace
-You've used 33 entries,
+You've used 34 entries,
             2909 wiz_defined-function locations,
-            825 strings with 10914 characters,
-and the built_in function-call counts, 195280 in all, are:
-= -- 32143
-> -- 2768
+            833 strings with 11029 characters,
+and the built_in function-call counts, 197164 in all, are:
+= -- 32424
+> -- 2792
 < -- 1
-+ -- 15900
-- -- 865
-* -- 17371
-:= -- 38353
-add.period$ -- 34
-call.type$ -- 33
-change.case$ -- 453
-chr.to.int$ -- 32
-cite$ -- 38
-duplicate$ -- 533
-empty$ -- 1034
-format.name$ -- 977
-if$ -- 35058
++ -- 16015
+- -- 872
+* -- 17522
+:= -- 38768
+add.period$ -- 35
+call.type$ -- 34
+change.case$ -- 467
+chr.to.int$ -- 33
+cite$ -- 39
+duplicate$ -- 549
+empty$ -- 1070
+format.name$ -- 986
+if$ -- 35388
 int.to.chr$ -- 6
 int.to.str$ -- 0
-missing$ -- 36
-newline$ -- 115
-num.names$ -- 348
-pop$ -- 182
+missing$ -- 37
+newline$ -- 119
+num.names$ -- 358
+pop$ -- 185
 preamble$ -- 1
-purify$ -- 495
+purify$ -- 510
 quote$ -- 0
-skip$ -- 431
+skip$ -- 443
 stack$ -- 0
-substring$ -- 46233
-swap$ -- 94
-text.length$ -- 463
+substring$ -- 46613
+swap$ -- 97
+text.length$ -- 477
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 118
+type$ -- 122
 warning$ -- 5
-while$ -- 723
+while$ -- 746
 width$ -- 0
-write$ -- 437
+write$ -- 450
 (There were 39 error messages)

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2016.9.10)  28 NOV 2016 08:45
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2016.9.10)  28 NOV 2016 13:04
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -841,7 +841,7 @@ File: lstlang1.sty 2015/06/04 1.6 listings language file
 (/usr/share/texlive/texmf-dist/tex/latex/listings/lstmisc.sty
 File: lstmisc.sty 2015/06/04 1.6 (Carsten Heinz)
 )
-Package hyperref Info: Option `colorlinks' set `true' on input line 55.
+Package hyperref Info: Option `colorlinks' set `true' on input line 54.
  (./Thesis.aux
 
 LaTeX Warning: Label `table:ggm_models' multiply defined.
@@ -864,31 +864,25 @@ LaTeX Warning: Label `sudan_data' multiply defined.
 
 LaTeX Warning: Label `sudan_data' multiply defined.
 
-
-LaTeX Warning: Label `sudan_data' multiply defined.
-
-
-LaTeX Warning: Label `sudan_data' multiply defined.
-
 )
 \openout1 = `Thesis.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 63.
-LaTeX Font Info:    ... okay on input line 63.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 63.
-LaTeX Font Info:    ... okay on input line 63.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 63.
-LaTeX Font Info:    ... okay on input line 63.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 63.
-LaTeX Font Info:    ... okay on input line 63.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 63.
-LaTeX Font Info:    ... okay on input line 63.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 63.
-LaTeX Font Info:    ... okay on input line 63.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 63.
-LaTeX Font Info:    ... okay on input line 63.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 63.
-LaTeX Font Info:    ... okay on input line 63.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 62.
+LaTeX Font Info:    ... okay on input line 62.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 62.
+LaTeX Font Info:    ... okay on input line 62.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 62.
+LaTeX Font Info:    ... okay on input line 62.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 62.
+LaTeX Font Info:    ... okay on input line 62.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 62.
+LaTeX Font Info:    ... okay on input line 62.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 62.
+LaTeX Font Info:    ... okay on input line 62.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 62.
+LaTeX Font Info:    ... okay on input line 62.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 62.
+LaTeX Font Info:    ... okay on input line 62.
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: hyperref package is loaded.
 Package caption Info: listings package is loaded.
@@ -917,7 +911,7 @@ Package caption Info: End \AtBeginDocument code.
 )
 \c@lstlisting=\count194
 \AtBeginShipoutBox=\box59
-Package hyperref Info: Link coloring ON on input line 63.
+Package hyperref Info: Link coloring ON on input line 62.
  (/usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2012/10/27 v2.43 Cross-referencing by name of section
 
@@ -926,9 +920,9 @@ Package: gettitlestring 2010/12/03 v1.4 Cleanup title references (HO)
 )
 \c@section@level=\count195
 )
-LaTeX Info: Redefining \ref on input line 63.
-LaTeX Info: Redefining \pageref on input line 63.
-LaTeX Info: Redefining \nameref on input line 63.
+LaTeX Info: Redefining \ref on input line 62.
+LaTeX Info: Redefining \pageref on input line 62.
+LaTeX Info: Redefining \nameref on input line 62.
 
 (./Thesis.out) (./Thesis.out)
 \@outlinefile=\write3
@@ -943,12 +937,12 @@ Dictionary: translator-basic-dictionary, Language: English
 File: siunitx-abbreviations.cfg 2016/03/01 v2.6q siunitx: Abbreviated units
 )
 \c__siunitx_mathsf_int=\count196
-LaTeX Font Info:    Try loading font information for U+msa on input line 63.
+LaTeX Font Info:    Try loading font information for U+msa on input line 62.
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 63.
+LaTeX Font Info:    Try loading font information for U+msb on input line 62.
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
@@ -967,7 +961,7 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
  Declaration of Authorship
 ------------------------------------------------------------------------------
 
-Underfull \hbox (badness 10000) in paragraph at lines 115--115
+Underfull \hbox (badness 10000) in paragraph at lines 114--114
 
  []
 
@@ -1033,9 +1027,17 @@ Missing character: There is no è in font cmr10!
 
 ]
 ------------------------------------------------------------------------------
- Dedicatory
+ Physical Constants
 ------------------------------------------------------------------------------
 [10
+
+
+
+]
+------------------------------------------------------------------------------
+ Dedicatory
+------------------------------------------------------------------------------
+[11
 
 ] (./Chapters/Chapter1.tex
 Chapter 1.
@@ -1095,7 +1097,7 @@ Package epstopdf Info: Source file: <Figures/points_dist.eps>
 nverted-to.pdf Figures/points_dist.eps>
 (epstopdf)             \includegraphics on input line 39.
 Package epstopdf Info: Output file is already uptodate.
-<Figures/points_dist-eps-converted-to.pdf, id=591, 340.27126pt x 385.44pt>
+<Figures/points_dist-eps-converted-to.pdf, id=628, 340.27126pt x 385.44pt>
 File: Figures/points_dist-eps-converted-to.pdf Graphic file (type pdf)
 
 <use Figures/points_dist-eps-converted-to.pdf>
@@ -1117,7 +1119,7 @@ s-converted-to.pdf Figures/points_dist_krt.eps>
 (epstopdf)             \includegraphics on input line 59.
 Package epstopdf Info: Output file is already uptodate.
 
-<Figures/points_dist_krt-eps-converted-to.pdf, id=603, 340.27126pt x 193.72375p
+<Figures/points_dist_krt-eps-converted-to.pdf, id=639, 340.27126pt x 193.72375p
 t>
 File: Figures/points_dist_krt-eps-converted-to.pdf Graphic file (type pdf)
  <use Figures/points_dist_krt-eps-converted-to.pdf>
@@ -1330,7 +1332,7 @@ line 106.
 
 pdfTeX warning: /usr/bin/pdflatex (file ./Figures/cropped_flow.pdf): PDF inclus
 ion: found PDF version <1.7>, but at most version <1.5> allowed
-<Figures/cropped_flow.pdf, id=797, 622.06401pt x 414.3781pt>
+<Figures/cropped_flow.pdf, id=834, 622.06401pt x 414.3781pt>
 File: Figures/cropped_flow.pdf Graphic file (type pdf)
 
 <use Figures/cropped_flow.pdf>
@@ -1367,7 +1369,7 @@ LaTeX Warning: No positions in optional float specifier.
 LaTeX Warning: No positions in optional float specifier.
                Default added (so using `tbp') on input line 81.
 
-<Figures/egm08_figure.png, id=845, 433.62pt x 289.08pt>
+<Figures/egm08_figure.png, id=881, 433.62pt x 289.08pt>
 File: Figures/egm08_figure.png Graphic file (type png)
 
 <use Figures/egm08_figure.png>
@@ -1378,7 +1380,7 @@ Overfull \hbox (16.14587pt too wide) in paragraph at lines 101--103
  [][] 
  []
 
-<Figures/ITU_GRACE16_figure.png, id=851, 433.62pt x 289.08pt>
+<Figures/ITU_GRACE16_figure.png, id=887, 433.62pt x 289.08pt>
 File: Figures/ITU_GRACE16_figure.png Graphic file (type png)
 
 <use Figures/ITU_GRACE16_figure.png>
@@ -1390,7 +1392,7 @@ Overfull \hbox (16.14587pt too wide) in paragraph at lines 109--111
  [][] 
  []
 
-<Figures/ITU_GGC16_figure.png, id=856, 433.62pt x 289.08pt>
+<Figures/ITU_GGC16_figure.png, id=892, 433.62pt x 289.08pt>
 File: Figures/ITU_GGC16_figure.png Graphic file (type png)
 
 <use Figures/ITU_GGC16_figure.png>
@@ -1405,7 +1407,7 @@ Missing character: There is no Ÿ in font cmr10!
 Missing character: There is no è in font cmr10!
 Missing character: There is no Ÿ in font cmr10!
 Missing character: There is no è in font cmr10!
-<Figures/geco_figure.png, id=861, 433.62pt x 289.08pt>
+<Figures/geco_figure.png, id=897, 433.62pt x 289.08pt>
 File: Figures/geco_figure.png Graphic file (type png)
 
 <use Figures/geco_figure.png>
@@ -1416,7 +1418,7 @@ Overfull \hbox (16.14587pt too wide) in paragraph at lines 125--127
  [][] 
  []
 
-<Figures/eigen-6c4_figure.png, id=866, 433.62pt x 289.08pt>
+<Figures/eigen-6c4_figure.png, id=902, 433.62pt x 289.08pt>
 File: Figures/eigen-6c4_figure.png Graphic file (type png)
 
 <use Figures/eigen-6c4_figure.png>
@@ -1427,7 +1429,7 @@ Overfull \hbox (16.14587pt too wide) in paragraph at lines 132--134
  [][] 
  []
 
-<Figures/grayscale_style.png, id=867, 433.62pt x 289.08pt>
+<Figures/grayscale_style.png, id=903, 433.62pt x 289.08pt>
 File: Figures/grayscale_style.png Graphic file (type png)
 
 <use Figures/grayscale_style.png>
@@ -1455,7 +1457,7 @@ LaTeX Warning: No positions in optional float specifier.
 LaTeX Warning: No positions in optional float specifier.
                Default added (so using `tbp') on input line 216.
 
-<Figures/classic_style.png, id=877, 433.62pt x 289.08pt>
+<Figures/classic_style.png, id=913, 433.62pt x 289.08pt>
 File: Figures/classic_style.png Graphic file (type png)
 
 <use Figures/classic_style.png>
@@ -1466,7 +1468,7 @@ Overfull \hbox (16.14587pt too wide) in paragraph at lines 237--239
  [][] 
  []
 
-<Figures/egm2008_gps_figure.png, id=878, 433.62pt x 289.08pt>
+<Figures/egm2008_gps_figure.png, id=914, 433.62pt x 289.08pt>
 File: Figures/egm2008_gps_figure.png Graphic file (type png)
 
 <use Figures/egm2008_gps_figure.png>
@@ -1478,7 +1480,7 @@ Overfull \hbox (16.14587pt too wide) in paragraph at lines 245--247
  [][] 
  []
 
-<Figures/ITU-GRACE16_gps_figure.png, id=879, 433.62pt x 289.08pt>
+<Figures/ITU-GRACE16_gps_figure.png, id=915, 433.62pt x 289.08pt>
 File: Figures/ITU-GRACE16_gps_figure.png Graphic file (type png)
 
 <use Figures/ITU-GRACE16_gps_figure.png>
@@ -1490,7 +1492,7 @@ Overfull \hbox (16.14587pt too wide) in paragraph at lines 253--255
  [][] 
  []
 
-<Figures/ITU_GGC16_gps_figure.png, id=880, 433.62pt x 289.08pt>
+<Figures/ITU_GGC16_gps_figure.png, id=916, 433.62pt x 289.08pt>
 File: Figures/ITU_GGC16_gps_figure.png Graphic file (type png)
 
 <use Figures/ITU_GGC16_gps_figure.png>
@@ -1502,7 +1504,7 @@ Overfull \hbox (16.14587pt too wide) in paragraph at lines 261--263
  [][] 
  []
 
-<Figures/geco_gps_figure.png, id=881, 433.62pt x 289.08pt>
+<Figures/geco_gps_figure.png, id=917, 433.62pt x 289.08pt>
 File: Figures/geco_gps_figure.png Graphic file (type png)
 
 <use Figures/geco_gps_figure.png>
@@ -1513,7 +1515,7 @@ Overfull \hbox (16.14587pt too wide) in paragraph at lines 269--271
  [][] 
  []
 
-<Figures/eigen-6c4_gps_figure.png, id=882, 433.62pt x 289.08pt>
+<Figures/eigen-6c4_gps_figure.png, id=918, 433.62pt x 289.08pt>
 File: Figures/eigen-6c4_gps_figure.png Graphic file (type png)
 
 <use Figures/eigen-6c4_gps_figure.png>
@@ -1525,7 +1527,7 @@ Overfull \hbox (16.14587pt too wide) in paragraph at lines 276--278
  [][] 
  []
 
-<Figures/high_order_results.png, id=883, 433.62pt x 289.08pt>
+<Figures/high_order_results.png, id=919, 433.62pt x 289.08pt>
 File: Figures/high_order_results.png Graphic file (type png)
 
 <use Figures/high_order_results.png>
@@ -1537,14 +1539,14 @@ Overfull \hbox (16.14587pt too wide) in paragraph at lines 283--285
  [][] 
  []
 
-<Figures/ITU_GGC16.pdf, id=884, 845.1575pt x 597.23125pt>
-File: Figures/ITU_GGC16.pdf Graphic file (type pdf)
+<Figures/cropped_ITU_GGC16.pdf, id=920, 440.64626pt x 473.77pt>
+File: Figures/cropped_ITU_GGC16.pdf Graphic file (type pdf)
 
-<use Figures/ITU_GGC16.pdf>
-Package pdftex.def Info: Figures/ITU_GGC16.pdf used on input line 290.
-(pdftex.def)             Requested size: 845.15544pt x 597.22978pt.
+<use Figures/cropped_ITU_GGC16.pdf>
+Package pdftex.def Info: Figures/cropped_ITU_GGC16.pdf used on input line 290.
+(pdftex.def)             Requested size: 440.64517pt x 473.76884pt.
 
-Overfull \hbox (427.68237pt too wide) in paragraph at lines 290--292
+Overfull \hbox (23.1721pt too wide) in paragraph at lines 290--292
  [][] 
  []
 
@@ -1554,7 +1556,7 @@ s/eigen-6c4_figure.png>] [34 <./Figures/grayscale_style.png> <./Figures/classic
 _style.png>] [35 <./Figures/egm2008_gps_figure.png> <./Figures/ITU-GRACE16_gps_
 figure.png>] [36 <./Figures/ITU_GGC16_gps_figure.png> <./Figures/geco_gps_figur
 e.png>] [37 <./Figures/eigen-6c4_gps_figure.png> <./Figures/high_order_results.
-png>] [38 <./Figures/ITU_GGC16.pdf, page is rotated 90 degrees>]
+png>] [38 <./Figures/cropped_ITU_GGC16.pdf, page is rotated 90 degrees>]
 Chapter 6.
 ------------------------------------------------------------------------------
  6 Conclusion and Recommendations
@@ -1574,9 +1576,62 @@ LaTeX Warning: No positions in optional float specifier.
 LaTeX Warning: No positions in optional float specifier.
                Default added (so using `tbp') on input line 63.
 
+<Figures/points_astro_dist.pdf, id=1029, 794.97pt x 614.295pt>
+File: Figures/points_astro_dist.pdf Graphic file (type pdf)
+
+<use Figures/points_astro_dist.pdf>
+Package pdftex.def Info: Figures/points_astro_dist.pdf used on input line 105.
+(pdftex.def)             Requested size: 794.96806pt x 614.29349pt.
+
+Overfull \hbox (377.495pt too wide) in paragraph at lines 105--107
+ [][] 
+ []
+
+<Figures/krt.png, id=1034, 223.3143pt x 157.7895pt>
+File: Figures/krt.png Graphic file (type png)
+ <use Figures/krt.png>
+Package pdftex.def Info: Figures/krt.png used on input line 112.
+(pdftex.def)             Requested size: 223.31374pt x 157.78911pt.
+
+<Figures/cropped_egm2008.pdf, id=1035, 403.5075pt x 452.69125pt>
+File: Figures/cropped_egm2008.pdf Graphic file (type pdf)
+
+<use Figures/cropped_egm2008.pdf>
+Package pdftex.def Info: Figures/cropped_egm2008.pdf used on input line 119.
+(pdftex.def)             Requested size: 403.50652pt x 452.69014pt.
+
+<Figures/cropped_eigen6c4.pdf, id=1036, 411.5375pt x 433.62pt>
+File: Figures/cropped_eigen6c4.pdf Graphic file (type pdf)
+
+<use Figures/cropped_eigen6c4.pdf>
+Package pdftex.def Info: Figures/cropped_eigen6c4.pdf used on input line 126.
+(pdftex.def)             Requested size: 411.5365pt x 433.61894pt.
+
+<Figures/cropped_geco.pdf, id=1037, 845.1575pt x 597.23125pt>
+File: Figures/cropped_geco.pdf Graphic file (type pdf)
+
+<use Figures/cropped_geco.pdf>
+Package pdftex.def Info: Figures/cropped_geco.pdf used on input line 133.
+(pdftex.def)             Requested size: 845.15544pt x 597.22978pt.
+
+Overfull \hbox (427.68237pt too wide) in paragraph at lines 133--135
+ [][] 
+ []
+
+<Figures/cropped_itu_grace16.pdf, id=1041, 398.48875pt x 451.6875pt>
+File: Figures/cropped_itu_grace16.pdf Graphic file (type pdf)
+
+<use Figures/cropped_itu_grace16.pdf>
+Package pdftex.def Info: Figures/cropped_itu_grace16.pdf used on input line 141
+.
+(pdftex.def)             Requested size: 398.48778pt x 451.68639pt.
 ) [41
 
-] [42] [43]
+] [42] [43] [44 <./Figures/points_astro_dist.pdf, page is rotated 90 degrees>] 
+[45 <./Figures/krt.png> <./Figures/cropped_egm2008.pdf, page is rotated 90 degr
+ees>] [46 <./Figures/cropped_eigen6c4.pdf, page is rotated 90 degrees>] [47 <./
+Figures/cropped_geco.pdf, page is rotated 90 degrees>] [48 <./Figures/cropped_i
+tu_grace16.pdf, page is rotated 90 degrees>]
 ------------------------------------------------------------------------------
  Bibliography
 ------------------------------------------------------------------------------
@@ -1585,14 +1640,14 @@ Missing character: There is no ƒ in font cmr10!
 Missing character: There is no ± in font cmr10!
 Missing character: There is no ƒ in font cmr10!
 Missing character: There is no ± in font cmr10!
- [44
+ [49
 
 
-] [45]
+] [50]
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.160 ...ttp://dx.doi.org/10.1007/3-540-29522-4_1}
+l.165 ...ttp://dx.doi.org/10.1007/3-540-29522-4_1}
                                                   
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
@@ -1600,7 +1655,7 @@ you left one out. Proceed, with fingers crossed.
 ! Extra }, or forgotten $.
 <recently read> \egroup 
                         
-l.160 ...ttp://dx.doi.org/10.1007/3-540-29522-4_1}
+l.165 ...ttp://dx.doi.org/10.1007/3-540-29522-4_1}
                                                   
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
@@ -1611,7 +1666,7 @@ deleted material, e.g., by typing `I$}'.
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.161 
+l.166 
       
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
@@ -1619,7 +1674,7 @@ you left one out. Proceed, with fingers crossed.
 ! Missing } inserted.
 <inserted text> 
                 }
-l.161 
+l.166 
       
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -1635,7 +1690,7 @@ Missing character: There is no î in font cmr10!
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.183 ...ttp://dx.doi.org/10.1007/3-540-29522-4_9}
+l.188 ...ttp://dx.doi.org/10.1007/3-540-29522-4_9}
                                                   
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
@@ -1643,7 +1698,7 @@ you left one out. Proceed, with fingers crossed.
 ! Extra }, or forgotten $.
 <recently read> \egroup 
                         
-l.183 ...ttp://dx.doi.org/10.1007/3-540-29522-4_9}
+l.188 ...ttp://dx.doi.org/10.1007/3-540-29522-4_9}
                                                   
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
@@ -1654,7 +1709,7 @@ deleted material, e.g., by typing `I$}'.
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.184 
+l.189 
       
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
@@ -1662,7 +1717,7 @@ you left one out. Proceed, with fingers crossed.
 ! Missing } inserted.
 <inserted text> 
                 }
-l.184 
+l.189 
       
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -1670,29 +1725,29 @@ With luck, this will get me unwedged. But if you
 really didn't forget anything, try typing `2' now; then
 my insertion and my current dilemma will both disappear.
 
-)
+[51])
 
 Package natbib Warning: There were undefined citations.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 277.
-[46]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 277.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 280.
+[52]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 280.
  (./Thesis.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 277.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 277.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 280.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 280.
 Package rerunfilecheck Info: File `Thesis.out' has not changed.
-(rerunfilecheck)             Checksum: 28D56872066A201561ABE9F4B3D93D68;9091.
+(rerunfilecheck)             Checksum: F501B8BD256F588C0FF44390971222C2;9575.
 
 
 LaTeX Warning: There were multiply-defined labels.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 277.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 280.
  ) 
 Here is how much of TeX's memory you used:
- 23361 strings out of 493029
- 409131 string characters out of 6136234
+ 23423 strings out of 493029
+ 410460 string characters out of 6136234
  471980 words of memory out of 5000000
- 26360 multiletter control sequences out of 15000+600000
+ 26398 multiletter control sequences out of 15000+600000
  15353 words of font info for 58 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  49i,16n,49p,10378b,1008s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -1714,10 +1769,10 @@ e/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/share/texlive/texm
 f-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/share/texlive/texmf-dist
 /fonts/type1/public/amsfonts/cm/cmtt10.pfb></usr/share/texlive/texmf-dist/fonts
 /type1/public/amsfonts/symbols/msam7.pfb>
-Output written on Thesis.pdf (57 pages, 8229951 bytes).
+Output written on Thesis.pdf (64 pages, 8495514 bytes).
 PDF statistics:
- 1128 PDF objects out of 1200 (max. 8388607)
- 976 compressed objects within 10 object streams
- 234 named destinations out of 1000 (max. 500000)
- 502 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1300 PDF objects out of 1440 (max. 8388607)
+ 1110 compressed objects within 12 object streams
+ 252 named destinations out of 1000 (max. 500000)
+ 548 words of extra memory for PDF output out of 10000 (max. 10000000)
 

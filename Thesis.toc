@@ -7,52 +7,54 @@
 \contentsline {chapter}{List of Figures}{vii}{dummy.5}
 \contentsline {chapter}{List of Tables}{viii}{dummy.7}
 \contentsline {chapter}{Abbreviations}{ix}{dummy.9}
+\contentsline {chapter}{Physical Constants}{x}{dummy.12}
 \vspace {2em}
-\contentsline {chapter}{\numberline {1}Introduction}{1}{chapter.12}
-\contentsline {section}{\numberline {1.1}Objectives of the thesis}{2}{section.13}
-\contentsline {section}{\numberline {1.2}Thesis structure}{2}{section.14}
-\contentsline {chapter}{\numberline {2}Geoid Determination from GGM}{4}{chapter.15}
-\contentsline {section}{\numberline {2.1}Boundary Value Problem}{4}{section.16}
-\contentsline {subsection}{\numberline {2.1.1}Existence and Uniqueness}{5}{subsection.19}
-\contentsline {paragraph}{Uniqueness}{5}{section*.20}
-\contentsline {section}{\numberline {2.2}Solving Laplace's equation}{5}{section.21}
-\contentsline {subsection}{\numberline {2.2.1}Cartesian coordinates}{5}{subsection.22}
-\contentsline {subsection}{\numberline {2.2.2}Legendre Polynomials}{8}{subsection.36}
-\contentsline {section}{\numberline {2.3}Application of spherical harmonics in deriving geopotential functionals}{9}{section.43}
-\contentsline {section}{\numberline {2.4}Summary}{10}{section.48}
-\contentsline {chapter}{\numberline {3}Input Data}{11}{chapter.49}
-\contentsline {section}{\numberline {3.1}Astrogeodetic data}{11}{section.50}
-\contentsline {section}{\numberline {3.2}GPS/Leveling Data}{11}{section.53}
-\contentsline {section}{\numberline {3.3}Global Geopotential Models}{12}{section.57}
-\contentsline {subsection}{\numberline {3.3.1}Satellite-only models}{13}{subsection.58}
-\contentsline {subsection}{\numberline {3.3.2}Combined Models}{14}{subsection.62}
-\contentsline {subsection}{\numberline {3.3.3}Tailored Models}{14}{subsection.63}
-\contentsline {subsection}{\numberline {3.3.4}Difficulties in modeling the Earth from the space}{15}{subsection.64}
-\contentsline {section}{\numberline {3.4}New Satellite Missions}{16}{section.65}
-\contentsline {subsection}{\numberline {3.4.1}CHAMP}{16}{subsection.66}
-\contentsline {subsection}{\numberline {3.4.2}GRACE}{16}{subsection.67}
-\contentsline {subsection}{\numberline {3.4.3}GOCE}{17}{subsection.68}
-\contentsline {section}{\numberline {3.5}Our models}{17}{section.72}
-\contentsline {section}{\numberline {3.6}Chapter summary}{18}{section.78}
-\contentsline {chapter}{\numberline {4}Geoid Height Determination Using GeoidApp}{20}{chapter.83}
-\contentsline {section}{\numberline {4.1}Introduction}{20}{section.84}
-\contentsline {section}{\numberline {4.2}Computing the Geoid}{20}{section.85}
-\contentsline {subsection}{\numberline {4.2.1}Working with GGMs data}{21}{subsection.86}
-\contentsline {subsubsection}{\numberline {4.2.1.1}Parsing the data}{21}{subsubsection.87}
-\contentsline {paragraph}{Model's summary}{21}{section*.88}
-\contentsline {paragraph}{The header}{22}{section*.89}
-\contentsline {section}{\numberline {4.3}Software Implementation}{23}{section.103}
-\contentsline {subsection}{\numberline {4.3.1}Associated Legendre Function}{23}{subsection.104}
-\contentsline {subsection}{\numberline {4.3.2}Geoid height function}{23}{subsection.105}
-\contentsline {section}{\numberline {4.4}GeoidApp}{25}{section.106}
-\contentsline {subsection}{\numberline {4.4.1}Automations in GeoidApp}{26}{subsection.107}
-\contentsline {chapter}{\numberline {5}Results and Discussions}{27}{chapter.109}
-\contentsline {section}{\numberline {5.1}Evaluation on astrogeodetic data}{27}{section.110}
-\contentsline {section}{\numberline {5.2}Evaluation of GPS/Leveling data}{29}{section.122}
-\contentsline {section}{\numberline {5.3}Summary}{30}{section.136}
-\contentsline {chapter}{\numberline {6}Conclusion and Recommendations}{39}{chapter.137}
-\contentsline {section}{\numberline {6.1}Recommendations}{39}{section.138}
+\contentsline {chapter}{\numberline {1}Introduction}{1}{chapter.15}
+\contentsline {section}{\numberline {1.1}Objectives of the thesis}{2}{section.16}
+\contentsline {section}{\numberline {1.2}Thesis structure}{2}{section.17}
+\contentsline {chapter}{\numberline {2}Geoid Determination from GGM}{4}{chapter.18}
+\contentsline {section}{\numberline {2.1}Boundary Value Problem}{4}{section.19}
+\contentsline {subsection}{\numberline {2.1.1}Existence and Uniqueness}{5}{subsection.22}
+\contentsline {paragraph}{Uniqueness}{5}{section*.23}
+\contentsline {section}{\numberline {2.2}Solving Laplace's equation}{5}{section.24}
+\contentsline {subsection}{\numberline {2.2.1}Cartesian coordinates}{5}{subsection.25}
+\contentsline {subsection}{\numberline {2.2.2}Legendre Polynomials}{8}{subsection.39}
+\contentsline {section}{\numberline {2.3}Application of spherical harmonics in deriving geopotential functionals}{9}{section.46}
+\contentsline {section}{\numberline {2.4}Summary}{10}{section.51}
+\contentsline {chapter}{\numberline {3}Input Data}{11}{chapter.52}
+\contentsline {section}{\numberline {3.1}Astrogeodetic data}{11}{section.53}
+\contentsline {section}{\numberline {3.2}GPS/Leveling Data}{11}{section.56}
+\contentsline {section}{\numberline {3.3}Global Geopotential Models}{12}{section.60}
+\contentsline {subsection}{\numberline {3.3.1}Satellite-only models}{13}{subsection.61}
+\contentsline {subsection}{\numberline {3.3.2}Combined Models}{14}{subsection.65}
+\contentsline {subsection}{\numberline {3.3.3}Tailored Models}{14}{subsection.66}
+\contentsline {subsection}{\numberline {3.3.4}Difficulties in modeling the Earth from the space}{15}{subsection.67}
+\contentsline {section}{\numberline {3.4}New Satellite Missions}{16}{section.68}
+\contentsline {subsection}{\numberline {3.4.1}CHAMP}{16}{subsection.69}
+\contentsline {subsection}{\numberline {3.4.2}GRACE}{16}{subsection.70}
+\contentsline {subsection}{\numberline {3.4.3}GOCE}{17}{subsection.71}
+\contentsline {section}{\numberline {3.5}Our models}{17}{section.75}
+\contentsline {section}{\numberline {3.6}Chapter summary}{18}{section.81}
+\contentsline {chapter}{\numberline {4}Geoid Height Determination Using GeoidApp}{20}{chapter.86}
+\contentsline {section}{\numberline {4.1}Introduction}{20}{section.87}
+\contentsline {section}{\numberline {4.2}Computing the Geoid}{20}{section.88}
+\contentsline {subsection}{\numberline {4.2.1}Working with GGMs data}{21}{subsection.89}
+\contentsline {subsubsection}{\numberline {4.2.1.1}Parsing the data}{21}{subsubsection.90}
+\contentsline {paragraph}{Model's summary}{21}{section*.91}
+\contentsline {paragraph}{The header}{22}{section*.92}
+\contentsline {section}{\numberline {4.3}Software Implementation}{23}{section.106}
+\contentsline {subsection}{\numberline {4.3.1}Associated Legendre Function}{23}{subsection.107}
+\contentsline {subsection}{\numberline {4.3.2}Geoid height function}{23}{subsection.108}
+\contentsline {section}{\numberline {4.4}GeoidApp}{25}{section.109}
+\contentsline {subsection}{\numberline {4.4.1}Automations in GeoidApp}{26}{subsection.110}
+\contentsline {chapter}{\numberline {5}Results and Discussions}{27}{chapter.112}
+\contentsline {section}{\numberline {5.1}Evaluation on astrogeodetic data}{27}{section.113}
+\contentsline {section}{\numberline {5.2}Evaluation of GPS/Leveling data}{29}{section.125}
+\contentsline {section}{\numberline {5.3}Summary}{30}{section.139}
+\contentsline {chapter}{\numberline {6}Conclusion and Recommendations}{39}{chapter.140}
+\contentsline {section}{\numberline {6.1}Recommendations}{39}{section.141}
 \vspace {2em}
-\contentsline {chapter}{\numberline {A}Our Datasets}{41}{appendix.139}
+\contentsline {chapter}{\numberline {A}Our Datasets}{41}{appendix.142}
+\contentsline {section}{\numberline {A.1}Other models for Sudan using the rest of our GGM}{41}{section.145}
 \vspace {2em}
-\contentsline {chapter}{Bibliography}{44}{dummy.142}
+\contentsline {chapter}{Bibliography}{49}{dummy.152}
