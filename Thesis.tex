@@ -153,7 +153,9 @@ We would like to  express our thanks for our supervisor Ahmed Abdalla for everyt
 \\
 We also like to show our gratidue to the faculty members of Surveying department.
  \\
- I would love to show my deepest gratitude to my parents. Your trust and prays have l 
+Special thanks to people at ICGEM ans Ales Bezdek for their great help.
+\\
+Last but not least, we would like to thank our families; parents, brothers and sisters for their great love and trust. 
 }
 \clearpage  % End of the Acknowledgements
 %% ----------------------------------------------------------------
@@ -185,30 +187,38 @@ We also like to show our gratidue to the faculty members of Surveying department
 \textbf{GBVP} &  \textbf{G}eodetic \textbf{B}oundary \textbf{V}alue \textbf{P}roblem\\
 \textbf{GPS} & \textbf{G}lobal \textbf{P}ositioning \textbf{S}ystem\\
 \textbf{GNSS} & \textbf{G}lobal \textbf{N}avigation \textbf{S}atellite \textbf{S}ystem\\
+\textbf{CHAMP} & \textbf{CHA}llenging \textbf{M}ini-satellite \textbf{P}ayload \\
+\textbf{GOCE} & \textbf{G}ravity Field and Steady State \textbf{Ocean} \textbf{C}irculation \textbf{E}xplorer \\
+\textbf{GRACE} & \textbf{G}ravity \textbf{R}ecovery and \textbf{C}limate \textbf{E}xperience \\
+\textbf{GRS80} & \textbf{G}eodetic \textbf{R}eference \textbf{S}ystem 1980 \\
+textbf{WGS84} & \textbf{W}orld \textbf{G}eodetic \textbf{S}ystem 1984 \\
+\textbf{EGM2008} & \textbf{E}arth \textbf{G}ravitational \textbf{F}ield 2008 \\
+\textbf{NASA} & \textbf{N}atioanl \textbf{A}eronautics and \textbf{S}pace \textbf{A}dministration \\
+\textbf{ALF} & \textbf{A}ssociated \textbf{L}egendre \textbf{F}unctions\\
 }
 
 %% ----------------------------------------------------------------
-\clearpage  % Start a new page
-\lhead{\emph{Physical Constants}}  % Set the left side page header to "Physical Constants"
-\listofconstants{lrcl}  % Include a list of Physical Constants (a four column table)
-{
+%\clearpage  % Start a new page
+%\lhead{\emph{Physical Constants}}  % Set the left side page header to "Physical Constants"
+%\listofconstants{lrcl}  % Include a list of Physical Constants (a four column table)
+%{
 % Constant Name & Symbol & = & Constant Value (with units) \\
-Speed of Light & $c$ & $=$ & $2.997\ 924\ 58\times10^{8}\ \mbox{ms}^{-\mbox{s}}$ (exact)\\
+%Speed of Light & $c$ & $=$ & $2.997\ 924\ 58\times10^{8}\ \mbox{ms}^{-\mbox{s}}$ (exact)\\
 
-}
+%}
 
 %% ----------------------------------------------------------------
-\clearpage  %Start a new page
-\lhead{\emph{Symbols}}  % Set the left side page header to "Symbols"
-\listofnomenclature{lll}  % Include a list of Symbols (a three column table)
-{
+%\clearpage  %Start a new page
+%\lhead{\emph{Symbols}}  % Set the left side page header to "Symbols"
+%\listofnomenclature{lll}  % Include a list of Symbols (a three column table)
+%{
 % symbol & name & unit \\
-$a$ & distance & m \\
-$P$ & power & W (Js$^{-1}$) \\
-& & \\ % Gap to separate the Roman symbols from the Greek
-$\omega$ & angular frequency & rads$^{-1}$ \\
-$\sigma$ & standard deviation & meters\\
-}
+%$a$ & distance & m \\
+%$P$ & power & W (Js$^{-1}$) \\
+%& & \\ % Gap to separate the Roman symbols from the Greek
+%$\omega$ & angular frequency & rads$^{-1}$ \\
+%$\sigma$ & standard deviation & meters\\
+%}
 %% ----------------------------------------------------------------
 % End of the pre-able, contents and lists of things
 % Begin the Dedication page
@@ -223,21 +233,21 @@ $\sigma$ & standard deviation & meters\\
 
 %% ----------------------------------------------------------------
 \mainmatter	  % Begin normal, numeric (1,2,3...) page numbering
-\pagestyle{thesis}  % Return the page headers back to the "fancy" style
-%\lhead{}
+\pagestyle{fancy}  % Return the page headers back to the "fancy" style
+\lhead{}
 % Include the chapters of the thesis, as separate files
 % Just uncomment the lines as you write the chapters
 
 \input{Chapters/Chapter1} % Introduction
-\pagestyle{thesis}
+
 \input{Chapters/Chapter2} % Background Theory 
-\pagestyle{thesis}
+
 \input{Chapters/Chapter3} % Experimental Setup
-\pagestyle{thesis}
+
 \input{Chapters/Chapter4} % Experiment 1
-\pagestyle{thesis}
+
 \input{Chapters/Chapter5} % Experiment 2
-\pagestyle{thesis}
+
 \input{Chapters/Chapter6} % Results and Discussion
 
 %\input{Chapters/Chapter7} % Conclusion

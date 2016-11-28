@@ -8,42 +8,36 @@ Illegal, another \bibstyle command---line 276 of file Thesis.aux
 I'm skipping whatever remains of this command
 Database file #1: Bibliography.bib
 Warning--entry type for "vanicek" isn't style-file defined
---line 66 of file Bibliography.bib
+--line 64 of file Bibliography.bib
 Warning--entry type for "osman" isn't style-file defined
---line 221 of file Bibliography.bib
-I was expecting a `,' or a `}'---line 270 of file Bibliography.bib
+--line 219 of file Bibliography.bib
+I was expecting a `,' or a `}'---line 249 of file Bibliography.bib
+ :  and Adam, J\"
+ :               ozsef
+I'm skipping whatever remains of this entry
+I was expecting a `,' or a `}'---line 268 of file Bibliography.bib
  :  
- :  url = {url},
+ :  url = {https://geographiclib.sourceforge.net/},
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
-I was expecting a `,' or a `}'---line 354 of file Bibliography.bib
- :  and Frommknecht, Bj\"
- :                       orn
-I'm skipping whatever remains of this entry
-I was expecting a `,' or a `}'---line 375 of file Bibliography.bib
- :  and F\"
- :         orste, Christoph
-I'm skipping whatever remains of this entry
-You're missing a field part---line 398 of file Bibliography.bib
+You're missing a field part---line 336 of file Bibliography.bib
  :  eid = 
  :        ,
 I'm skipping whatever remains of this entry
-You're missing a field part---line 412 of file Bibliography.bib
+You're missing a field part---line 350 of file Bibliography.bib
  :  eid = 
  :        ,
 I'm skipping whatever remains of this entry
-You're missing a field part---line 426 of file Bibliography.bib
+You're missing a field part---line 364 of file Bibliography.bib
  :  eid = 
  :        ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 458 of file Bibliography.bib
+ : @article{goce
+ :              ,
 I'm skipping whatever remains of this entry
 Warning--I didn't find a database entry for "goce_sp123"
-Warning--I didn't find a database entry for "grace"
 Warning--I didn't find a database entry for "("
-Warning--I didn't find a database entry for "ituggc"
-Warning--I didn't find a database entry for "itugrace16"
-Warning--I didn't find a database entry for "egm2008"
-Warning--I didn't find a database entry for "eigen6c4"
-Warning--I didn't find a database entry for "geco"
 Warning--I didn't find a database entry for "hoffmann"
 Warning--I didn't find a database entry for "geographiclib"
 Warning--I didn't find a database entry for "adam"
@@ -51,64 +45,144 @@ Name 1 in "Amos, M. J., and W. Featherstone" has a comma at the end for entry am
 while executing---line 1222 of file agsm.bst
 Name 1 in "Amos, M. J., and W. Featherstone" has a comma at the end for entry amos
 while executing---line 1222 of file agsm.bst
-Name 1 in "Amos, M. J., and W. Featherstone" has a comma at the end for entry amos
+Name 4 in "Akyilmaz, O. and Ustun, A. and Aydın, C. and Arslan, N., and Doganalp, S. and Guney, C. and Mercan, H. and Uygur, S.O. and Uz, M. and Yagci, O" has a comma at the end for entry ituggc16
+while executing---line 1222 of file agsm.bst
+Name 4 in "Akyilmaz, O. and Ustun, A. and Aydın, C. and Arslan, N., and Doganalp, S. and Guney, C. and Mercan, H. and Uygur, S.O. and Uz, M. and Yagci, O" has a comma at the end for entry itugrace16
+while executing---line 1222 of file agsm.bst
+Name 1 in "Gilardoni M., and Reguzzoni M., and Sampietro D." has a comma at the end for entry geco
+while executing---line 1222 of file agsm.bst
+Name 1 in "Gilardoni M., and Reguzzoni M., and Sampietro D." has a comma at the end for entry geco
+while executing---line 1222 of file agsm.bst
+Name 2 in "Gilardoni M., and Reguzzoni M., and Sampietro D." has a comma at the end for entry geco
+while executing---line 1222 of file agsm.bst
+Name 1 in "John W. Eaton, David Bateman, Soren Hauberg, and RikWehbring" has a comma at the end for entry octave
+while executing---line 1222 of file agsm.bst
+Name 1 in "John W. Eaton, David Bateman, Soren Hauberg, and RikWehbring" has a comma at the end for entry octave
+while executing---line 1222 of file agsm.bst
+Name 4 in "Akyilmaz, O. and Ustun, A. and Aydın, C. and Arslan, N., and Doganalp, S. and Guney, C. and Mercan, H. and Uygur, S.O. and Uz, M. and Yagci, O" has a comma at the end for entry itugrace16
+while executing---line 1258 of file agsm.bst
+Name 4 in "Akyilmaz, O. and Ustun, A. and Aydın, C. and Arslan, N., and Doganalp, S. and Guney, C. and Mercan, H. and Uygur, S.O. and Uz, M. and Yagci, O" has a comma at the end for entry ituggc16
 while executing---line 1258 of file agsm.bst
 Name 1 in "Amos, M. J., and W. Featherstone" has a comma at the end for entry amos
+while executing---line 1258 of file agsm.bst
+Name 1 in "John W. Eaton, David Bateman, Soren Hauberg, and RikWehbring" has a comma at the end for entry octave
+while executing---line 1258 of file agsm.bst
+Name 1 in "Gilardoni M., and Reguzzoni M., and Sampietro D." has a comma at the end for entry geco
+while executing---line 1258 of file agsm.bst
+Name 2 in "Gilardoni M., and Reguzzoni M., and Sampietro D." has a comma at the end for entry geco
+while executing---line 1258 of file agsm.bst
+Name 1 in "Gilardoni M., and Reguzzoni M., and Sampietro D." has a comma at the end for entry geco
+while executing---line 1262 of file agsm.bst
+Name 2 in "Gilardoni M., and Reguzzoni M., and Sampietro D." has a comma at the end for entry geco
+while executing---line 1262 of file agsm.bst
+Name 1 in "John W. Eaton, David Bateman, Soren Hauberg, and RikWehbring" has a comma at the end for entry octave
 while executing---line 1262 of file agsm.bst
 Name 1 in "Amos, M. J., and W. Featherstone" has a comma at the end for entry amos
+while executing---line 1262 of file agsm.bst
+Name 4 in "Akyilmaz, O. and Ustun, A. and Aydın, C. and Arslan, N., and Doganalp, S. and Guney, C. and Mercan, H. and Uygur, S.O. and Uz, M. and Yagci, O" has a comma at the end for entry ituggc16
+while executing---line 1262 of file agsm.bst
+Name 4 in "Akyilmaz, O. and Ustun, A. and Aydın, C. and Arslan, N., and Doganalp, S. and Guney, C. and Mercan, H. and Uygur, S.O. and Uz, M. and Yagci, O" has a comma at the end for entry itugrace16
+while executing---line 1262 of file agsm.bst
+Name 4 in "Akyilmaz, O. and Ustun, A. and Aydın, C. and Arslan, N., and Doganalp, S. and Guney, C. and Mercan, H. and Uygur, S.O. and Uz, M. and Yagci, O" has a comma at the end for entry itugrace16
+while executing---line 1294 of file agsm.bst
+Name 4 in "Akyilmaz, O. and Ustun, A. and Aydın, C. and Arslan, N., and Doganalp, S. and Guney, C. and Mercan, H. and Uygur, S.O. and Uz, M. and Yagci, O" has a comma at the end for entry ituggc16
 while executing---line 1294 of file agsm.bst
 Name 1 in "Amos, M. J., and W. Featherstone" has a comma at the end for entry amos
 while executing---line 1294 of file agsm.bst
 Name 1 in "Amos, M. J., and W. Featherstone" has a comma at the end for entry amos
+while executing---line 1294 of file agsm.bst
+Name 1 in "John W. Eaton, David Bateman, Soren Hauberg, and RikWehbring" has a comma at the end for entry octave
+while executing---line 1294 of file agsm.bst
+Name 1 in "John W. Eaton, David Bateman, Soren Hauberg, and RikWehbring" has a comma at the end for entry octave
+while executing---line 1294 of file agsm.bst
+Name 1 in "Gilardoni M., and Reguzzoni M., and Sampietro D." has a comma at the end for entry geco
+while executing---line 1294 of file agsm.bst
+Name 1 in "Gilardoni M., and Reguzzoni M., and Sampietro D." has a comma at the end for entry geco
+while executing---line 1294 of file agsm.bst
+Name 2 in "Gilardoni M., and Reguzzoni M., and Sampietro D." has a comma at the end for entry geco
+while executing---line 1294 of file agsm.bst
+Name 4 in "Akyilmaz, O. and Ustun, A. and Aydın, C. and Arslan, N., and Doganalp, S. and Guney, C. and Mercan, H. and Uygur, S.O. and Uz, M. and Yagci, O" has a comma at the end for entry itugrace16
+while executing---line 1327 of file agsm.bst
+Name 4 in "Akyilmaz, O. and Ustun, A. and Aydın, C. and Arslan, N., and Doganalp, S. and Guney, C. and Mercan, H. and Uygur, S.O. and Uz, M. and Yagci, O" has a comma at the end for entry ituggc16
 while executing---line 1327 of file agsm.bst
 Name 1 in "Amos, M. J., and W. Featherstone" has a comma at the end for entry amos
+while executing---line 1327 of file agsm.bst
+Name 1 in "John W. Eaton, David Bateman, Soren Hauberg, and RikWehbring" has a comma at the end for entry octave
+while executing---line 1327 of file agsm.bst
+Name 1 in "Gilardoni M., and Reguzzoni M., and Sampietro D." has a comma at the end for entry geco
+while executing---line 1327 of file agsm.bst
+Name 2 in "Gilardoni M., and Reguzzoni M., and Sampietro D." has a comma at the end for entry geco
+while executing---line 1327 of file agsm.bst
+Name 4 in "Akyilmaz, O. and Ustun, A. and Aydın, C. and Arslan, N., and Doganalp, S. and Guney, C. and Mercan, H. and Uygur, S.O. and Uz, M. and Yagci, O" has a comma at the end for entry ituggc16
+while executing---line 1346 of file agsm.bst
+Name 4 in "Akyilmaz, O. and Ustun, A. and Aydın, C. and Arslan, N., and Doganalp, S. and Guney, C. and Mercan, H. and Uygur, S.O. and Uz, M. and Yagci, O" has a comma at the end for entry ituggc16
+while executing---line 1346 of file agsm.bst
+Name 4 in "Akyilmaz, O. and Ustun, A. and Aydın, C. and Arslan, N., and Doganalp, S. and Guney, C. and Mercan, H. and Uygur, S.O. and Uz, M. and Yagci, O" has a comma at the end for entry itugrace16
+while executing---line 1346 of file agsm.bst
+Name 4 in "Akyilmaz, O. and Ustun, A. and Aydın, C. and Arslan, N., and Doganalp, S. and Guney, C. and Mercan, H. and Uygur, S.O. and Uz, M. and Yagci, O" has a comma at the end for entry itugrace16
 while executing---line 1346 of file agsm.bst
 Name 1 in "Amos, M. J., and W. Featherstone" has a comma at the end for entry amos
 while executing---line 1346 of file agsm.bst
-Warning--empty title in goce
+Name 1 in "Amos, M. J., and W. Featherstone" has a comma at the end for entry amos
+while executing---line 1346 of file agsm.bst
+Warning--empty title in icgem
+Name 1 in "John W. Eaton, David Bateman, Soren Hauberg, and RikWehbring" has a comma at the end for entry octave
+while executing---line 1346 of file agsm.bst
+Name 1 in "John W. Eaton, David Bateman, Soren Hauberg, and RikWehbring" has a comma at the end for entry octave
+while executing---line 1346 of file agsm.bst
+Warning--empty publisher in octave
+Name 1 in "Gilardoni M., and Reguzzoni M., and Sampietro D." has a comma at the end for entry geco
+while executing---line 1346 of file agsm.bst
+Name 1 in "Gilardoni M., and Reguzzoni M., and Sampietro D." has a comma at the end for entry geco
+while executing---line 1346 of file agsm.bst
+Name 2 in "Gilardoni M., and Reguzzoni M., and Sampietro D." has a comma at the end for entry geco
+while executing---line 1346 of file agsm.bst
+Name 1 in "Gilardoni M., and Reguzzoni M., and Sampietro D." has a comma at the end for entry geco
+while executing---line 1346 of file agsm.bst
+Name 2 in "Gilardoni M., and Reguzzoni M., and Sampietro D." has a comma at the end for entry geco
+while executing---line 1346 of file agsm.bst
 Warning--empty publisher in meziani
-Warning--empty title in champ
-Warning--empty publisher in champ
-Warning--empty chapter and pages in champ
-You've used 21 entries,
+Warning--can't use both author and editor fields in champ
+Warning--can't use both author and editor fields in grace
+You've used 33 entries,
             2909 wiz_defined-function locations,
-            773 strings with 8346 characters,
-and the built_in function-call counts, 103124 in all, are:
-= -- 16904
-> -- 1384
+            825 strings with 10911 characters,
+and the built_in function-call counts, 191606 in all, are:
+= -- 31475
+> -- 2768
 < -- 1
-+ -- 8246
-- -- 427
-* -- 9057
-:= -- 20505
-add.period$ -- 21
-call.type$ -- 21
-change.case$ -- 288
-chr.to.int$ -- 21
-cite$ -- 26
-duplicate$ -- 319
-empty$ -- 643
-format.name$ -- 500
-if$ -- 18462
-int.to.chr$ -- 5
++ -- 15566
+- -- 865
+* -- 17037
+:= -- 37685
+add.period$ -- 34
+call.type$ -- 33
+change.case$ -- 453
+chr.to.int$ -- 32
+cite$ -- 38
+duplicate$ -- 533
+empty$ -- 1034
+format.name$ -- 977
+if$ -- 34390
+int.to.chr$ -- 6
 int.to.str$ -- 0
-missing$ -- 23
-newline$ -- 74
-num.names$ -- 217
-pop$ -- 130
+missing$ -- 36
+newline$ -- 115
+num.names$ -- 348
+pop$ -- 182
 preamble$ -- 1
-purify$ -- 315
+purify$ -- 495
 quote$ -- 0
-skip$ -- 237
+skip$ -- 431
 stack$ -- 0
-substring$ -- 24156
-swap$ -- 41
-text.length$ -- 295
+substring$ -- 45231
+swap$ -- 94
+text.length$ -- 463
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 74
+type$ -- 118
 warning$ -- 5
-while$ -- 457
+while$ -- 723
 width$ -- 0
-write$ -- 269
-(There were 16 error messages)
+write$ -- 437
+(There were 56 error messages)

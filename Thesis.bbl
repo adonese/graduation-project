@@ -1,0 +1,208 @@
+\begin{thebibliography}{xx}
+
+\harvarditem{Abdalla}{2009}{ahmed_msc}
+Abdalla, A.  \harvardyearleft 2009\harvardyearright , `Determination of a
+  gravimetric geoid model of sudan using the kth method'.
+
+\harvarditem[Abdalla et~al.]{Abdalla, Fashir, Ali \harvardand\
+  Fairhead}{2012}{ahmed_similar}
+Abdalla, A., Fashir, H., Ali, A. \harvardand\ Fairhead, D.  \harvardyearleft
+  2012\harvardyearright , `Validation of recent goce/grace geopotential models
+  over khartoum state-sudan', {\em Journal of Geodetic Science} {\bf
+  2}(2),~88--97.
+
+\harvarditem{Adam}{1967}{osman}
+Adam, M.~O.  \harvardyearleft 1967\harvardyearright , `Geodetic datum for the
+  sudan'.
+
+\harvarditem[Akyilmaz et~al.]{Akyilmaz, Ustun, Aydın, Arslan, Doganalp, Guney,
+  Mercan, Uygur, Uz \harvardand\ Yagci}{2016}{ituggc16}
+Akyilmaz, O., Ustun, A., Aydın, C., Arslan, N., Doganalp, S., Guney, C.,
+  Mercan, H., Uygur, S., Uz, M. \harvardand\ Yagci, O.  \harvardyearleft
+  2016\harvardyearright , `High resolution gravity field determination and
+  monitoring of regional mass variations using low-earth orbit satellites',
+  {\em Final Report of Project 113Y155} .
+
+\harvarditem[Akyilmaz et~al.]{Akyilmaz, Ustun, Aydın, Arslan, Doganalp, Guney,
+  Mercan, Uygur, Uz \harvardand\ Yagci}{2016b}{itugrace16}
+Akyilmaz, O., Ustun, A., Aydın, C., Arslan, N., Doganalp, S., Guney, C.,
+  Mercan, H., Uygur, S., Uz, M. \harvardand\ Yagci, O.  \harvardyearleft
+  2016b\harvardyearright , `Itu grace16 the global gravity field model
+  including grace data up to degree and order 180 of itu and other
+  collaborating institutions'.
+
+\harvarditem{Amos \harvardand\ Featherstone}{2003}{amos}
+Amos, M.~J. \harvardand\ Featherstone, W.  \harvardyearleft
+  2003\harvardyearright , `Comparisons of recent global geopotential models
+  with terrestrial gravity field observations over new zealand and australia',
+  {\em Geomatics Research Australasia} .
+
+\harvarditem[C. et~al.]{C., S.L., Abrikosov, Lemoine, Marty, Flechtner,
+  Balmino, Barthelmes \harvardand\ Biancale}{2015}{eigen6c4}
+C., F., S.L., B., Abrikosov, O., Lemoine, J.-M., Marty, J., Flechtner, F.,
+  Balmino, G., Barthelmes, F. \harvardand\ Biancale, R.  \harvardyearleft
+  2015\harvardyearright , `Eigen-6c4 the latest combined global gravity field
+  model including goce data up to degree and order 2190 of gfz potsdam and grgs
+  toulouse'.
+
+\harvarditem[Drewes et~al.]{Drewes, Kuglitsch \harvardand\ Adam}{n.d.}{icgem}
+Drewes, H., Kuglitsch, F. \harvardand\ Adam, J.  \harvardyearleft
+  n.d.\harvardyearright .
+
+\harvarditem{Fashir}{1991}{fashir}
+Fashir, H.~H.  \harvardyearleft 1991\harvardyearright , `The gravimetric geoid
+  of sudan', {\em Journal of Geodynamics} {\bf 14},~19--36.
+
+\harvarditem[Floberghagen et~al.]{Floberghagen, Fehringer, Lamarre, Muzi,
+  Frommknecht, Steiger, Pineiro \harvardand\ da~Costa}{2011}{goce}
+Floberghagen, R., Fehringer, M., Lamarre, D., Muzi, D., Frommknecht, B.,
+  Steiger, C., Pineiro, J. \harvardand\ da~Costa, A.  \harvardyearleft
+  2011\harvardyearright , `Mission design, operation and exploitation of the
+  gravity field and steady-state ocean circulation explorer mission', {\em
+  Journal of Geodesy} {\bf 85}(11),~749--758.
+\newline\harvardurl{http://dx.doi.org/10.1007/s00190-011-0498-3}
+
+\harvarditem{Godah \harvardand\ Krynski}{2015}{godah}
+Godah, W. \harvardand\ Krynski, J.  \harvardyearleft 2015\harvardyearright , `A
+  new gravimetric geoid model for the area of sudan using the least squares
+  collocation and a goce-based ggm'.
+
+\harvarditem{Heck}{1990}{heck}
+Heck, B.  \harvardyearleft 1990\harvardyearright , `An evaluation of some
+  systematic error sources affecting terrestrial gravity anomalies', {\em
+  Bulletin G{\'e}od{\'e}sique} {\bf 64}(1),~88--108.
+\newline\harvardurl{http://dx.doi.org/10.1007/BF02530617}
+
+\harvarditem{Hofmann-Wellenhof \harvardand\ Moritz}{2006}{hofmann}
+Hofmann-Wellenhof, B. \harvardand\ Moritz, H.  \harvardyearleft
+  2006\harvardyearright , {\em Physical Geodesy}, Springer Vienna.
+\newline\harvardurl{https://books.google.com/books?id=yTbFyZVLIk4C}
+
+\harvarditem{Holmes \harvardand\ Featherstone}{2002}{holmes}
+Holmes, S.~A. \harvardand\ Featherstone, W.~E.  \harvardyearleft
+  2002\harvardyearright , `A unified approach to the clenshaw summation and the
+  recursive computation of very high degree and order normalised associated
+  legendre functions', {\em Journal of Geodesy} {\bf 76}(5),~279--299.
+
+\harvarditem{John W.~Eaton \harvardand\ RikWehbring}{2015}{octave}
+John W.~Eaton, David~Bateman, S.~H. \harvardand\ RikWehbring  \harvardyearleft
+  2015\harvardyearright , {\em {GNU Octave} version 4.0.0 manual: a high-level
+  interactive language for numerical computations}.
+\newline\harvardurl{http://www.gnu.org/software/octave/doc/interpreter}
+
+\harvarditem{Kiamehr \harvardand\ Eshagh}{2008}{egmlab}
+Kiamehr, R. \harvardand\ Eshagh, M.  \harvardyearleft 2008\harvardyearright ,
+  `Egmlab, a scientific software for determining the gravity and gradient
+  components from global geopotential models', {\em Earth Science Informatics}
+  {\bf 1}(2),~93--103.
+\newline\harvardurl{http://dx.doi.org/10.1007/s12145-008-0013-4}
+
+\harvarditem[M. et~al.]{M., M. \harvardand\ D.}{2015}{geco}
+M., G., M., R. \harvardand\ D., S.  \harvardyearleft 2015\harvardyearright ,
+  `Geco: a global gravity model by locally combining goce data and egm2008',
+  {\em Studia Geophysica et Geodaetica} .
+
+\harvarditem{Marsh \harvardand\ Center}{1987}{nasa}
+Marsh, J. \harvardand\ Center, G. S.~F.  \harvardyearleft 1987\harvardyearright
+  , {\em An improved model of the earth's gravitational field: GEM-T1}, NASA
+  technical memorandum, National Aeronautics and Space Administration, Goddard
+  Space Flight Center.
+\newline\harvardurl{https://books.google.com/books?id=WUIswpBQFk4C}
+
+\harvarditem{McKinney}{2010{\em a}}{scipy}
+McKinney, W.  \harvardyearleft 2010{\em a}\harvardyearright , Data structures
+  for statistical computing in python, {\em in} S.~van~der Walt \harvardand\
+  J.~Millman, eds, `Proceedings of the 9th Python in Science Conference',
+  pp.~51 -- 56.
+
+\harvarditem{McKinney}{2010{\em b}}{pandas}
+McKinney, W.  \harvardyearleft 2010{\em b}\harvardyearright , Data structures
+  for statistical computing in python, {\em in} S.~van~der Walt \harvardand\
+  J.~Millman, eds, `Proceedings of the 9th Python in Science Conference',
+  pp.~51 -- 56.
+
+\harvarditem{Mezian}{2015}{meziani}
+Mezian, H.  \harvardyearleft 2015\harvardyearright , {\em LEGENDRE POLYNOMIALS
+  AND APPLICATIONS}.
+
+\harvarditem[Pail et~al.]{Pail, Bruinsma, Migliaccio, Forste, Goiginger, Schuh,
+  Hock, Reguzzoni, Brockmann, Abrikosov, Veicherts, Fecher, Mayrhofer,
+  Krasbutter, Sanso \harvardand\ Tscherning}{2011}{pail}
+Pail, R., Bruinsma, S., Migliaccio, F., Forste, C., Goiginger, H., Schuh,
+  W.-D., Hock, E., Reguzzoni, M., Brockmann, J.~M., Abrikosov, O., Veicherts,
+  M., Fecher, T., Mayrhofer, R., Krasbutter, I., Sanso, F. \harvardand\
+  Tscherning, C.~C.  \harvardyearleft 2011\harvardyearright , `First goce
+  gravity field models derived by three different approaches', {\em Journal of
+  Geodesy} {\bf 85}(11),~819.
+\newline\harvardurl{http://dx.doi.org/10.1007/s00190-011-0467-x}
+
+\harvarditem[Pavlis et~al.]{Pavlis, K., Holmes, Kenyon \harvardand\
+  Factor}{2012}{egm2008}
+Pavlis, P., K., N., Holmes, S.~A., Kenyon, S.~C. \harvardand\ Factor, J.~K.
+  \harvardyearleft 2012\harvardyearright , `The development and evaluation of
+  the earth gravitational model 2008 (egm2008)', {\em Journal of Geophysical
+  Research: Solid Earth} {\bf 117}(B4),~n/a--n/a.
+\newblock B04406.
+\newline\harvardurl{http://dx.doi.org/10.1029/2011JB008916}
+
+\harvarditem{Perez \harvardand\ Granger}{2007}{ipython}
+Perez, F. \harvardand\ Granger, B.~E.  \harvardyearleft 2007\harvardyearright ,
+  `Ipython: A system for interactive scientific computing', {\em Computing in
+  Science and Engineering} {\bf 9}(3).
+
+\harvarditem[Reigber et~al.]{Reigber, Luhr, Grunwaldt, Forste, Konig, Massmann
+  \harvardand\ Falck}{2006}{champ}
+Reigber, C., Luhr, H., Grunwaldt, L., Forste, C., Konig, R., Massmann, H.
+  \harvardand\ Falck, C.  \harvardyearleft 2006\harvardyearright , {\em CHAMP
+  Mission 5 Years in Orbit}, Springer Berlin Heidelberg, Berlin, Heidelberg,
+  pp.~3--15.
+\newline\harvardurl{http://dx.doi.org/10.1007/3-540-29522-4_1}
+
+\harvarditem[REIGBER et~al.]{REIGBER, SCHWINTZER \harvardand\
+  LÜHR}{1999}{luhr}
+REIGBER, C., SCHWINTZER, P. \harvardand\ LÜHR, H.  \harvardyearleft
+  1999\harvardyearright , `The champ geopotential mission', {\em Bulletin
+  G{\'e}od\'esiqueBOLLETTINO DI GEOFISICA TEORICA ED APPLICATA0} {\bf
+  40}(3-4),~285--289.
+
+\harvarditem[Rummel et~al.]{Rummel, Balmino, Johannessen, Visser \harvardand\
+  Woodworth}{2002}{rummel}
+Rummel, R., Balmino, G., Johannessen, J., Visser, P. \harvardand\ Woodworth, P.
+   \harvardyearleft 2002\harvardyearright , `Dedicated gravity field
+  missions—principles and aims', {\em Journal of Geodynamics} {\bf
+  33}(1),~3--20.
+
+\harvarditem[Schmidt et~al.]{Schmidt, Flechtner, Meyer, Reigber, Barthelmes,
+  Forste, Stubenvoll, Konig, Neumayer \harvardand\ Zhu}{2006}{grace}
+Schmidt, R., Flechtner, F., Meyer, U., Reigber, C., Barthelmes, F., Forste, C.,
+  Stubenvoll, R., Konig, R., Neumayer, K.-H. \harvardand\ Zhu, S.
+  \harvardyearleft 2006\harvardyearright , {\em Static and Time-Variable
+  Gravity from GRACE Mission Data}, Springer Berlin Heidelberg, Berlin,
+  Heidelberg, pp.~115--129.
+\newline\harvardurl{http://dx.doi.org/10.1007/3-540-29522-4_9}
+
+\harvarditem{Sneeuw}{2006}{nico}
+Sneeuw, N.  \harvardyearleft 2006\harvardyearright , `Physical geodesy', {\em
+  Institute of Geodesy, Stuttgart University} .
+
+\harvarditem{Team}{2014}{bokeh}
+Team, B.~D.  \harvardyearleft 2014\harvardyearright , {\em Bokeh: Python
+  library for interactive visualization}.
+\newline\harvardurl{http://www.bokeh.pydata.org}
+
+\harvarditem{Van\"i\"cek}{1975}{vanicek}
+Van\"i\"cek, P.  \harvardyearleft 1975\harvardyearright , `Report on geocentric
+  and geodetic datums'.
+
+\harvarditem{Vanicek}{1976}{petrphysical}
+Vanicek, P.  \harvardyearleft 1976\harvardyearright , {\em Physical Geodesy},
+  number pt. 2 {\em in} `Lecture notes', Department of Surveying Engineering,
+  University of New Brunswick.
+\newline\harvardurl{https://books.google.com/books?id=ZmOvMwEACAAJ}
+
+\harvarditem[Walt et~al.]{Walt, Colbert \harvardand\ Varoquaux}{2011}{numpy}
+Walt, S. v.~d., Colbert, S.~C. \harvardand\ Varoquaux, G.  \harvardyearleft
+  2011\harvardyearright , `The numpy array: A structure for efficient numerical
+  computation', {\em Computing in Science and Engineering} {\bf 13}(2).
+
+\end{thebibliography}
