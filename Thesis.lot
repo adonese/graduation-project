@@ -20,3 +20,6 @@
 \contentsline {table}{\numberline {5.9}{\ignorespaces Top 5 degrees for model EIGEN-6C4 on GPS/leveling data\relax }}{31}{table.caption.126}
 \contentsline {table}{\numberline {5.10}{\ignorespaces Top 5 degrees for model GECO on GPS/leveling data\relax }}{31}{table.caption.127}
 \addvspace {10\p@ }
+\addvspace {10\p@ }
+\contentsline {table}{\numberline {A.1}{\ignorespaces Complete astrogeodetic data of \cite {osman}\relax }}{42}{table.caption.140}
+\contentsline {table}{\numberline {A.2}{\ignorespaces Full GPS/leveling dataset of Khartoum \citep {ahmed_msc}\relax }}{43}{table.caption.141}
