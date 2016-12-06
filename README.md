@@ -1,5 +1,5 @@
 # GeoidApp: A Unified Framework for Geoid Computations
----
+
 This is our thesis for BSc at University of Khartoum.
 
 ## Thesis Objectives
