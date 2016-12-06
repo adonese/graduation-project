@@ -12,7 +12,7 @@ We have two different datasets correspond to two different geographic locations.
 The second dataset is a GPS/leveling datasets consist of 24 points distributed among Khartoum state.
 
 ## GGM
-Global Geopotential Model is a mathematical function that describes the gravity field of the Earth in a 3-dimensional space. Three different **dedicated satellite missions** are used to obtain coefficients to be used later to derive a new reference surface for the study area.
+Global Geopotential Model is a mathematical function that describes the gravity field of the Earth in a 3-dimensional space. Three different *dedicated satellite missions* are used to obtain coefficients to be used later to derive a new reference surface for the study area.
 
 ### Dedicated Satellite missions
 - CHAMP (CHAllenging Mini Payload)
