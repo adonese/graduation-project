@@ -41,4 +41,4 @@ Our results have shown an improvement of 37% compared to Ahmed (2008) and 43% co
 |---           |---       |---     |
 |Ahmed (2008)  | 0.576  |EIGEN-GRACE02S |
 |WalyEldeen (2015)| 0.64 | GO_CONS_GCF_2_TIM_R4 (TIM-R4) |
-|GeoidApp (2016) | 0.365 | ITU_GGC16 |
+|**GeoidApp (2016)** | `0.365` | ITU_GGC16 |
